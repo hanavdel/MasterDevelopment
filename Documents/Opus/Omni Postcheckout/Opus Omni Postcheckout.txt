@@ -1,0 +1,28 @@
+
+E-Ticaret ve Mağaza siparişi oluştuktan/ teslim edildikten (belirli bir süre) sonra müşteriye SMS/Push ile gönderilecek olan anket ve tesk sayfalık PostChecout hizmetleri deneyimi
+Görev Alacak Takımlar
+
+Customer Engagement: UI - Ersel, Backend - Emre
+Customer Engagement AI:
+Fulfilment:
+Customer:
+
+Geliştirme Maddeleri
+
+SMS / Push ile gönderilen adrese OTP ile sipariş bilgilerine erişimCustomer Engagement: Opus domaininde deneyim için web arayüzü geliştirilecek
+Anket deneyimi sağlanacak (Anket zaman içinde yeniden düzeneleblir. Anket altyapısında sunulmalı)Customer Engagement: Anket altyapısının geliştirilmesi
+Customer Engagement: Anketin yanıtlanması ve sonucunun gösterilmesi
+Anket altyapısı mı kullanılacak yoksa bu sayfa için özel bir form mu geliştirilecek? karar konusu
+Sipariş özetiFulfilment: E-ticaret ve mağaza servislerinden sipariş özetinin edinimi, e-ticaret için de mağazacılıkta olduğu gibi global bir omni sipariş sorgulama servisi geliştirilmesi gerekli
+Fulfilment: Siparişin ödeme bilgileri
+Customer Engagement: arayüzün geliştirilmesi
+e-arşiv fatura bilgisiFulfilment: Global olarak fatura ve fiş örneğinin sunumu, indirilebilmesi
+Customer Engagement: arayüzün geliştirilmesi
+İade QR koduFulfilment: E-ticaret ve mağaza farklılaşacak, mağazada iade talebi konsepti yok fiş fatura numarası ile QR oluşturulacak
+Customer Engagement: arayüzün geliştirilmesi
+Kombin önerileri, EComAI: Ülke bazlı (Mağaza stoğu olan ürünler ile)
+Customer Engagement: arayüzün geliştirilmesi
+İletişim Customer: (Whatsapp mevcutsa, CRM iletişim formu)
+Customer Engagement: arayüzün geliştirilmesi
+Üye olCustomer: e-ticaret var ise e-ticarete yoksa lcw connect), mevcut müşteriye oturum aç gibi bir içeriğe yönlendirmeliyiz 
+Customer Engagement: arayüzün geliştirilmesi

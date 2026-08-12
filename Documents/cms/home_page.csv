@@ -1,0 +1,769 @@
+"id","display_order","name","viewkey","status_type_id","platform_id","super_app_id","create_user_name","create_date","last_updated_user_name","last_updated_date","language_id","country_id","is_default","title","is_highlighted","old_id","old_status_type_id","old_platform_id","old_super_app_id","fallback_homepage_id"
+"1",16,"Homepage","homepage-iq-en",2,1,0,"YUNUS.AYAN","2025-08-28 07:53:11.602848","MACIT.ISIK","2026-06-09 07:00:37.476058",2,13,False,"Homepage",False,"1","1","1","0",NULL
+"2",168,"test-taner1","test-taner1",3,1,0,"TANER.CEVHER","2025-08-28 07:58:00.038585","MACIT.ISIK","2026-06-09 07:00:37.476063",2,13,False,"test-taner1",False,"2","3","1","0",NULL
+"3",16,"Homepage","homepage",2,1,0,"TANER.CEVHER","2025-08-28 09:43:06.72424","MACIT.ISIK","2026-06-09 07:00:37.476063",2,125,False,"Homepage",True,"3","1","1","0",NULL
+"4",15,"Women","women-rs-en",1,1,0,"TANER.CEVHER","2025-08-28 09:43:31.889238","MACIT.ISIK","2026-06-09 07:00:37.476063",2,125,True,"Women",False,"4","1","1","0","9"
+"5",17,"Men","men-rs-en",1,1,0,"TANER.CEVHER","2025-08-28 09:43:37.569868","MACIT.ISIK","2026-06-09 07:00:37.476064",2,125,False,"Men",False,"5","1","1","0",NULL
+"6",170,"Kids & Baby","kids-baby",3,1,0,"TANER.CEVHER","2025-08-28 09:44:19.172572","MACIT.ISIK","2026-06-09 07:00:37.476064",2,125,False,"Kids & Baby",False,"6","3","1","0",NULL
+"7",22,"Deal Zone","dealzone-rs-en",1,1,0,"TANER.CEVHER","2025-08-28 09:59:32.17837","MACIT.ISIK","2026-06-09 07:00:37.476064",2,125,False,"Deal Zone",True,"7","1","1","0",NULL
+"8",16,"Homepage","homepage-app",2,21,1,"TANER.CEVHER","2025-08-28 10:03:03.45917","TANER.CEVHER","2026-03-26 11:57:16.783362",2,125,False,"Homepage",False,"8","1","21","1",NULL
+"9",15,"Women","women-app",1,21,1,"TANER.CEVHER","2025-08-28 10:03:12.056655","TANER.CEVHER","2026-03-26 11:57:16.783362",2,125,True,"Women",False,"9","1","21","1",NULL
+"10",17,"Men","men-app",1,21,1,"TANER.CEVHER","2025-08-28 10:03:19.257399","TANER.CEVHER","2026-03-26 11:57:16.783362",2,125,False,"Men",False,"10","1","21","1",NULL
+"11",108,"Kids & Baby","kids-baby-app",3,21,1,"TANER.CEVHER","2025-08-28 10:03:34.259914","TANER.CEVHER","2026-03-26 11:57:16.783363",2,125,False,"Kids & Baby",False,"11","2","21","1",NULL
+"12",23,"Deal Zone","deal-zone-app",2,21,1,"TANER.CEVHER","2025-08-28 10:03:45.383443","","2026-06-11 09:08:55.36745",2,125,False,"Deal Zone",True,"12","1","21","1",NULL
+"13",172,"r","rr",3,1,0,"YUNUS.AYAN","2025-08-28 11:10:23.309898","MACIT.ISIK","2026-06-09 07:00:37.476064",14,13,False,"r",False,"13","3","1","0",NULL
+"14",173,"r","rrr",3,1,0,"YUNUS.AYAN","2025-08-28 11:10:36.32821","MACIT.ISIK","2026-06-09 07:00:37.476064",13,13,False,"r",False,"14","3","1","0",NULL
+"15",174,"g","gg",3,1,0,"YUNUS.AYAN","2025-08-28 11:10:48.792788","MACIT.ISIK","2026-06-09 07:00:37.476065",2,50,False,"g",False,"15","3","1","0",NULL
+"16",175,"g","g",3,1,0,"YUNUS.AYAN","2025-08-28 11:10:57.798601","MACIT.ISIK","2026-06-09 07:00:37.476065",7,50,False,"g",False,"16","3","1","0",NULL
+"17",165,"1","1",3,1,0,"TANER.CEVHER","2025-08-28 11:11:05.107041","MACIT.ISIK","2026-06-09 07:00:37.476065",14,13,False,"1",False,"17","3","1","0",NULL
+"18",4,"POČETNA","homepage-rs",2,1,0,"TANER.CEVHER","2025-08-28 11:34:41.13143","MACIT.ISIK","2026-06-09 07:00:37.476065",9,125,False,"POČETNA",False,"18","1","1","0",NULL
+"19",3,"ŽENE","women-rs",1,1,0,"TANER.CEVHER","2025-08-28 11:34:50.038424","MACIT.ISIK","2026-06-09 07:00:37.476066",9,125,True,"ŽENE",False,"19","1","1","0",NULL
+"20",5,"MUŠKARCI","men-rs",1,1,0,"TANER.CEVHER","2025-08-28 11:34:56.24189","MACIT.ISIK","2026-06-09 07:00:37.476066",9,125,False,"MUŠKARCI",False,"20","1","1","0",NULL
+"21",6,"DECA I BEBE","kids-baby-rs",2,1,0,"TANER.CEVHER","2025-08-28 11:35:11.333386","MACIT.ISIK","2026-06-09 07:00:37.476066",9,125,False,"DECA I BEBE",False,"21","2","1","0",NULL
+"22",11,"ZONA POPUSTA","deal-zone-rs",1,1,0,"TANER.CEVHER","2025-08-28 11:35:23.014944","MACIT.ISIK","2026-06-09 07:00:37.476068",9,125,False,"ZONA POPUSTA",True,"22","1","1","0",NULL
+"23",15,"Women","women-iq-en",1,1,0,"TANER.CEVHER","2025-08-28 11:48:28.9124","MACIT.ISIK","2026-06-09 07:00:37.476068",2,13,True,"Women",False,"23","1","1","0",NULL
+"24",17,"Men","men-iq-men",1,1,0,"TANER.CEVHER","2025-08-28 11:48:44.941004","MACIT.ISIK","2026-06-09 07:00:37.476068",2,13,False,"Men",False,"24","1","1","0",NULL
+"25",111,"Kids & Baby","kids-baby-iq-en",3,1,0,"TANER.CEVHER","2025-08-28 11:48:58.721107","MACIT.ISIK","2026-06-09 07:00:37.476069",2,13,False,"Kids & Baby",False,"25","1","1","0",NULL
+"26",22,"Deal Zone","deal-zone-iq-en",2,1,0,"TANER.CEVHER","2025-08-28 11:49:09.890335","","2026-06-11 07:37:12.788809",2,13,False,"Deal Zone",True,"26","1","1","0",NULL
+"27",16,"Homepage","homepage-iq-en-app",2,21,1,"TANER.CEVHER","2025-08-28 11:49:58.611993","TANER.CEVHER","2026-03-26 11:57:16.783363",2,13,False,"Homepage",False,"27","1","21","1",NULL
+"28",15,"Women","women-iq-en-app",1,21,1,"TANER.CEVHER","2025-08-28 11:50:09.641404","TANER.CEVHER","2026-03-26 11:57:16.783363",2,13,True,"Women",False,"28","1","21","1",NULL
+"29",17,"Men","men-iq-en-app",1,21,1,"TANER.CEVHER","2025-08-28 11:50:23.465132","TANER.CEVHER","2026-03-26 11:57:16.783363",2,13,False,"Men",False,"29","1","21","1",NULL
+"30",18,"Kids & Baby","kids-baby-iq-en-app",2,21,1,"TANER.CEVHER","2025-08-28 11:50:43.065614","TANER.CEVHER","2026-03-26 11:57:16.783364",2,13,False,"Kids & Baby",False,"30","2","21","1",NULL
+"31",24,"Deal Zone","deal-zone-iq-en-app",2,21,1,"TANER.CEVHER","2025-08-28 11:50:56.532266","","2026-06-11 07:37:04.847864",2,13,False,"Deal Zone",True,"31","1","21","1",NULL
+"32",16,"Homepage","homepage-roen",2,1,0,"TANER.CEVHER","2025-08-28 12:12:44.656709","MACIT.ISIK","2026-06-09 07:00:37.476074",2,50,False,"Homepage",False,"32","1","1","0",NULL
+"33",2,"Women","women-roen",1,1,0,"TANER.CEVHER","2025-08-28 12:13:06.606537","MACIT.ISIK","2026-06-09 07:00:37.476074",2,50,True,"WOMEN",False,"33","1","1","0",NULL
+"34",17,"Men","men-roen",1,1,0,"TANER.CEVHER","2025-08-28 12:13:17.808722","MACIT.ISIK","2026-06-09 07:00:37.476075",2,50,False,"MEN",False,"34","1","1","0",NULL
+"35",123,"Kids & Baby","kids-baby-roen",3,1,0,"TANER.CEVHER","2025-08-28 12:13:45.950146","MACIT.ISIK","2026-06-09 07:00:37.476074",2,50,False,"Kids & Baby",False,"35","3","1","0",NULL
+"36",23,"Deal Zone","deal-zone-roen",2,1,0,"TANER.CEVHER","2025-08-28 12:13:59.550806","","2026-06-11 08:34:01.556288",2,50,False,"DEAL ZONE",True,"36","1","1","0",NULL
+"37",16,"Homepage","homepage-roen-app",2,21,1,"TANER.CEVHER","2025-08-28 12:14:19.36992","TANER.CEVHER","2026-03-26 11:57:16.783364",2,50,False,"Homepage",False,"37","1","21","1",NULL
+"38",15,"Women","women-roen-app",1,21,1,"TANER.CEVHER","2025-08-28 12:14:31.083658","TANER.CEVHER","2026-03-26 11:57:16.783364",2,50,True,"Women",False,"38","1","21","1",NULL
+"39",17,"Men","men-roen-app",1,21,1,"TANER.CEVHER","2025-08-28 12:14:39.798682","TANER.CEVHER","2026-03-26 11:57:16.783364",2,50,False,"Men",False,"39","1","21","1",NULL
+"40",126,"Kids & Baby","kids-baby-roen-app",3,21,1,"TANER.CEVHER","2025-08-28 12:14:53.404489","TANER.CEVHER","2026-03-26 11:57:16.783364",2,50,False,"Kids & Baby",False,"40","3","21","1",NULL
+"41",23,"Deal Zone","deal-zone-roen-app",2,21,1,"TANER.CEVHER","2025-08-28 12:15:06.268173","","2026-06-11 08:33:56.298818",2,50,False,"Deal Zone",True,"41","1","21","1",NULL
+"42",16,"HOMEPAGE","homepage-ro",2,1,0,"TANER.CEVHER","2025-08-28 12:53:13.213558","MACIT.ISIK","2026-06-09 07:00:37.476074",7,50,False,"HOMEPAGE",False,"42","1","1","0",NULL
+"43",15,"FEMEI","women-ro",1,1,0,"TANER.CEVHER","2025-08-28 12:53:24.209868","MACIT.ISIK","2026-06-09 07:00:37.476075",7,50,True,"FEMEI",False,"43","1","1","0",NULL
+"44",17,"BĂRBAȚI","men-ro",1,1,0,"TANER.CEVHER","2025-08-28 12:53:30.679177","MACIT.ISIK","2026-06-09 07:00:37.476075",7,50,False,"BĂRBAȚI",False,"44","1","1","0",NULL
+"45",190,"COPII & BEBELUȘI","kids-baby-ro",3,1,0,"TANER.CEVHER","2025-08-28 12:53:43.575377","MACIT.ISIK","2026-06-09 07:00:37.476076",7,50,False,"COPII & BEBELUȘI",False,"45","3","1","0",NULL
+"46",22,"ZONA DE REDUCERI","deal-zone-ro",2,1,0,"TANER.CEVHER","2025-08-28 12:53:53.973008","","2026-06-11 08:33:45.328641",7,50,False,"ZONA DE REDUCERI",True,"46","1","1","0",NULL
+"47",16,"HOMEPAGE","homepage-ro-app",2,21,1,"TANER.CEVHER","2025-08-28 12:54:09.985112","TANER.CEVHER","2026-03-26 11:57:16.783365",7,50,False,"HOMEPAGE",False,"47","1","21","1",NULL
+"48",15,"FEMEI","women-ro-app",1,21,1,"TANER.CEVHER","2025-08-28 12:54:20.636441","TANER.CEVHER","2026-03-26 11:57:16.783372",7,50,True,"FEMEI",False,"48","1","21","1",NULL
+"49",17,"BĂRBAȚI","men-ro-app",1,21,1,"TANER.CEVHER","2025-08-28 12:54:28.387504","TANER.CEVHER","2026-03-26 11:57:16.783372",7,50,False,"BĂRBAȚI",False,"49","1","21","1",NULL
+"50",108,"COPII & BEBELUȘI","kids-baby-ro-app",3,21,1,"TANER.CEVHER","2025-08-28 12:54:40.206939","TANER.CEVHER","2026-03-26 11:57:16.783372",7,50,False,"COPII & BEBELUȘI",False,"50","2","21","1",NULL
+"51",23,"ZONA DE REDUCERI","deal-zone-ro-app",2,21,1,"TANER.CEVHER","2025-08-28 12:54:52.303594","","2026-06-11 08:33:50.801179",7,50,False,"ZONA DE REDUCERI",True,"51","1","21","1",NULL
+"52",120,"Homepage","homepage-egen",2,1,0,"TANER.CEVHER","2025-08-28 16:23:10.612196","MACIT.ISIK","2026-06-09 07:00:37.476076",2,8,False,"Homepage",False,"52","1","1","0",NULL
+"53",48,"Women","women-egen",1,1,0,"TANER.CEVHER","2025-08-28 16:23:20.537627","MACIT.ISIK","2026-06-09 07:00:37.476092",2,8,True,"Women",False,"53","1","1","0",NULL
+"54",122,"Men","men-egen",1,1,0,"TANER.CEVHER","2025-08-28 16:23:26.577328","MACIT.ISIK","2026-06-09 07:00:37.476093",2,8,False,"Men",False,"54","1","1","0",NULL
+"55",123,"Kids & Baby","kids-baby-egen",2,1,0,"TANER.CEVHER","2025-08-28 16:23:45.034342","MACIT.ISIK","2026-06-09 07:00:37.476093",2,8,False,"Kids & Baby",False,"55","2","1","0",NULL
+"56",90,"Deal Zone","deal-zone-egen",2,1,0,"TANER.CEVHER","2025-08-28 16:23:56.419124","MACIT.ISIK","2026-06-09 07:00:37.476094",2,8,False,"Deal Zone",True,"56","1","1","0",NULL
+"57",16,"Homepage","homepage-egen-app",2,21,1,"TANER.CEVHER","2025-08-28 16:24:29.070109","TANER.CEVHER","2026-03-26 11:57:16.783373",2,8,False,"Homepage",False,"57","1","21","1",NULL
+"58",15,"Women","women-egen-app",1,21,1,"TANER.CEVHER","2025-08-28 16:24:40.913217","TANER.CEVHER","2026-03-26 11:57:16.783373",2,8,True,"Women",False,"58","1","21","1",NULL
+"59",17,"Men","men-egen-app",1,21,1,"TANER.CEVHER","2025-08-28 16:25:27.607849","TANER.CEVHER","2026-03-26 11:57:16.783373",2,8,False,"Men",False,"59","1","21","1",NULL
+"60",18,"Kids & Baby","kids-baby-egen-app",2,21,1,"TANER.CEVHER","2025-08-28 16:25:43.303984","TANER.CEVHER","2026-03-26 11:57:16.783373",2,8,False,"Kids & Baby",False,"60","2","21","1",NULL
+"61",24,"Deal Zone","deal-zone-egen-app",2,21,1,"TANER.CEVHER","2025-08-28 16:25:55.945487","","2026-05-14 07:16:54.541522",2,8,False,"Deal Zone",True,"61","1","21","1",NULL
+"62",16,"الصفحة الرئيسية","homepage-eg",2,1,0,"TANER.CEVHER","2025-08-28 18:39:29.147067","MACIT.ISIK","2026-06-09 07:00:37.476105",12,8,False,"الصفحة الرئيسية",False,"62","1","1","0",NULL
+"63",15,"النساء","women-eg",1,1,0,"TANER.CEVHER","2025-08-28 18:39:37.776681","MACIT.ISIK","2026-06-09 07:00:37.476105",12,8,True,"النساء",False,"63","1","1","0",NULL
+"64",17,"الرجال","men-eg",1,1,0,"TANER.CEVHER","2025-08-28 18:39:51.998268","MACIT.ISIK","2026-06-09 07:00:37.476103",12,8,False,"الرجال",False,"64","1","1","0",NULL
+"65",18,"أطفال & رضع ","kids-baby-eg",2,1,0,"TANER.CEVHER","2025-08-28 18:41:49.59065","MACIT.ISIK","2026-06-09 07:00:37.476103",12,8,False,"أطفال & رضع ",False,"65","2","1","0",NULL
+"66",23,"منطقة العروض ","deal-zone-eg",2,1,0,"TANER.CEVHER","2025-08-28 18:42:11.476282","MACIT.ISIK","2026-06-09 07:00:37.476103",12,8,False,"منطقة العروض ",True,"66","1","1","0",NULL
+"67",16,"الصفحة الرئيسية","homepage-eg-app",2,21,1,"TANER.CEVHER","2025-08-28 18:55:38.311891","TANER.CEVHER","2026-03-26 11:57:16.783373",12,8,False,"الصفحة الرئيسية",False,"67","1","21","1",NULL
+"68",15,"النساء","women-eg-app",1,21,1,"TANER.CEVHER","2025-08-28 18:55:52.424721","TANER.CEVHER","2026-03-26 11:57:16.783373",12,8,True,"النساء",False,"68","1","21","1",NULL
+"69",17,"الرجال","men-eg-app",1,21,1,"TANER.CEVHER","2025-08-28 18:55:59.931993","TANER.CEVHER","2026-03-26 11:57:16.783374",12,8,False,"الرجال",False,"69","1","21","1",NULL
+"70",18,"أطفال & رضع ","kids-baby-eg-app",2,21,1,"TANER.CEVHER","2025-08-28 18:56:25.989662","TANER.CEVHER","2026-03-26 11:57:16.783374",12,8,False,"أطفال & رضع ",False,"70","2","21","1",NULL
+"71",24,"منطقة العروض ","deal-zone-eg-app",2,21,1,"TANER.CEVHER","2025-08-28 18:57:02.805488","","2026-05-14 07:17:04.438482",12,8,False,"منطقة العروض ",True,"71","1","21","1",NULL
+"72",16,"POČETNA","homepage-rs-app",2,21,1,"TANER.CEVHER","2025-08-28 20:40:12.45627","TANER.CEVHER","2026-03-26 11:57:16.783374",9,125,False,"POČETNA",False,"72","1","21","1",NULL
+"73",15,"ŽENE","women-rs-app",1,21,1,"TANER.CEVHER","2025-08-28 20:40:21.985938","TANER.CEVHER","2026-03-26 11:57:16.783374",9,125,True,"ŽENE",False,"73","1","21","1",NULL
+"74",17,"MUŠKARCI","men-rs-app",1,21,1,"TANER.CEVHER","2025-08-28 20:40:29.779118","TANER.CEVHER","2026-03-26 11:57:16.783374",9,125,False,"MUŠKARCI",False,"74","1","21","1",NULL
+"75",18,"DECA I BEBE","kids-baby-rs-app",2,21,1,"TANER.CEVHER","2025-08-28 20:40:45.676972","TANER.CEVHER","2026-03-26 11:57:16.783374",9,125,False,"DECA I BEBE",False,"75","2","21","1",NULL
+"76",24,"ZONA POPUSTA","deal-zone-rs-app",2,21,1,"TANER.CEVHER","2025-08-28 20:41:55.159596","","2026-06-11 09:08:48.919156",9,125,False,"ZONA POPUSTA",True,"76","1","21","1",NULL
+"77",16,"الصفحة الرئيسية","homepage-irar",2,1,0,"TANER.CEVHER","2025-09-02 08:45:37.636919","MACIT.ISIK","2026-06-09 07:00:37.476104",14,13,False,"الصفحة الرئيسية",False,"77","1","1","0",NULL
+"78",15,"النساء","women-iq-ar",1,1,0,"TANER.CEVHER","2025-09-02 08:46:06.848741","MACIT.ISIK","2026-06-09 07:00:37.476104",14,13,True,"النساء",False,"78","1","1","0",NULL
+"79",18,"الرجال","men-iq-ar",1,1,0,"TANER.CEVHER","2025-09-02 08:46:09.894917","MACIT.ISIK","2026-06-09 07:00:37.476076",14,13,False,"الرجال",False,"79","1","1","0",NULL
+"80",19,"الأطفال و الرضع ","kids-baby-iq-ar",1,1,0,"TANER.CEVHER","2025-09-02 08:46:25.341984","MACIT.ISIK","2026-06-09 07:00:37.476077",14,13,False,"الأطفال و الرضع ",False,"80","1","1","0",NULL
+"81",24,"منطقة العروض ","deal-zone-iq-ar",1,1,0,"TANER.CEVHER","2025-09-02 08:46:40.539094","MACIT.ISIK","2026-06-09 07:00:37.476077",14,13,False,"منطقة العروض ",True,"81","1","1","0",NULL
+"82",16,"لاپەڕەی سەرەکی","homepage-irku",2,1,0,"TANER.CEVHER","2025-09-02 08:47:21.230839","MACIT.ISIK","2026-06-09 07:00:37.476077",13,13,False,"لاپەڕەی سەرەکی",False,"82","1","1","0",NULL
+"83",206,"Men","men-irku",3,1,0,"TANER.CEVHER","2025-09-02 08:48:04.087371","MACIT.ISIK","2026-06-09 07:00:37.476104",13,13,False,"Men",False,"83","3","1","0",NULL
+"84",15,"ئافرەتان","women-iq-ku",1,1,0,"TANER.CEVHER","2025-09-02 08:48:19.466104","MACIT.ISIK","2026-06-09 07:00:37.476078",13,13,True,"ئافرەتان",False,"84","1","1","0",NULL
+"85",17,"پیاوان","men-iq-ku",1,1,0,"TANER.CEVHER","2025-09-02 08:48:53.449872","MACIT.ISIK","2026-06-09 07:00:37.476078",13,13,False,"پیاوان",False,"85","1","1","0",NULL
+"86",18,"منداڵان& کۆرپە","kids-baby-iq-ku",1,1,0,"TANER.CEVHER","2025-09-02 08:49:07.636571","MACIT.ISIK","2026-06-09 07:00:37.476137",13,13,False,"منداڵان& کۆرپە",False,"86","1","1","0",NULL
+"87",23,"شوێنی داشکاندنەکان","deal-zone-iq-ku",1,1,0,"TANER.CEVHER","2025-09-02 08:49:22.106651","MACIT.ISIK","2026-06-09 07:00:37.476104",13,13,False,"شوێنی داشکاندنەکان",True,"87","1","1","0",NULL
+"88",208,"test","test",3,1,0,"KUBRA.KILIC","2025-09-03 06:04:42.712326","MACIT.ISIK","2026-06-09 07:00:37.476094",13,13,False,"test",False,"88","3","1","0",NULL
+"89",209,"test-iq-en","test-iq-en",3,1,0,"KUBRA.KILIC","2025-09-03 06:08:27.811168","MACIT.ISIK","2026-06-09 07:00:37.476112",2,13,False,"test-iq-en",False,"89","3","1","0",NULL
+"90",210,"test-iq-ar","test-iq-ar",3,1,0,"KUBRA.KILIC","2025-09-03 06:13:11.354012","MACIT.ISIK","2026-06-09 07:00:37.476112",14,13,False,"test-iq-ar",False,"90","3","1","0",NULL
+"91",120,"HOMEPAGE","homepage-bgen",2,1,0,"TANER.CEVHER","2025-09-09 11:11:02.242527","MACIT.ISIK","2026-06-09 07:00:37.476112",2,52,False,"HOMEPAGE",False,"91","1","1","0",NULL
+"92",32,"WOMEN","women-bgen",1,1,0,"TANER.CEVHER","2025-09-09 11:11:23.987933","MACIT.ISIK","2026-06-09 07:00:37.476112",2,52,True,"WOMEN",False,"92","1","1","0",NULL
+"93",122,"MEN","men-bgen",1,1,0,"TANER.CEVHER","2025-09-09 11:11:33.685827","MACIT.ISIK","2026-06-09 07:00:37.476113",2,52,False,"MEN",False,"93","1","1","0",NULL
+"94",123,"KIDS & BABY","kids-baby-bgen",2,1,0,"TANER.CEVHER","2025-09-09 11:11:57.362372","MACIT.ISIK","2026-06-09 07:00:37.476113",2,52,False,"KIDS & BABY",False,"94","1","1","0",NULL
+"95",86,"DEAL ZONE","deal-zone-bgen",2,1,0,"TANER.CEVHER","2025-09-09 11:12:09.473955","","2026-06-11 08:34:15.938965",2,52,False,"DEAL ZONE",True,"95","1","1","0",NULL
+"96",120,"НАЧАЛНА СТРАНИЦА","homepage-bg",2,1,0,"TANER.CEVHER","2025-09-09 11:12:49.507523","MACIT.ISIK","2026-06-09 07:00:37.476113",11,52,False,"НАЧАЛНА СТРАНИЦА",False,"96","1","1","0",NULL
+"97",33,"ЖЕНИ","women-bg",1,1,0,"TANER.CEVHER","2025-09-09 11:13:00.894323","MACIT.ISIK","2026-06-09 07:00:37.47611",11,52,True,"ЖЕНИ",False,"97","1","1","0",NULL
+"98",122,"МЪЖЕ","men-bg",1,1,0,"TANER.CEVHER","2025-09-09 11:13:10.553036","MACIT.ISIK","2026-06-09 07:00:37.47611",11,52,False,"МЪЖЕ",False,"98","1","1","0",NULL
+"99",123,"ДЕЦА И БЕБЕТА","kids-baby-bg",3,1,0,"TANER.CEVHER","2025-09-09 11:13:30.728133","MACIT.ISIK","2026-06-09 07:00:37.476111",11,52,False,"ДЕЦА И БЕБЕТА",False,"99","1","1","0",NULL
+"100",87,"ЗОНА ЗА СДЕЛКИ","deal-zone-bg",2,1,0,"TANER.CEVHER","2025-09-09 11:13:42.274435","","2026-06-11 08:34:36.158627",11,52,False,"ЗОНА ЗА СДЕЛКИ",True,"100","1","1","0",NULL
+"101",138,"HOMEPAGE","homepage-gren",2,1,0,"TANER.CEVHER","2025-09-09 13:05:55.642545","MACIT.ISIK","2026-06-09 07:00:37.476111",2,35,False,"HOMEPAGE",False,"101","1","1","0",NULL
+"102",16,"WOMEN","women-gren",1,1,0,"TANER.CEVHER","2025-09-09 13:06:05.406902","MACIT.ISIK","2026-06-09 07:00:37.476078",2,35,True,"WOMEN",False,"102","1","1","0",NULL
+"103",220,"MEN","men-gren",1,1,0,"TANER.CEVHER","2025-09-09 13:06:15.221361","MACIT.ISIK","2026-06-09 07:00:37.476111",2,35,False,"MEN",False,"103","1","1","0",NULL
+"104",221,"KIDS & BABY","kids-baby-gren",1,1,0,"TANER.CEVHER","2025-09-09 13:06:30.154388","MACIT.ISIK","2026-06-09 07:00:37.476111",2,35,False,"KIDS & BABY",False,"104","1","1","0",NULL
+"105",73,"DEAL ZONE","deal-zone-gren",2,1,0,"TANER.CEVHER","2025-09-09 13:06:40.588936","","2026-06-11 11:14:37.464145",2,35,False,"DEAL ZONE",True,"105","1","1","0",NULL
+"106",137,"ΑΡΧΙΚΗ ΣΕΛΙΔΑ","homepage-gr",2,1,0,"TANER.CEVHER","2025-09-09 13:07:12.853476","MACIT.ISIK","2026-06-09 07:00:37.476113",23,35,False,"ΑΡΧΙΚΗ ΣΕΛΙΔΑ",False,"106","1","1","0",NULL
+"107",37,"ΓΥΝΑΙΚΕΣ","women-gr",1,1,0,"TANER.CEVHER","2025-09-09 13:07:26.01781","MACIT.ISIK","2026-06-09 07:00:37.476113",23,35,True,"ΓΥΝΑΙΚΕΣ",False,"107","1","1","0",NULL
+"108",225,"ΑΝΔΡΕΣ","men-gr",1,1,0,"TANER.CEVHER","2025-09-09 13:07:35.372894","MACIT.ISIK","2026-06-09 07:00:37.476114",23,35,False,"ΑΝΔΡΕΣ",False,"108","1","1","0",NULL
+"109",226,"ΠΑΙΔΙΑ ΚΑΙ ΜΩΡΑ","kids-baby-gr",1,1,0,"TANER.CEVHER","2025-09-09 13:07:50.155149","MACIT.ISIK","2026-06-09 07:00:37.476114",23,35,False,"ΠΑΙΔΙΑ ΚΑΙ ΜΩΡΑ",False,"109","1","1","0",NULL
+"110",74,"ΖΩΝΗ ΣΥΝΑΛΛΑΓΩΝ","deal-zone-gr",2,1,0,"TANER.CEVHER","2025-09-09 13:08:01.372542","","2026-06-11 11:15:59.663293",23,35,False,"ΖΩΝΗ ΣΥΝΑΛΛΑΓΩΝ",True,"110","1","1","0",NULL
+"111",15,"DAMEN","women-de",1,1,0,"TANER.CEVHER","2025-09-09 14:17:25.742934","MACIT.ISIK","2026-06-09 07:00:37.476114",4,25,True,"DAMEN",False,"111","1","1","0",NULL
+"112",16,"HOMEPAGE","homepage-de",2,1,0,"TANER.CEVHER","2025-09-09 14:17:56.127379","MACIT.ISIK","2026-06-09 07:00:37.476114",4,25,False,"HOMEPAGE",False,"112","1","1","0",NULL
+"113",17,"HERREN","men-de",1,1,0,"TANER.CEVHER","2025-09-09 14:18:04.930879","MACIT.ISIK","2026-06-09 07:00:37.476114",4,25,False,"HERREN",False,"113","1","1","0",NULL
+"114",18,"KINDER & BABY","kids-baby-de",1,1,0,"TANER.CEVHER","2025-09-09 14:18:15.87407","MACIT.ISIK","2026-06-09 07:00:37.476115",4,25,False,"KINDER & BABY",False,"114","1","1","0",NULL
+"115",22,"DEAL-ZONE","deal-zone-de",2,1,0,"TANER.CEVHER","2025-09-09 14:18:28.143298","","2026-06-11 12:27:37.618784",4,25,False,"DEAL-ZONE",True,"115","1","1","0",NULL
+"116",16,"ANA SAYFA","homepage-detr",2,1,0,"TANER.CEVHER","2025-09-09 14:20:00.010958","MACIT.ISIK","2026-06-09 07:00:37.476115",1,25,False,"ANA SAYFA",False,"116","1","1","0",NULL
+"117",15,"KADIN","women-detr",1,1,0,"TANER.CEVHER","2025-09-09 14:20:11.24773","MACIT.ISIK","2026-06-09 07:00:37.476115",1,25,True,"KADIN",False,"117","1","1","0",NULL
+"118",17,"ERKEK","men-detr",1,1,0,"TANER.CEVHER","2025-09-09 14:20:23.514616","MACIT.ISIK","2026-06-09 07:00:37.476115",1,25,False,"ERKEK",False,"118","1","1","0",NULL
+"119",18,"ÇOCUK & BEBEK","kids-baby-detr",1,1,0,"TANER.CEVHER","2025-09-09 14:20:38.777463","MACIT.ISIK","2026-06-09 07:00:37.476115",1,25,False,"ÇOCUK & BEBEK",False,"119","1","1","0",NULL
+"120",22,"FIRSAT ALANI","deal-zone-detr",2,1,0,"TANER.CEVHER","2025-09-09 14:20:54.918503","","2026-06-11 12:27:44.795376",1,25,False,"FIRSAT ALANI",True,"120","1","1","0",NULL
+"121",15,"WOMEN","women-it",1,1,0,"TANER.CEVHER","2025-09-09 14:45:22.981335","MACIT.ISIK","2026-06-09 07:00:37.476116",2,38,True,"WOMEN",False,"121","1","1","0","668"
+"122",119,"HOMEPAGE","homepage-it",2,1,0,"TANER.CEVHER","2025-09-09 14:45:31.919957","MACIT.ISIK","2026-06-09 07:00:37.476116",2,38,False,"HOMEPAGE",False,"122","1","1","0","669"
+"123",121,"MEN","men-it",1,1,0,"TANER.CEVHER","2025-09-09 14:45:43.931429","MACIT.ISIK","2026-06-09 07:00:37.476116",2,38,False,"MEN",False,"123","1","1","0","670"
+"124",122,"KIDS & BABY","kids-baby-it",2,1,0,"TANER.CEVHER","2025-09-09 14:45:58.845771","MACIT.ISIK","2026-06-09 07:00:37.476116",2,38,False,"KIDS & BABY",False,"124","1","1","0",NULL
+"125",126,"DEAL ZONE","deal-zone-it",2,1,0,"TANER.CEVHER","2025-09-09 14:46:14.251732","","2026-06-11 08:35:54.91855",2,38,False,"DEAL ZONE",False,"125","0","1","0","669"
+"126",119,"PAGE D'ACCUEIL","homepage-fr",2,1,0,"TANER.CEVHER","2025-09-09 15:14:18.249413","","2026-06-11 08:35:15.112538",10,27,False,"PAGE D'ACCUEIL",False,"126","1","1","0",NULL
+"127",126,"ZONE DES OFFRES","deal-zone-fr",0,1,0,"TANER.CEVHER","2025-09-09 15:14:29.470362","MACIT.ISIK","2026-06-09 07:00:37.476117",10,27,False,"ZONE DES OFFRES",False,"127","0","1","0",NULL
+"128",119,"ANA SAYFA","homepage-frtr",2,1,0,"TANER.CEVHER","2025-09-09 15:14:57.305958","","2026-06-11 08:35:20.695661",1,27,False,"ANA SAYFA",False,"128","1","1","0",NULL
+"129",5,"FIRSAT ALANI","dealzone-frtr",2,1,0,"TANER.CEVHER","2025-09-09 15:15:09.88857","","2026-06-11 08:34:52.947683",1,27,False,"FIRSAT ALANI",True,"129","0","1","0",NULL
+"130",4,"KADIN","women-frtr",1,1,0,"TANER.CEVHER","2025-09-10 05:58:39.639242","MACIT.ISIK","2026-06-09 07:00:37.476079",1,27,True,"KADIN",False,"130","1","1","0",NULL
+"131",121,"ERKEK","men-frtr",1,1,0,"TANER.CEVHER","2025-09-10 05:58:53.772595","MACIT.ISIK","2026-06-09 07:00:37.47608",1,27,False,"ERKEK",False,"131","1","1","0",NULL
+"132",122,"ÇOCUK & BEBEK","kids-baby-frtr",2,1,0,"TANER.CEVHER","2025-09-10 05:59:11.745904","MACIT.ISIK","2026-06-09 07:00:37.47608",1,27,False,"ÇOCUK & BEBEK",False,"132","2","1","0",NULL
+"133",42,"FEMMES","women-fr",1,1,0,"TANER.CEVHER","2025-09-10 05:59:36.5622","MACIT.ISIK","2026-06-09 07:00:37.47608",10,27,True,"FEMMES",False,"133","1","1","0",NULL
+"134",121,"HOMMES","men-fr",1,1,0,"TANER.CEVHER","2025-09-10 05:59:47.229668","MACIT.ISIK","2026-06-09 07:00:37.47608",10,27,False,"HOMMES",False,"134","1","1","0",NULL
+"135",122,"ENFANTS ET BÉBÉ","kids-baby-fr",2,1,0,"TANER.CEVHER","2025-09-10 06:00:02.872723","MACIT.ISIK","2026-06-09 07:00:37.476117",10,27,False,"ENFANTS ET BÉBÉ",False,"135","2","1","0",NULL
+"136",16,"HOMEPAGE","homepage-maen",2,1,0,"TANER.CEVHER","2025-09-12 04:52:32.464887","MACIT.ISIK","2026-06-09 07:00:37.476117",2,16,False,"HOMEPAGE",False,"136","1","1","0",NULL
+"137",15,"WOMEN","women-maen",1,1,0,"TANER.CEVHER","2025-09-12 04:52:47.111058","MACIT.ISIK","2026-06-09 07:00:37.476117",2,16,True,"WOMEN",False,"137","1","1","0",NULL
+"138",17,"MEN","men-maen",1,1,0,"TANER.CEVHER","2025-09-12 04:52:59.149489","MACIT.ISIK","2026-06-09 07:00:37.476116",2,16,False,"MEN",False,"138","1","1","0",NULL
+"139",18,"KIDS & BABY","kids-baby-maen",1,1,0,"TANER.CEVHER","2025-09-12 04:53:14.415129","MACIT.ISIK","2026-06-09 07:00:37.476118",2,16,False,"KIDS & BABY",False,"139","1","1","0",NULL
+"140",23,"DEAL ZONE","deal-zone-maen",2,1,0,"TANER.CEVHER","2025-09-12 04:53:26.327624","","2026-06-11 07:45:43.283354",2,16,False,"DEAL ZONE",True,"140","1","1","0",NULL
+"141",16,"PAGE D'ACCUEIL","homepage-mafr",2,1,0,"TANER.CEVHER","2025-09-12 04:55:30.98266","MACIT.ISIK","2026-06-09 07:00:37.476081",10,16,False,"PAGE D'ACCUEIL",False,"141","1","1","0",NULL
+"142",15,"FEMMES","women-mafr",1,1,0,"TANER.CEVHER","2025-09-12 04:55:55.473207","MACIT.ISIK","2026-06-09 07:00:37.476081",10,16,True,"FEMMES",False,"142","1","1","0",NULL
+"143",17,"HOMMES","men-mafr",1,1,0,"TANER.CEVHER","2025-09-12 04:56:32.248099","MACIT.ISIK","2026-06-09 07:00:37.476081",10,16,False,"HOMMES",False,"143","1","1","0",NULL
+"144",18,"ENFANTS ET BÉBÉ","kids-baby-mafr",1,1,0,"TANER.CEVHER","2025-09-12 04:56:48.856369","MACIT.ISIK","2026-06-09 07:00:37.476094",10,16,False,"ENFANTS ET BÉBÉ",False,"144","1","1","0",NULL
+"145",23,"ZONE DES OFFRES","deal-zone-mafr",2,1,0,"TANER.CEVHER","2025-09-12 04:57:06.27406","","2026-06-11 07:45:48.865893",10,16,False,"ZONE DES OFFRES",True,"145","1","1","0",NULL
+"146",16,"الصفحة الرئيسية","homepage-maar",2,1,0,"TANER.CEVHER","2025-09-12 04:57:47.558565","MACIT.ISIK","2026-06-09 07:00:37.476094",15,16,False,"الصفحة الرئيسية",False,"146","1","1","0",NULL
+"147",15,"النساء","women-maar",1,1,0,"TANER.CEVHER","2025-09-12 04:58:03.006152","MACIT.ISIK","2026-06-09 07:00:37.476094",15,16,True,"النساء",False,"147","1","1","0",NULL
+"148",17,"الرجال","men-maar",1,1,0,"TANER.CEVHER","2025-09-12 04:58:15.850879","MACIT.ISIK","2026-06-09 07:00:37.476095",15,16,False,"الرجال",False,"148","1","1","0",NULL
+"149",18,"الأطفال و الرضع ","kids-baby-maar",1,1,0,"TANER.CEVHER","2025-09-12 04:58:40.930409","MACIT.ISIK","2026-06-09 07:00:37.476095",15,16,False,"الأطفال و الرضع ",False,"149","1","1","0",NULL
+"150",23,"منطقة العروض ","deal-zone-maar",2,1,0,"TANER.CEVHER","2025-09-12 04:59:03.728862","","2026-06-11 07:45:57.037763",15,16,False,"منطقة العروض ",True,"150","1","1","0",NULL
+"151",132,"test","test-video-hp",3,1,0,"TANER.CEVHER","2025-09-12 11:34:37.075601","MACIT.ISIK","2026-06-09 07:00:37.476095",2,50,False,"test",True,"151","3","1","0",NULL
+"152",9,"HOMEPAGE","homepage-bgen-app",2,21,1,"TANER.CEVHER","2025-09-12 11:54:05.334452","TANER.CEVHER","2026-03-26 11:57:16.783382",2,52,False,"HOMEPAGE",False,"152","1","21","1",NULL
+"153",8,"WOMEN","women-bgen-app",1,21,1,"TANER.CEVHER","2025-09-12 11:54:17.94763","TANER.CEVHER","2026-03-26 11:57:16.783382",2,52,True,"WOMEN",False,"153","1","21","1",NULL
+"154",10,"MEN","men-bgen-app",1,21,1,"TANER.CEVHER","2025-09-12 11:54:31.147111","TANER.CEVHER","2026-03-26 11:57:16.783382",2,52,False,"MEN",False,"154","1","21","1",NULL
+"155",11,"KIDS & BABY","kids-baby-bgen-app",2,21,1,"TANER.CEVHER","2025-09-12 11:54:46.176414","TANER.CEVHER","2026-03-26 11:57:16.783382",2,52,False,"KIDS & BABY",False,"155","1","21","1",NULL
+"156",17,"DEAL ZONE","deal-zone-bgen-app",2,21,1,"TANER.CEVHER","2025-09-12 11:55:00.632312","","2026-06-11 08:34:22.072881",2,52,False,"DEAL ZONE",True,"156","1","21","1",NULL
+"157",9,"НАЧАЛНА СТРАНИЦА","homepage-bg-app",2,21,1,"TANER.CEVHER","2025-09-12 11:55:33.467229","TANER.CEVHER","2026-03-26 11:57:16.783383",11,52,False,"НАЧАЛНА СТРАНИЦА",False,"157","1","21","1",NULL
+"158",8,"ЖЕНИ","women-bg-app",1,21,1,"TANER.CEVHER","2025-09-12 11:55:48.609702","TANER.CEVHER","2026-03-26 11:57:16.783383",11,52,True,"ЖЕНИ",False,"158","1","21","1",NULL
+"159",10,"МЪЖЕ","men-bg-app",1,21,1,"TANER.CEVHER","2025-09-12 11:55:58.519071","TANER.CEVHER","2026-03-26 11:57:16.783383",11,52,False,"МЪЖЕ",False,"159","1","21","1",NULL
+"160",11,"ДЕЦА И БЕБЕТА","kids-baby-bg-app",2,21,1,"TANER.CEVHER","2025-09-12 11:56:25.598883","TANER.CEVHER","2026-03-26 11:57:16.783391",11,52,False,"ДЕЦА И БЕБЕТА",False,"160","1","21","1",NULL
+"161",17,"ЗОНА ЗА СДЕЛКИ","deal-zone-bg-app",2,21,1,"TANER.CEVHER","2025-09-12 11:56:46.676737","","2026-06-11 08:34:30.095872",11,52,False,"ЗОНА ЗА СДЕЛКИ",True,"161","1","21","1",NULL
+"162",16,"الصفحة الرئيسية","homepage-iq-ar-app",2,21,1,"TANER.CEVHER","2025-09-12 13:50:24.195978","TANER.CEVHER","2026-03-26 11:57:16.783385",14,13,False,"الصفحة الرئيسية",False,"162","1","21","1",NULL
+"163",15,"النساء","women-iq-ar-app",1,21,1,"TANER.CEVHER","2025-09-12 13:50:40.012773","TANER.CEVHER","2026-03-26 11:57:16.783385",14,13,True,"النساء",False,"163","1","21","1",NULL
+"164",17,"الرجال","men-iq-ar-app",1,21,1,"TANER.CEVHER","2025-09-12 13:50:52.031069","TANER.CEVHER","2026-03-26 11:57:16.783385",14,13,False,"الرجال",False,"164","1","21","1",NULL
+"165",18,"الأطفال و الرضع ","kids-baby-iq-ar-app",2,21,1,"TANER.CEVHER","2025-09-12 13:51:11.556394","TANER.CEVHER","2026-03-26 11:57:16.783385",14,13,False,"الأطفال و الرضع ",False,"165","2","21","1",NULL
+"166",24,"منطقة العروض ","deal-zone-iq-ar-app",2,21,1,"TANER.CEVHER","2025-09-12 13:51:24.769912","","2026-06-11 07:45:55.324",14,13,False,"منطقة العروض ",True,"166","1","21","1",NULL
+"167",16,"لاپەڕەی سەرەکی","homepage-iq-ku-app",2,21,1,"TANER.CEVHER","2025-09-12 13:52:03.395049","TANER.CEVHER","2026-03-26 11:57:16.783392",13,13,False,"لاپەڕەی سەرەکی",False,"167","1","21","1",NULL
+"168",15,"ئافرەتان","women-iq-ku-app",1,21,1,"TANER.CEVHER","2025-09-12 13:52:16.487843","TANER.CEVHER","2026-03-26 11:57:16.78339",13,13,True,"ئافرەتان",False,"168","1","21","1",NULL
+"169",17,"پیاوان","men-iq-ku-app",1,21,1,"TANER.CEVHER","2025-09-12 13:52:29.34595","TANER.CEVHER","2026-03-26 11:57:16.78339",13,13,False,"پیاوان",False,"169","1","21","1",NULL
+"170",18,"منداڵان& کۆرپە","kids-baby-iq-ku-app",2,21,1,"TANER.CEVHER","2025-09-12 13:52:43.384569","TANER.CEVHER","2026-03-26 11:57:16.78339",13,13,False,"منداڵان& کۆرپە",False,"170","2","21","1",NULL
+"171",25,"شوێنی داشکاندنەکان","deal-zone-iq-ku-app",2,21,1,"TANER.CEVHER","2025-09-12 13:53:06.538572","","2026-06-11 07:45:43.690201",13,13,False,"شوێنی داشکاندنەکان",True,"171","1","21","1",NULL
+"172",121,"Homepage","hp-gr-ge-app",3,21,1,"YUNUS.AYAN","2025-09-16 12:56:07.234853","TANER.CEVHER","2026-03-26 11:57:16.783391",23,35,False,"Homepage",False,"172","3","21","1",NULL
+"173",112,"Homepage","hp-gr-en-app",3,21,1,"YUNUS.AYAN","2025-09-16 13:03:24.319469","TANER.CEVHER","2026-03-26 11:57:16.783391",2,35,False,"Homepage",False,"173","3","21","1",NULL
+"174",190,"homepage","hp-ru-en-app",1,21,1,"YUNUS.AYAN","2025-09-16 13:26:17.15742","TANER.CEVHER","2026-03-26 11:57:16.783391",2,9,False,"homepage",False,"174","1","21","1",NULL
+"175",258,"homepage","ru-en-web",2,1,0,"YUNUS.AYAN","2025-09-16 13:26:33.537658","MACIT.ISIK","2026-06-09 07:00:37.476096",2,9,False,"homepage",False,"175","2","1","0",NULL
+"176",259,"Women","women",3,1,0,"YUNUS.AYAN","2025-09-17 11:08:45.87779","MACIT.ISIK","2026-06-09 07:00:37.476138",2,8,False,"Women",False,"176","3","1","0",NULL
+"177",18,"Girls","girls-rs-en",1,1,0,"TANER.CEVHER","2025-09-22 05:25:26.149774","MACIT.ISIK","2026-06-09 07:00:37.476138",2,125,False,"Girls",False,"177","1","1","0",NULL
+"178",19,"Boys","boys-rsen",1,1,0,"TANER.CEVHER","2025-09-22 05:25:40.201773","MACIT.ISIK","2026-06-09 07:00:37.47614",2,125,False,"Boys",False,"178","1","1","0",NULL
+"179",20,"Baby","baby-rsen",1,1,0,"TANER.CEVHER","2025-09-22 05:25:55.279191","MACIT.ISIK","2026-06-09 07:00:37.476118",2,125,False,"Baby",False,"179","1","1","0",NULL
+"180",7,"DEVOJČICE","girls-rs",1,1,0,"TANER.CEVHER","2025-09-22 05:27:28.689285","MACIT.ISIK","2026-06-09 07:00:37.476084",9,125,False,"DEVOJČICE",False,"180","1","1","0",NULL
+"181",8,"DEČACI","boys-rs",1,1,0,"TANER.CEVHER","2025-09-22 05:27:50.792773","MACIT.ISIK","2026-06-09 07:00:37.476084",9,125,False,"DEČACI",False,"181","1","1","0",NULL
+"182",9,"BEBA","baby-rs",1,1,0,"TANER.CEVHER","2025-09-22 05:28:04.078069","MACIT.ISIK","2026-06-09 07:00:37.476084",9,125,False,"BEBA",False,"182","1","1","0",NULL
+"183",18,"Girls","girls-roen",1,1,0,"TANER.CEVHER","2025-09-22 05:28:33.402544","MACIT.ISIK","2026-06-09 07:00:37.476083",2,50,False,"GIRLS",False,"183","1","1","0",NULL
+"184",19,"Boys","boys-roen",1,1,0,"TANER.CEVHER","2025-09-22 05:28:46.609986","MACIT.ISIK","2026-06-09 07:00:37.476083",2,50,False,"BOYS",False,"184","1","1","0",NULL
+"185",20,"Baby","baby-roen",1,1,0,"TANER.CEVHER","2025-09-22 05:28:59.414464","MACIT.ISIK","2026-06-09 07:00:37.476084",2,50,False,"BABY",False,"185","1","1","0",NULL
+"186",18,"FETE","girls-ro",1,1,0,"TANER.CEVHER","2025-09-22 05:29:18.235404","MACIT.ISIK","2026-06-09 07:00:37.476084",7,50,False,"FETE",False,"186","1","1","0",NULL
+"187",19,"BĂIEȚI","boys-ro",1,1,0,"TANER.CEVHER","2025-09-22 05:29:29.180413","MACIT.ISIK","2026-06-09 07:00:37.476085",7,50,False,"BĂIEȚI",False,"187","1","1","0",NULL
+"188",20,"BEBELUȘI","baby-ro",1,1,0,"TANER.CEVHER","2025-09-22 05:29:40.344648","MACIT.ISIK","2026-06-09 07:00:37.476085",7,50,False,"BEBELUȘI",False,"188","1","1","0",NULL
+"189",124,"Girls","girls-egen",1,1,0,"TANER.CEVHER","2025-09-22 05:30:06.296296","MACIT.ISIK","2026-06-09 07:00:37.476082",2,8,False,"Girls",False,"189","1","1","0",NULL
+"190",125,"Boys","boys-egen",1,1,0,"TANER.CEVHER","2025-09-22 05:30:16.738174","MACIT.ISIK","2026-06-09 07:00:37.476082",2,8,False,"Boys",False,"190","1","1","0",NULL
+"191",126,"Baby","baby-egen",1,1,0,"TANER.CEVHER","2025-09-22 05:30:27.573632","MACIT.ISIK","2026-06-09 07:00:37.476082",2,8,False,"Baby",False,"191","1","1","0",NULL
+"192",19,"بنات","girls-eg",1,1,0,"TANER.CEVHER","2025-09-22 05:31:09.842431","MACIT.ISIK","2026-06-09 07:00:37.476082",12,8,False,"بنات",False,"192","1","1","0",NULL
+"193",20,"أولاد","boys-eg",1,1,0,"TANER.CEVHER","2025-09-22 05:31:24.990743","MACIT.ISIK","2026-06-09 07:00:37.476083",12,8,False,"أولاد",False,"193","1","1","0",NULL
+"194",21,"رضع","baby-eg",1,1,0,"TANER.CEVHER","2025-09-22 05:31:36.531627","MACIT.ISIK","2026-06-09 07:00:37.476118",12,8,False,"رضع",False,"194","1","1","0",NULL
+"195",100,"Anasayfa","def-anasayfa",3,21,1,"YUNUS.AYAN","2025-09-23 06:30:56.747496","TANER.CEVHER","2026-03-26 11:57:16.783391",5,24,False,"Anasayfa",False,"195","1","21","1",NULL
+"196",102,"Erkek","erkek",3,21,1,"YUNUS.AYAN","2025-09-23 06:31:13.197292","TANER.CEVHER","2026-03-26 11:57:16.783391",5,24,False,"Erkek",False,"196","2","21","1",NULL
+"197",103,"Kadın","kadin",3,21,1,"YUNUS.AYAN","2025-09-23 06:31:25.810656","TANER.CEVHER","2026-03-26 11:57:16.783392",5,24,False,"Kadın",True,"197","2","21","1",NULL
+"198",104,"bebek","bebek",3,21,1,"YUNUS.AYAN","2025-09-23 06:31:38.407291","TANER.CEVHER","2026-03-26 11:57:16.783392",5,24,False,"Bebek",False,"198","2","21","1",NULL
+"199",105,"Fırsatlar","firsatlar",3,21,1,"YUNUS.AYAN","2025-09-23 06:31:52.864305","TANER.CEVHER","2026-03-26 11:57:16.783392",5,24,False,"Fırsatlar",True,"199","2","21","1",NULL
+"200",127,"Anasayfa","anasayfa",3,1,0,"YUNUS.AYAN","2025-09-23 06:35:01.435721","MACIT.ISIK","2026-06-09 07:00:37.476105",5,24,False,"Anasayfa",False,"200","3","1","0",NULL
+"201",16,"ГОЛОВНА СТОРІНКА","homepage-ua",2,1,0,"TANER.CEVHER","2025-09-23 08:13:30.806967","MACIT.ISIK","2026-06-09 07:00:37.476105",5,24,False,"ГОЛОВНА СТОРІНКА",False,"201","1","1","0",NULL
+"202",15,"ЖІНКАМ","women-ua",1,1,0,"TANER.CEVHER","2025-09-23 08:13:46.074046","MACIT.ISIK","2026-06-09 07:00:37.476118",5,24,True,"ЖІНКАМ",False,"202","2","1","0",NULL
+"203",17,"ЧОЛОВІКАМ","men-ua",1,1,0,"TANER.CEVHER","2025-09-23 08:14:26.337144","MACIT.ISIK","2026-06-09 07:00:37.476119",5,24,False,"ЧОЛОВІКАМ",False,"203","2","1","0",NULL
+"204",18,"ДІВЧАТАМ","girls-ua",1,1,0,"TANER.CEVHER","2025-09-23 08:15:09.640379","MACIT.ISIK","2026-06-09 07:00:37.476119",5,24,False,"ДІВЧАТАМ",False,"204","2","1","0",NULL
+"205",19,"ХЛОПЧИКАМ","boys-ua",1,1,0,"TANER.CEVHER","2025-09-23 08:15:31.949057","MACIT.ISIK","2026-06-09 07:00:37.476119",5,24,False,"ХЛОПЧИКАМ",False,"205","2","1","0",NULL
+"206",20,"МАЛЮКАМ","baby-ua",1,1,0,"TANER.CEVHER","2025-09-23 08:15:47.251678","MACIT.ISIK","2026-06-09 07:00:37.476119",5,24,False,"МАЛЮКАМ",False,"206","2","1","0",NULL
+"207",16,"ГЛАВНАЯ СТРАНИЦА","homepage-uaru",2,1,0,"TANER.CEVHER","2025-09-23 11:06:51.347836","MACIT.ISIK","2026-06-09 07:00:37.47612",3,24,False,"ГЛАВНАЯ СТРАНИЦА",False,"207","1","1","0",NULL
+"208",15,"ЖЕНЩИНАМ","women-uaru",1,1,0,"TANER.CEVHER","2025-09-23 11:07:01.817553","MACIT.ISIK","2026-06-09 07:00:37.47612",3,24,True,"ЖЕНЩИНАМ",False,"208","2","1","0",NULL
+"209",17,"МУЖЧИНАМ","men-uaru",1,1,0,"TANER.CEVHER","2025-09-23 11:07:13.065925","MACIT.ISIK","2026-06-09 07:00:37.47612",3,24,False,"МУЖЧИНАМ",False,"209","2","1","0",NULL
+"210",22,"ПОСТІЙНІ ЗНИЖКИ ","dealzone-ua",2,1,0,"TANER.CEVHER","2025-09-23 11:07:56.199175","","2026-06-11 09:01:21.869025",5,24,False,"ПОСТІЙНІ ЗНИЖКИ ",True,"210","2","1","0",NULL
+"211",18,"ДЕВОЧКАМ","girls-uaru",1,1,0,"TANER.CEVHER","2025-09-23 11:08:23.468244","MACIT.ISIK","2026-06-09 07:00:37.47612",3,24,False,"ДЕВОЧКАМ",False,"211","2","1","0",NULL
+"212",19,"МАЛЬЧИКАМ","boys-uaru",1,1,0,"TANER.CEVHER","2025-09-23 11:08:40.361019","MACIT.ISIK","2026-06-09 07:00:37.47612",3,24,False,"МАЛЬЧИКАМ",False,"212","2","1","0",NULL
+"213",20,"МАЛЫШАМ","baby-uaru",1,1,0,"TANER.CEVHER","2025-09-23 11:08:58.776156","MACIT.ISIK","2026-06-09 07:00:37.476121",3,24,False,"МАЛЫШАМ",False,"213","2","1","0",NULL
+"214",22,"ПОСТОЯННЫЕ СКИДКИ","dealzone-uaru",2,1,0,"TANER.CEVHER","2025-09-23 11:09:17.540971","","2026-06-11 09:01:46.676952",3,24,False,"ПОСТОЯННЫЕ СКИДКИ",True,"214","2","1","0",NULL
+"215",11,"HOMEPAGE","homepage-gren-app",2,21,1,"TANER.CEVHER","2025-09-23 11:36:52.102602","TANER.CEVHER","2026-03-26 11:57:16.783392",2,35,False,"HOMEPAGE",False,"215","1","21","1",NULL
+"216",197,"WOMEN","deleted-women-gren-app",3,21,1,"TANER.CEVHER","2025-09-23 11:37:04.760542","TANER.CEVHER","2026-03-26 11:57:16.783392",2,35,False,"WOMEN",False,"216","3","21","1",NULL
+"217",9,"ΑΡΧΙΚΗ ΣΕΛΙΔΑ","homepage-gr-app",2,21,1,"TANER.CEVHER","2025-09-23 11:37:28.48148","TANER.CEVHER","2026-03-26 11:57:16.783392",23,35,False,"ΑΡΧΙΚΗ ΣΕΛΙΔΑ",False,"217","1","21","1",NULL
+"218",16,"الصفحة الرئيسية","homepage-maar-app",2,21,1,"TANER.CEVHER","2025-09-25 10:45:33.673567","TANER.CEVHER","2026-03-26 11:57:16.783392",15,16,False,"الصفحة الرئيسية",False,"218","1","21","1",NULL
+"219",16,"PAGE D'ACCUEIL","homepage-mafr-app",2,21,1,"TANER.CEVHER","2025-09-25 10:45:59.042395","TANER.CEVHER","2026-03-26 11:57:16.783392",10,16,False,"PAGE D'ACCUEIL",False,"219","1","21","1",NULL
+"220",16,"HOMEPAGE","homepage-maen-app",2,21,1,"TANER.CEVHER","2025-09-25 10:46:17.488599","TANER.CEVHER","2026-03-26 11:57:16.783392",2,16,False,"HOMEPAGE",False,"220","1","21","1",NULL
+"221",15,"ГОЛОВНА СТОРІНКА","homepage-ua-app",2,21,1,"TANER.CEVHER","2025-09-25 10:49:02.380851","TANER.CEVHER","2026-03-26 11:57:16.783393",5,24,False,"ГОЛОВНА СТОРІНКА",False,"221","2","21","1",NULL
+"222",15,"ГЛАВНАЯ СТРАНИЦА","homepage-uaru-app",2,21,1,"TANER.CEVHER","2025-09-25 10:49:24.331233","TANER.CEVHER","2026-03-26 11:57:16.783393",3,24,False,"ГЛАВНАЯ СТРАНИЦА",True,"222","2","21","1",NULL
+"223",291,"GIRLS","girls-roen-app",3,1,0,"TANER.CEVHER","2025-09-26 07:57:42.66184","MACIT.ISIK","2026-06-09 07:00:37.476121",2,50,False,"GIRLS",False,"223","3","1","0",NULL
+"224",18,"Girls","girls-roen-app",1,21,1,"TANER.CEVHER","2025-09-26 07:57:59.337321","TANER.CEVHER","2026-03-26 11:57:16.783393",2,50,False,"Girls",False,"224","1","21","1",NULL
+"225",19,"Boys","boys-roen-app",1,21,1,"TANER.CEVHER","2025-09-26 07:58:09.716347","TANER.CEVHER","2026-03-26 11:57:16.783393",2,50,False,"Boys",False,"225","1","21","1",NULL
+"226",20,"Baby","baby-roen-app",1,21,1,"TANER.CEVHER","2025-09-26 07:58:25.085754","TANER.CEVHER","2026-03-26 11:57:16.783393",2,50,False,"Baby",False,"226","1","21","1",NULL
+"227",18,"FETE","girls-ro-app",1,21,1,"TANER.CEVHER","2025-09-26 07:59:00.339345","TANER.CEVHER","2026-03-26 11:57:16.783393",7,50,False,"FETE",False,"227","1","21","1",NULL
+"228",19,"BĂIEȚI","boys-ro-app",1,21,1,"TANER.CEVHER","2025-09-26 07:59:14.43247","TANER.CEVHER","2026-03-26 11:57:16.783393",7,50,False,"BĂIEȚI",False,"228","1","21","1",NULL
+"229",20,"BEBELUȘI","baby-ro-app",1,21,1,"TANER.CEVHER","2025-09-26 07:59:28.10325","TANER.CEVHER","2026-03-26 11:57:16.783393",7,50,False,"BEBELUȘI",False,"229","1","21","1",NULL
+"230",19,"DEVOJČICE","girls-rs-app",1,21,1,"TANER.CEVHER","2025-09-26 08:00:11.969114","TANER.CEVHER","2026-03-26 11:57:16.783393",9,125,False,"DEVOJČICE",False,"230","1","21","1",NULL
+"231",20,"DEČACI","boys-rs-app",1,21,1,"TANER.CEVHER","2025-09-26 08:00:22.74127","TANER.CEVHER","2026-03-26 11:57:16.783393",9,125,False,"DEČACI",False,"231","1","21","1",NULL
+"232",21,"BEBA","baby-rs-app",1,21,1,"TANER.CEVHER","2025-09-26 08:00:33.450887","TANER.CEVHER","2026-03-26 11:57:16.783375",9,125,False,"BEBA",False,"232","1","21","1",NULL
+"233",18,"Girls","girls-rsen-app",1,21,1,"TANER.CEVHER","2025-09-26 08:01:11.244212","TANER.CEVHER","2026-03-26 11:57:16.783375",2,125,False,"Girls",False,"233","1","21","1",NULL
+"234",19,"Boys","boys-rsen-app",1,21,1,"TANER.CEVHER","2025-09-26 08:01:25.720466","TANER.CEVHER","2026-03-26 11:57:16.783375",2,125,False,"Boys",False,"234","1","21","1",NULL
+"235",20,"Baby","baby-rsen-app",1,21,1,"TANER.CEVHER","2025-09-26 08:01:38.375506","TANER.CEVHER","2026-03-26 11:57:16.783376",2,125,False,"Baby",False,"235","1","21","1",NULL
+"236",19,"Girls","girls-egen-app",1,21,1,"TANER.CEVHER","2025-09-26 08:03:04.630539","TANER.CEVHER","2026-03-26 11:57:16.783394",2,8,False,"Girls",False,"236","1","21","1",NULL
+"237",20,"Boys","boys-egen-app",1,21,1,"TANER.CEVHER","2025-09-26 08:03:16.753161","TANER.CEVHER","2026-03-26 11:57:16.783394",2,8,False,"Boys",False,"237","1","21","1",NULL
+"238",21,"Baby","baby-egen-app",1,21,1,"TANER.CEVHER","2025-09-26 08:03:30.200546","TANER.CEVHER","2026-03-26 11:57:16.783394",2,8,False,"Baby",False,"238","1","21","1",NULL
+"239",19,"بنات","girls-eg-app",1,21,1,"TANER.CEVHER","2025-09-26 08:03:54.686942","TANER.CEVHER","2026-03-26 11:57:16.783394",12,8,False,"بنات",False,"239","1","21","1",NULL
+"240",20,"أولاد","boys-eg-app",1,21,1,"TANER.CEVHER","2025-09-26 08:04:06.061868","TANER.CEVHER","2026-03-26 11:57:16.783396",12,8,False,"أولاد",False,"240","1","21","1",NULL
+"241",21,"رضع","baby-eg-app",1,21,1,"TANER.CEVHER","2025-09-26 08:04:16.10437","TANER.CEVHER","2026-03-26 11:57:16.783361",12,8,False,"رضع",False,"241","1","21","1",NULL
+"242",10,"WOMEN","women-gren-app2",2,21,1,"TANER.CEVHER","2025-10-01 08:51:31.944194","TANER.CEVHER","2026-03-26 11:57:16.783394",2,35,False,"WOMEN",False,"242","2","21","1",NULL
+"243",9,"MEN","men-gren-app",1,21,1,"TANER.CEVHER","2025-10-01 08:51:50.162185","TANER.CEVHER","2026-03-26 11:57:16.783394",2,35,False,"MEN",False,"243","2","21","1",NULL
+"244",109,"KIDS & BABY","kids-baby-gren-app",3,21,1,"TANER.CEVHER","2025-10-01 08:52:15.950913","TANER.CEVHER","2026-03-26 11:57:16.783394",2,35,False,"KIDS & BABY",False,"244","2","21","1",NULL
+"245",17,"DEAL ZONE","deal-zone-gren-app",2,21,1,"TANER.CEVHER","2025-10-01 08:52:35.623992","","2026-06-11 11:17:22.311861",2,35,False,"DEAL ZONE",True,"245","2","21","1",NULL
+"246",12,"GIRLS","girls-gren-app",1,21,1,"TANER.CEVHER","2025-10-01 08:52:48.73407","TANER.CEVHER","2026-03-26 11:57:16.783386",2,35,False,"GIRLS",False,"246","2","21","1",NULL
+"247",13,"BOYS","boys-gren-app",1,21,1,"TANER.CEVHER","2025-10-01 08:53:07.812577","TANER.CEVHER","2026-03-26 11:57:16.783386",2,35,False,"BOYS",False,"247","2","21","1",NULL
+"248",14,"BABY","baby-gren-app",1,21,1,"TANER.CEVHER","2025-10-01 08:53:19.369136","TANER.CEVHER","2026-03-26 11:57:16.783386",2,35,False,"BABY",False,"248","2","21","1",NULL
+"249",8,"ΓΥΝΑΙΚΕΣ","women-gr-app",1,21,1,"TANER.CEVHER","2025-10-01 08:54:34.487162","TANER.CEVHER","2026-03-26 11:57:16.783386",23,35,True,"ΓΥΝΑΙΚΕΣ",False,"249","2","21","1",NULL
+"250",10,"ΑΝΔΡΕΣ","men-gr-app",1,21,1,"TANER.CEVHER","2025-10-01 08:54:46.056234","TANER.CEVHER","2026-03-26 11:57:16.783386",23,35,False,"ΑΝΔΡΕΣ",False,"250","2","21","1",NULL
+"251",218,"ΠΑΙΔΙΑ ΚΑΙ ΜΩΡΑ","kids-baby-gr-app",3,21,1,"TANER.CEVHER","2025-10-01 08:54:57.419934","TANER.CEVHER","2026-03-26 11:57:16.783386",23,35,False,"ΠΑΙΔΙΑ ΚΑΙ ΜΩΡΑ",False,"251","2","21","1",NULL
+"252",16,"ΖΩΝΗ ΣΥΝΑΛΛΑΓΩΝ","deal-zone-gr-app",2,21,1,"TANER.CEVHER","2025-10-01 08:55:09.075542","BETUL.SAGIR","2026-06-11 11:17:35.893216",23,35,False,"ΖΩΝΗ ΣΥΝΑΛΛΑΓΩΝ",True,"252","2","21","1",NULL
+"253",11,"ΚΟΡΙΤΣΙΑ","girls-gr-app",1,21,1,"TANER.CEVHER","2025-10-01 08:55:23.366173","TANER.CEVHER","2026-03-26 11:57:16.783387",23,35,False,"ΚΟΡΙΤΣΙΑ",False,"253","2","21","1",NULL
+"254",12,"ΑΓΟΡΙΑ","boys-gr-app",1,21,1,"TANER.CEVHER","2025-10-01 08:55:40.929057","TANER.CEVHER","2026-03-26 11:57:16.783387",23,35,False,"ΑΓΟΡΙΑ",False,"254","2","21","1",NULL
+"255",13,"ΜΩΡΑ","baby-gr-app",1,21,1,"TANER.CEVHER","2025-10-01 08:55:53.43138","TANER.CEVHER","2026-03-26 11:57:16.783387",23,35,False,"ΜΩΡΑ",False,"255","2","21","1",NULL
+"256",124,"GIRLS","girls-bgen",1,1,0,"TANER.CEVHER","2025-10-02 07:50:39.770217","MACIT.ISIK","2026-06-09 07:00:37.476121",2,52,False,"GIRLS",False,"256","1","1","0",NULL
+"257",125,"BOYS","boys-bgen",1,1,0,"TANER.CEVHER","2025-10-02 07:50:51.569738","MACIT.ISIK","2026-06-09 07:00:37.476121",2,52,False,"BOYS",False,"257","1","1","0",NULL
+"258",126,"BABY","baby-bgen",1,1,0,"TANER.CEVHER","2025-10-02 07:51:04.979141","MACIT.ISIK","2026-06-09 07:00:37.476088",2,52,False,"BABY",False,"258","1","1","0",NULL
+"259",12,"GIRLS","girls-bgen-app",1,21,1,"TANER.CEVHER","2025-10-02 07:51:25.221709","TANER.CEVHER","2026-03-26 11:57:16.783387",2,52,False,"GIRLS",False,"259","1","21","1",NULL
+"260",13,"BOYS","boys-bgen-app",1,21,1,"TANER.CEVHER","2025-10-02 07:51:42.680939","TANER.CEVHER","2026-03-26 11:57:16.783387",2,52,False,"BOYS",False,"260","1","21","1",NULL
+"261",14,"BABY","baby-bgen-app",1,21,1,"TANER.CEVHER","2025-10-02 07:51:54.022889","TANER.CEVHER","2026-03-26 11:57:16.783387",2,52,False,"BABY",False,"261","1","21","1",NULL
+"262",124,"МОМИЧЕТА","girls-bg",1,1,0,"TANER.CEVHER","2025-10-02 07:52:19.513466","MACIT.ISIK","2026-06-09 07:00:37.476088",11,52,False,"МОМИЧЕТА",False,"262","1","1","0",NULL
+"263",125,"МОМЧЕТА","boys-bg",1,1,0,"TANER.CEVHER","2025-10-02 07:52:32.583497","MACIT.ISIK","2026-06-09 07:00:37.476085",11,52,False,"МОМЧЕТА",False,"263","1","1","0",NULL
+"264",126,"БЕБЕТА","baby-bg",1,1,0,"TANER.CEVHER","2025-10-02 07:52:45.734994","MACIT.ISIK","2026-06-09 07:00:37.476086",11,52,False,"БЕБЕТА",False,"264","1","1","0",NULL
+"265",12,"МОМИЧЕТА","girls-bg-app",1,21,1,"TANER.CEVHER","2025-10-02 07:53:01.421869","TANER.CEVHER","2026-03-26 11:57:16.783388",11,52,False,"МОМИЧЕТА",False,"265","1","21","1",NULL
+"266",13,"МОМЧЕТА","boys-bg-app",1,21,1,"TANER.CEVHER","2025-10-02 07:53:13.611583","TANER.CEVHER","2026-03-26 11:57:16.783368",11,52,False,"МОМЧЕТА",False,"266","1","21","1",NULL
+"267",14,"БЕБЕТА","baby-bg-app",1,21,1,"TANER.CEVHER","2025-10-02 07:53:23.603835","TANER.CEVHER","2026-03-26 11:57:16.783369",11,52,False,"БЕБЕТА",False,"267","1","21","1",NULL
+"268",291,"GIRLS","girls-gren",1,1,0,"TANER.CEVHER","2025-10-03 13:39:44.673195","MACIT.ISIK","2026-06-09 07:00:37.476086",2,35,False,"GIRLS",False,"268","1","1","0",NULL
+"269",292,"BOYS","boys-gren",1,1,0,"TANER.CEVHER","2025-10-03 13:39:54.980355","MACIT.ISIK","2026-06-09 07:00:37.476086",2,35,False,"BOYS",False,"269","1","1","0",NULL
+"270",293,"BABY","baby-gren",1,1,0,"TANER.CEVHER","2025-10-03 13:40:04.208747","MACIT.ISIK","2026-06-09 07:00:37.476086",2,35,False,"BABY",False,"270","1","1","0",NULL
+"271",294,"ΚΟΡΙΤΣΙΑ","girls-gr",1,1,0,"TANER.CEVHER","2025-10-03 13:40:21.446145","MACIT.ISIK","2026-06-09 07:00:37.476086",23,35,False,"ΚΟΡΙΤΣΙΑ",False,"271","1","1","0",NULL
+"272",295,"ΑΓΟΡΙΑ","boys-gr",1,1,0,"TANER.CEVHER","2025-10-03 13:40:30.458349","MACIT.ISIK","2026-06-09 07:00:37.476086",23,35,False,"ΑΓΟΡΙΑ",False,"272","1","1","0",NULL
+"273",296,"ΜΩΡΑ","baby-gr",1,1,0,"TANER.CEVHER","2025-10-03 13:40:40.376371","MACIT.ISIK","2026-06-09 07:00:37.476086",23,35,False,"ΜΩΡΑ",False,"273","1","1","0",NULL
+"274",297,"Homepage","web-kz-homepage",2,1,0,"YUNUS.AYAN","2025-10-08 12:34:40.93394","MACIT.ISIK","2026-06-09 07:00:37.476086",2,10,False,"Homepage",False,"274","2","1","0",NULL
+"275",101,"Басты бет","app-kz-hp",3,21,1,"YUNUS.AYAN","2025-10-08 12:36:25.411446","TANER.CEVHER","2026-03-26 11:57:16.783369",6,10,False,"Homepage",False,"275","1","21","1",NULL
+"276",115,"Homepage","hp-web-kz",3,1,0,"YUNUS.AYAN","2025-10-08 12:41:28.074023","MACIT.ISIK","2026-06-09 07:00:37.476087",6,10,False,"Homepage",False,"276","1","1","0",NULL
+"277",19,"GIRLS","girls-maen",1,1,0,"TANER.CEVHER","2025-10-08 13:38:15.732215","MACIT.ISIK","2026-06-09 07:00:37.476121",2,16,False,"GIRLS",False,"277","1","1","0",NULL
+"278",20,"BOYS","boys-maen",1,1,0,"TANER.CEVHER","2025-10-08 13:38:24.879198","MACIT.ISIK","2026-06-09 07:00:37.476089",2,16,False,"BOYS",False,"278","1","1","0",NULL
+"279",21,"BABY","baby-maen",1,1,0,"TANER.CEVHER","2025-10-08 13:38:36.748535","MACIT.ISIK","2026-06-09 07:00:37.476089",2,16,False,"BABY",False,"279","1","1","0",NULL
+"280",19,"FILLES","girls-mafr",1,1,0,"TANER.CEVHER","2025-10-08 13:39:01.217836","MACIT.ISIK","2026-06-09 07:00:37.476089",10,16,False,"FILLES",False,"280","1","1","0",NULL
+"281",20,"GARÇONS","boys-mafr",1,1,0,"TANER.CEVHER","2025-10-08 13:39:11.609217","MACIT.ISIK","2026-06-09 07:00:37.476089",10,16,False,"GARÇONS",False,"281","1","1","0",NULL
+"282",21,"BÉBÉ","baby-mafr",1,1,0,"TANER.CEVHER","2025-10-08 13:39:21.4159","MACIT.ISIK","2026-06-09 07:00:37.476089",10,16,False,"BÉBÉ",False,"282","1","1","0",NULL
+"283",19,"بنات","girls-maar",1,1,0,"TANER.CEVHER","2025-10-08 13:39:44.962326","MACIT.ISIK","2026-06-09 07:00:37.476089",15,16,False,"بنات",False,"283","1","1","0",NULL
+"284",20,"أولاد","boys-maar",1,1,0,"TANER.CEVHER","2025-10-08 13:39:57.727879","MACIT.ISIK","2026-06-09 07:00:37.476089",15,16,False,"أولاد",False,"284","1","1","0",NULL
+"285",21,"رضع","baby-maar",1,1,0,"TANER.CEVHER","2025-10-08 13:40:07.0353","MACIT.ISIK","2026-06-09 07:00:37.47609",15,16,False,"رضع",False,"285","1","1","0",NULL
+"286",123,"FILLES","girls-fr",1,1,0,"TANER.CEVHER","2025-10-09 09:21:38.52207","MACIT.ISIK","2026-06-09 07:00:37.47609",10,27,False,"FILLES",False,"286","1","1","0",NULL
+"287",124,"GARÇONS","boys-fr",1,1,0,"TANER.CEVHER","2025-10-09 09:21:48.620248","MACIT.ISIK","2026-06-09 07:00:37.47609",10,27,False,"GARÇONS",False,"287","1","1","0",NULL
+"288",125,"BÉBÉ","baby-fr",1,1,0,"TANER.CEVHER","2025-10-09 09:21:57.928088","MACIT.ISIK","2026-06-09 07:00:37.476122",10,27,False,"BÉBÉ",False,"288","1","1","0",NULL
+"289",123,"KIZ ÇOCUK","girls-frtr",1,1,0,"TANER.CEVHER","2025-10-09 09:22:53.767682","MACIT.ISIK","2026-06-09 07:00:37.476122",1,27,False,"KIZ ÇOCUK",False,"289","1","1","0",NULL
+"290",124,"ERKEK ÇOCUK","boys-frtr",1,1,0,"TANER.CEVHER","2025-10-09 09:23:06.762479","MACIT.ISIK","2026-06-09 07:00:37.476122",1,27,False,"ERKEK ÇOCUK",False,"290","1","1","0",NULL
+"291",125,"BEBEK","baby-frtr",1,1,0,"TANER.CEVHER","2025-10-09 09:23:19.255879","MACIT.ISIK","2026-06-09 07:00:37.476122",1,27,False,"BEBEK",False,"291","1","1","0",NULL
+"292",123,"GIRLS","girls-it",1,1,0,"TANER.CEVHER","2025-10-09 09:39:56.722015","MACIT.ISIK","2026-06-09 07:00:37.476122",2,38,False,"GIRLS",False,"292","1","1","0","671"
+"293",124,"BOYS","boys-it",1,1,0,"TANER.CEVHER","2025-10-09 09:40:06.784929","MACIT.ISIK","2026-06-09 07:00:37.476122",2,38,False,"BOYS",False,"293","1","1","0","672"
+"294",125,"BABY","baby-it",1,1,0,"TANER.CEVHER","2025-10-09 09:40:18.956526","MACIT.ISIK","2026-06-09 07:00:37.476123",2,38,False,"BABY",False,"294","1","1","0","673"
+"295",19,"MÄDCHEN","girls-de",1,1,0,"TANER.CEVHER","2025-10-09 13:15:24.767859","MACIT.ISIK","2026-06-09 07:00:37.476123",4,25,False,"MÄDCHEN",False,"295","1","1","0",NULL
+"296",20,"JUNGEN","boys-de",1,1,0,"TANER.CEVHER","2025-10-09 13:15:34.209222","MACIT.ISIK","2026-06-09 07:00:37.476123",4,25,False,"JUNGEN",False,"296","1","1","0",NULL
+"297",21,"BABY","baby-de",1,1,0,"TANER.CEVHER","2025-10-09 13:15:42.231081","MACIT.ISIK","2026-06-09 07:00:37.476123",4,25,False,"BABY",False,"297","1","1","0",NULL
+"298",19,"KIZ ÇOCUK","girls-detr",1,1,0,"TANER.CEVHER","2025-10-09 13:16:09.696504","MACIT.ISIK","2026-06-09 07:00:37.476123",1,25,False,"KIZ ÇOCUK",False,"298","1","1","0",NULL
+"299",20,"ERKEK ÇOCUK","boys-detr",1,1,0,"TANER.CEVHER","2025-10-09 13:16:35.295976","MACIT.ISIK","2026-06-09 07:00:37.476123",1,25,False,"ERKEK ÇOCUK",False,"299","1","1","0",NULL
+"300",21,"BEBEK","baby-detr",1,1,0,"TANER.CEVHER","2025-10-09 13:16:52.5349","MACIT.ISIK","2026-06-09 07:00:37.476123",1,25,False,"BEBEK",False,"300","1","1","0",NULL
+"301",115,"Homepage","home",3,1,0,"SAFA.BALKI","2025-10-10 07:59:34.745135","MACIT.ISIK","2026-06-09 07:00:37.476108",3,10,False,"Homepage",False,"301","2","1","0",NULL
+"302",19,"Boys","boys-iq-en",1,1,0,"TANER.CEVHER","2025-10-13 13:19:31.557898","MACIT.ISIK","2026-06-09 07:00:37.476124",2,13,False,"Boys",False,"302","1","1","0",NULL
+"303",20,"Boys","boys-iq-en-app",1,21,1,"TANER.CEVHER","2025-10-13 13:19:57.207841","TANER.CEVHER","2026-03-26 11:57:16.783369",2,13,False,"Boys",False,"303","1","21","1",NULL
+"304",21,"أولاد","boys-iq-ar",1,1,0,"TANER.CEVHER","2025-10-13 13:20:27.667412","MACIT.ISIK","2026-06-09 07:00:37.476124",14,13,False,"أولاد",False,"304","1","1","0",NULL
+"305",20,"أولاد","boys-iq-ar-app",1,21,1,"TANER.CEVHER","2025-10-13 13:20:44.869534","TANER.CEVHER","2026-03-26 11:57:16.783369",14,13,False,"أولاد",False,"305","1","21","1",NULL
+"306",20,"کوڕان","boys-iq-ku",1,1,0,"TANER.CEVHER","2025-10-13 13:21:02.696044","MACIT.ISIK","2026-06-09 07:00:37.476101",13,13,False,"کوڕان",False,"306","1","1","0",NULL
+"307",20,"کوڕان","boys-iq-ku-app",1,21,1,"TANER.CEVHER","2025-10-13 13:21:14.203026","TANER.CEVHER","2026-03-26 11:57:16.783369",13,13,False,"کوڕان",False,"307","1","21","1",NULL
+"308",18,"Girls","girls-iq-en",1,1,0,"TANER.CEVHER","2025-10-14 10:24:08.105068","MACIT.ISIK","2026-06-09 07:00:37.476102",2,13,False,"Girls",False,"308","1","1","0",NULL
+"309",20,"Baby","baby-iq-en",1,1,0,"TANER.CEVHER","2025-10-14 10:24:29.84779","MACIT.ISIK","2026-06-09 07:00:37.476099",2,13,False,"Baby",False,"309","1","1","0",NULL
+"310",19,"Girls","girls-iq-en-app",1,21,1,"TANER.CEVHER","2025-10-14 10:24:54.622437","TANER.CEVHER","2026-03-26 11:57:16.783369",2,13,False,"Girls",False,"310","1","21","1",NULL
+"311",21,"Baby","baby-iq-en-app",1,21,1,"TANER.CEVHER","2025-10-14 10:25:11.084226","TANER.CEVHER","2026-03-26 11:57:16.783367",2,13,False,"Baby",False,"311","1","21","1",NULL
+"312",20,"بنات","girls-iq-ar",1,1,0,"TANER.CEVHER","2025-10-14 10:25:35.786824","MACIT.ISIK","2026-06-09 07:00:37.476099",14,13,False,"بنات",False,"312","1","1","0",NULL
+"313",22,"رضع","baby-iq-ar",1,1,0,"TANER.CEVHER","2025-10-14 10:25:51.032865","MACIT.ISIK","2026-06-09 07:00:37.476099",14,13,False,"رضع",False,"313","1","1","0",NULL
+"314",21,"رضع","baby-iq-ar-app",1,21,1,"TANER.CEVHER","2025-10-14 10:26:10.189814","TANER.CEVHER","2026-03-26 11:57:16.783368",14,13,False,"رضع",False,"314","1","21","1",NULL
+"315",19,"بنات","girls-iq-ar-app",1,21,1,"TANER.CEVHER","2025-10-14 10:26:25.954335","TANER.CEVHER","2026-03-26 11:57:16.783368",14,13,False,"بنات",False,"315","1","21","1",NULL
+"316",19,"کچان","girls-iq-ku",1,1,0,"TANER.CEVHER","2025-10-14 10:26:57.853829","MACIT.ISIK","2026-06-09 07:00:37.476099",13,13,False,"کچان",False,"316","1","1","0",NULL
+"317",19,"کچان","girls-iq-ku-app",1,21,1,"TANER.CEVHER","2025-10-14 10:27:13.371816","TANER.CEVHER","2026-03-26 11:57:16.783368",13,13,False,"کچان",False,"317","1","21","1",NULL
+"318",21,"کۆرپە","baby-iq-ku-app",1,21,1,"TANER.CEVHER","2025-10-14 10:28:01.378933","TANER.CEVHER","2026-03-26 11:57:16.783368",13,13,False,"کۆرپە",False,"318","1","21","1",NULL
+"319",21,"کۆرپە","baby-iq-ku",1,1,0,"TANER.CEVHER","2025-10-14 10:28:28.187112","MACIT.ISIK","2026-06-09 07:00:37.4761",13,13,False,"کۆرپە",False,"319","1","1","0",NULL
+"320",22,"App-HP1","app-hp1",2,21,1,"KUBRA.KILIC","2025-10-22 20:10:30.223462","TANER.CEVHER","2026-03-26 11:57:16.783365",1,1,False,"App-HP1",False,NULL,NULL,NULL,NULL,NULL
+"321",21,"App-HP2","app-hp2",2,21,1,"KUBRA.KILIC","2025-10-22 20:22:23.651702","TANER.CEVHER","2026-03-26 11:57:16.783368",1,1,False,"App-HP2",False,NULL,NULL,NULL,NULL,NULL
+"322",118,"KZ-HP","kz-homepage1",3,1,0,"KUBRA.KILIC","2025-10-22 22:29:28.098258","MACIT.ISIK","2026-06-09 07:00:37.4761",6,10,False,"KZ-HP",False,NULL,NULL,NULL,NULL,NULL
+"323",304,"KZ-HP2","pilot-kz2-hp",3,1,0,"KUBRA.KILIC","2025-10-22 22:52:48.044372","MACIT.ISIK","2026-06-09 07:00:37.4761",6,10,False,"KZ-HP2",False,NULL,NULL,NULL,NULL,NULL
+"324",305,"KZ-HP3","pilot-kz3-hp",3,1,0,"KUBRA.KILIC","2025-10-22 23:01:56.029152","MACIT.ISIK","2026-06-09 07:00:37.4761",6,10,False,"KZ-HP3",False,NULL,NULL,NULL,NULL,NULL
+"325",306,"KZ-HP4","pilot-kz4-hp",3,1,0,"KUBRA.KILIC","2025-10-22 23:04:48.992212","MACIT.ISIK","2026-06-09 07:00:37.4761",6,10,False,"KZ-HP4",False,NULL,NULL,NULL,NULL,NULL
+"326",17,"iq-hp1","iq-hp1-test",2,1,0,"KUBRA.KILIC","2025-10-22 23:31:14.115367","MACIT.ISIK","2026-06-09 07:00:37.4761",14,13,False,"iq-hp1",False,NULL,NULL,NULL,NULL,NULL
+"327",107,"БАСТЫ БЕТ","homepage-kz",2,1,0,"TANER.CEVHER","2025-10-23 12:15:36.121197","MACIT.ISIK","2026-06-09 07:00:37.476124",6,10,False,"БАСТЫ БЕТ",False,NULL,NULL,NULL,NULL,NULL
+"328",51,"ӘЙЕЛДЕР","women-kz",1,1,0,"TANER.CEVHER","2025-10-23 12:15:46.33588","MACIT.ISIK","2026-06-09 07:00:37.476109",6,10,True,"ӘЙЕЛДЕР",False,NULL,NULL,NULL,NULL,NULL
+"329",109,"ЕРЛЕР","men-kz",1,1,0,"TANER.CEVHER","2025-10-23 12:15:57.422185","MACIT.ISIK","2026-06-09 07:00:37.476107",6,10,False,"ЕРЛЕР",False,NULL,NULL,NULL,NULL,NULL
+"330",110,"ҚЫЗДАР","girls-kz",1,1,0,"TANER.CEVHER","2025-10-23 12:16:19.318637","MACIT.ISIK","2026-06-09 07:00:37.476107",6,10,False,"ҚЫЗДАР",False,NULL,NULL,NULL,NULL,NULL
+"331",111,"ҰЛДАР","boys-kz",1,1,0,"TANER.CEVHER","2025-10-23 12:16:29.239191","MACIT.ISIK","2026-06-09 07:00:37.476108",6,10,False,"ҰЛДАР",False,NULL,NULL,NULL,NULL,NULL
+"332",112,"СӘБИЛЕР","baby-kz",1,1,0,"TANER.CEVHER","2025-10-23 12:16:38.480572","MACIT.ISIK","2026-06-09 07:00:37.476108",6,10,False,"СӘБИЛЕР",False,NULL,NULL,NULL,NULL,NULL
+"333",15,"БАСТЫ БЕТ","homepage-kz-app",2,21,1,"TANER.CEVHER","2025-10-23 12:17:03.829036","TANER.CEVHER","2026-03-26 11:57:16.783383",6,10,False,"БАСТЫ БЕТ",False,NULL,NULL,NULL,NULL,NULL
+"334",14,"ӘЙЕЛДЕР","women-kz-app",1,21,1,"TANER.CEVHER","2025-10-23 12:17:11.977026","TANER.CEVHER","2026-03-26 11:57:16.783383",6,10,True,"ӘЙЕЛДЕР",False,NULL,NULL,NULL,NULL,NULL
+"335",16,"ЕРЛЕР","men-kz-app",1,21,1,"TANER.CEVHER","2025-10-23 12:17:20.245349","TANER.CEVHER","2026-03-26 11:57:16.783381",6,10,False,"ЕРЛЕР",False,NULL,NULL,NULL,NULL,NULL
+"336",17,"ҚЫЗДАР","girls-kz-app",1,21,1,"TANER.CEVHER","2025-10-23 12:17:29.163609","TANER.CEVHER","2026-03-26 11:57:16.783384",6,10,False,"ҚЫЗДАР",False,NULL,NULL,NULL,NULL,NULL
+"337",18,"ҰЛДАР","boys-kz-app",1,21,1,"TANER.CEVHER","2025-10-23 12:17:37.261186","TANER.CEVHER","2026-03-26 11:57:16.783384",6,10,False,"ҰЛДАР",False,NULL,NULL,NULL,NULL,NULL
+"338",19,"СӘБИЛЕР","baby-kz-app",1,21,1,"TANER.CEVHER","2025-10-23 12:17:45.689554","TANER.CEVHER","2026-03-26 11:57:16.783381",6,10,False,"СӘБИЛЕР",False,NULL,NULL,NULL,NULL,NULL
+"339",107,"Главная","homepage-kzru",2,1,0,"TANER.CEVHER","2025-10-23 12:18:08.206886","MACIT.ISIK","2026-06-09 07:00:37.476109",3,10,False,"Главная",True,NULL,NULL,NULL,NULL,NULL
+"340",52,"ЖЕНЩИНЫ","women-kzru",1,1,0,"TANER.CEVHER","2025-10-23 12:18:20.21246","MACIT.ISIK","2026-06-09 07:00:37.476108",3,10,True,"ЖЕНЩИНЫ",False,NULL,NULL,NULL,NULL,NULL
+"341",109,"МУЖЧИНЫ","men-kzru",1,1,0,"TANER.CEVHER","2025-10-23 12:18:27.545041","MACIT.ISIK","2026-06-09 07:00:37.476108",3,10,False,"МУЖЧИНЫ",False,NULL,NULL,NULL,NULL,NULL
+"342",110,"ҚЫЗДАР","girls-kzru",1,1,0,"TANER.CEVHER","2025-10-23 12:18:39.6668","MACIT.ISIK","2026-06-09 07:00:37.476105",3,10,False,"ҚЫЗДАР",False,NULL,NULL,NULL,NULL,NULL
+"343",111,"ҰЛДАР","boys-kzru",1,1,0,"TANER.CEVHER","2025-10-23 12:18:51.016179","MACIT.ISIK","2026-06-09 07:00:37.476106",3,10,False,"ҰЛДАР",False,NULL,NULL,NULL,NULL,NULL
+"344",112,"СӘБИЛЕР","baby-kzru",1,1,0,"TANER.CEVHER","2025-10-23 12:18:58.519549","MACIT.ISIK","2026-06-09 07:00:37.476106",3,10,False,"СӘБИЛЕР",False,NULL,NULL,NULL,NULL,NULL
+"345",9,"ГЛАВНАЯ","homepage-kzru-app",2,21,1,"TANER.CEVHER","2025-10-23 12:19:13.700852","TANER.CEVHER","2026-03-26 11:57:16.783381",3,10,False,"ГЛАВНАЯ",False,NULL,NULL,NULL,NULL,NULL
+"346",8,"ЖЕНЩИНЫ","women-kzru-app",1,21,1,"TANER.CEVHER","2025-10-23 12:19:30.16294","TANER.CEVHER","2026-03-26 11:57:16.783382",3,10,True,"ЖЕНЩИНЫ",False,NULL,NULL,NULL,NULL,NULL
+"347",10,"МУЖЧИНЫ","men-kzru-app",1,21,1,"TANER.CEVHER","2025-10-23 12:19:41.164009","TANER.CEVHER","2026-03-26 11:57:16.783384",3,10,False,"МУЖЧИНЫ",False,NULL,NULL,NULL,NULL,NULL
+"348",11,"ДЕВОЧКИ","girls-kzru-app",1,21,1,"TANER.CEVHER","2025-10-23 12:19:52.432315","TANER.CEVHER","2026-03-26 11:57:16.783382",3,10,False,"ДЕВОЧКИ",False,NULL,NULL,NULL,NULL,NULL
+"349",12,"МАЛЬЧИКИ","boys-kzru-app",1,21,1,"TANER.CEVHER","2025-10-23 12:20:01.419501","TANER.CEVHER","2026-03-26 11:57:16.783384",3,10,False,"МАЛЬЧИКИ",False,NULL,NULL,NULL,NULL,NULL
+"350",13,"МАЛЫШИ","baby-kzru-app",1,21,1,"TANER.CEVHER","2025-10-23 12:20:08.721514","TANER.CEVHER","2026-03-26 11:57:16.783384",3,10,False,"МАЛЫШИ",False,NULL,NULL,NULL,NULL,NULL
+"351",78,"Распродажа %","dealzone-kzru",2,1,0,"TANER.CEVHER","2025-10-23 12:27:03.484406","","2026-06-11 09:02:44.942086",3,10,False,"Распродажа %",True,NULL,NULL,NULL,NULL,NULL
+"352",16,"РАСПРОДАЖА %","dealzone-kzru-app",2,21,1,"TANER.CEVHER","2025-10-23 12:27:22.125428","","2026-06-11 09:02:30.778538",3,10,False,"РАСПРОДАЖА %",True,NULL,NULL,NULL,NULL,NULL
+"353",21,"Жаппай сатылым %","dealzone-kz-app",2,21,1,"TANER.CEVHER","2025-10-23 12:27:40.532728","","2026-06-11 09:03:00.68513",6,10,False,"Жаппай сатылым %",True,NULL,NULL,NULL,NULL,NULL
+"354",77,"ЖАППАЙ САТЫЛЫМ %","dealzone-kz",2,1,0,"TANER.CEVHER","2025-10-23 12:28:17.430111","","2026-06-11 09:02:52.501934",6,10,False,"ЖАППАЙ САТЫЛЫМ %",True,NULL,NULL,NULL,NULL,NULL
+"355",16,"NASLOVNİCA","homepage-cr",2,1,0,"YUNUS.AYAN","2025-10-24 07:34:52.368735","MACIT.ISIK","2026-06-09 07:00:37.476124",17,58,False,"NASLOVNİCA",False,"355","2","1","0",NULL
+"356",109,"HOMEPAGE","homepage-cren",2,1,0,"YUNUS.AYAN","2025-10-24 07:41:59.286958","MACIT.ISIK","2026-06-09 07:00:37.476124",2,58,False,"HOMEPAGE",False,NULL,NULL,NULL,NULL,NULL
+"357",27,"WOMEN","women-cren",1,1,0,"TANER.CEVHER","2025-10-30 09:29:39.798038","MACIT.ISIK","2026-06-09 07:00:37.476125",2,58,True,"WOMEN",False,"0","0","0","0",NULL
+"358",112,"MEN","men-cren",1,1,0,"TANER.CEVHER","2025-10-30 09:29:50.011355","MACIT.ISIK","2026-06-09 07:00:37.476125",2,58,False,"MEN",False,"0","0","0","0",NULL
+"359",113,"GIRLS","girls-cren",1,1,0,"TANER.CEVHER","2025-10-30 09:30:02.709351","MACIT.ISIK","2026-06-09 07:00:37.476125",2,58,False,"GIRLS",False,"0","0","0","0",NULL
+"360",114,"BOYS","boys-cren",1,1,0,"TANER.CEVHER","2025-10-30 09:30:11.571247","MACIT.ISIK","2026-06-09 07:00:37.476125",2,58,False,"BOYS",False,"0","0","0","0",NULL
+"361",115,"BABY","baby-cren",1,1,0,"TANER.CEVHER","2025-10-30 09:30:36.434858","MACIT.ISIK","2026-06-09 07:00:37.476125",2,58,False,"BABY",False,"0","0","0","0",NULL
+"362",83,"DEAL ZONE","dealzone-cren",2,1,0,"TANER.CEVHER","2025-10-30 09:30:52.404527","","2026-06-11 09:03:54.399703",2,58,False,"DEAL ZONE",True,"0","0","0","0",NULL
+"363",21,"ZONA POPUSTA","dealzone-cr",2,1,0,"TANER.CEVHER","2025-10-30 09:31:20.091306","","2026-06-11 09:03:44.060205",17,58,False,"ZONA POPUSTA",True,"0","0","0","0",NULL
+"364",15,"ŽENE","women-cr",1,1,0,"TANER.CEVHER","2025-10-30 09:33:27.648664","MACIT.ISIK","2026-06-09 07:00:37.476132",17,58,True,"ŽENE",False,"0","0","0","0",NULL
+"365",17,"MUŠKARCİ","men-cr",1,1,0,"TANER.CEVHER","2025-10-30 09:33:36.050829","MACIT.ISIK","2026-06-09 07:00:37.476131",17,58,False,"MUŠKARCI",False,"0","0","0","0",NULL
+"366",18,"DJEVOJČİCE","girls-cr",1,1,0,"TANER.CEVHER","2025-10-30 09:33:47.970675","MACIT.ISIK","2026-06-09 07:00:37.476131",17,58,False,"DJEVOJČICE",False,"0","0","0","0",NULL
+"367",19,"DJEČACİ","boys-cr",1,1,0,"TANER.CEVHER","2025-10-30 09:33:56.599537","MACIT.ISIK","2026-06-09 07:00:37.476128",17,58,False,"DJEČACI",False,"0","0","0","0",NULL
+"368",20,"BEBE","baby-cr",1,1,0,"TANER.CEVHER","2025-10-30 09:34:05.031929","MACIT.ISIK","2026-06-09 07:00:37.476128",17,58,False,"BEBE",False,"0","0","0","0",NULL
+"369",310,"test-homepage-","test-homepage",3,1,0,"KUBRA.KILIC","2025-10-31 06:09:53.891461","MACIT.ISIK","2026-06-09 07:00:37.476126",2,58,False,"test-homepage-",False,"0","0","0","0",NULL
+"370",16,"მთავარი გვერდი","homepage-ge",2,1,0,"MACIT.ISIK","2025-08-28 07:58:00.038585","MACIT.ISIK","2026-06-09 07:00:37.476126",8,12,False,"მთავარი გვერდი",False,"0","0","0","0",NULL
+"371",16,"HOMEPAGE","homepage-geen",2,1,0,"MACIT.ISIK","2025-08-28 07:58:00.038585","MACIT.ISIK","2026-06-09 07:00:37.476126",2,12,False,"HOMEPAGE",False,"0","0","0","0",NULL
+"372",22,"old","old",2,21,1,"MACIT.ISIK","2025-11-03 11:55:37.177524","TANER.CEVHER","2026-03-26 11:57:16.783394",13,13,False,"old",False,"0","0","0","0",NULL
+"373",101,"Russia Homepage","ru-hp-ru",3,1,0,"YUNUS.AYAN","2025-11-13 09:48:53.804085","MACIT.ISIK","2026-06-09 07:00:37.476127",3,9,False,"Rusya Homepage",False,"0","0","0","0",NULL
+"374",14,"ЖІНКАМ","women-ua-app",1,21,1,"TANER.CEVHER","2025-11-13 10:22:15.897984","TANER.CEVHER","2026-03-26 11:57:16.783394",5,24,True,"ЖІНКАМ",False,"0","0","0","0",NULL
+"375",16,"ЧОЛОВІКАМ","men-ua-app",1,21,1,"TANER.CEVHER","2025-11-13 10:22:25.901327","TANER.CEVHER","2026-03-26 11:57:16.783394",5,24,False,"ЧОЛОВІКАМ",False,"0","0","0","0",NULL
+"376",17,"ДІВЧАТАМ","girls-ua-app",1,21,1,"TANER.CEVHER","2025-11-13 10:22:38.587749","TANER.CEVHER","2026-03-26 11:57:16.783394",5,24,False,"ДІВЧАТАМ",False,"0","0","0","0",NULL
+"377",18,"ХЛОПЧИКАМ","boys-ua-app",1,21,1,"TANER.CEVHER","2025-11-13 10:22:48.266397","TANER.CEVHER","2026-03-26 11:57:16.783394",5,24,False,"ХЛОПЧИКАМ",False,"0","0","0","0",NULL
+"378",19,"МАЛЮКАМ","baby-ua-app",1,21,1,"TANER.CEVHER","2025-11-13 10:22:57.565514","TANER.CEVHER","2026-03-26 11:57:16.783395",5,24,False,"МАЛЮКАМ",False,"0","0","0","0",NULL
+"379",22,"ПОСТІЙНІ ЗНИЖКИ ","dealzone-ua-app",2,21,1,"TANER.CEVHER","2025-11-13 10:23:10.161188","","2026-06-11 09:02:12.410121",5,24,False,"ПОСТІЙНІ ЗНИЖКИ ",True,"0","0","0","0",NULL
+"380",14,"ЖЕНЩИНАМ","women-uaru-app",1,21,1,"TANER.CEVHER","2025-11-13 10:23:39.645654","TANER.CEVHER","2026-03-26 11:57:16.783395",3,24,True,"ЖЕНЩИНАМ",False,"0","0","0","0",NULL
+"381",16,"МУЖЧИНАМ","men-uaru-app",1,21,1,"TANER.CEVHER","2025-11-13 10:23:48.880333","TANER.CEVHER","2026-03-26 11:57:16.78339",3,24,False,"МУЖЧИНАМ",False,"0","0","0","0",NULL
+"382",17,"ДЕВОЧКАМ","girls-uaru-app",1,21,1,"TANER.CEVHER","2025-11-13 10:24:00.543756","TANER.CEVHER","2026-03-26 11:57:16.783388",3,24,False,"ДЕВОЧКАМ",False,"0","0","0","0",NULL
+"383",18,"МАЛЬЧИКАМ","boys-uaru-app",1,21,1,"TANER.CEVHER","2025-11-13 10:24:10.957727","TANER.CEVHER","2026-03-26 11:57:16.783389",3,24,False,"МАЛЬЧИКАМ",False,"0","0","0","0",NULL
+"384",19,"МАЛЫШАМ","baby-uaru-app",1,21,1,"TANER.CEVHER","2025-11-13 10:24:20.415511","TANER.CEVHER","2026-03-26 11:57:16.783389",3,24,False,"МАЛЫШАМ",False,"0","0","0","0",NULL
+"385",22,"ПОСТОЯННЫЕ СКИДКИ","dealzone-uaru-app",2,21,1,"TANER.CEVHER","2025-11-13 10:24:33.217684","","2026-06-11 09:01:51.496291",3,24,False,"ПОСТОЯННЫЕ СКИДКИ",True,"0","0","0","0",NULL
+"386",95,"Homepage","hp-ru",3,21,1,"YUNUS.AYAN","2025-11-13 12:08:19.50286","TANER.CEVHER","2026-03-26 11:57:16.783389",3,9,False,"Homepage",False,"0","0","0","0",NULL
+"387",15,"النساء","women-maar-app",1,21,1,"TANER.CEVHER","2025-11-14 08:38:01.521388","TANER.CEVHER","2026-03-26 11:57:16.783389",15,16,True,"النساء",False,"0","0","0","0",NULL
+"388",17,"الرجال","men-maar-app",1,21,1,"TANER.CEVHER","2025-11-14 08:38:37.347729","TANER.CEVHER","2026-03-26 11:57:16.783396",15,16,False,"الرجال",False,"0","0","0","0",NULL
+"389",18,"بنات","girls-maar-app",1,21,1,"TANER.CEVHER","2025-11-14 08:38:53.885891","TANER.CEVHER","2026-03-26 11:57:16.783396",15,16,False,"بنات",False,"0","0","0","0",NULL
+"390",19,"أولاد","boys-maar-app",1,21,1,"TANER.CEVHER","2025-11-14 08:39:05.476737","TANER.CEVHER","2026-03-26 11:57:16.783396",15,16,False,"أولاد",False,"0","0","0","0",NULL
+"391",20,"رضع","baby-maar-app",1,21,1,"TANER.CEVHER","2025-11-14 08:39:16.55346","TANER.CEVHER","2026-03-26 11:57:16.783396",15,16,False,"رضع",False,"0","0","0","0",NULL
+"392",23,"منطقة العروض ","dealzone-maar-app",2,21,1,"TANER.CEVHER","2025-11-14 08:39:28.813958","","2026-06-11 07:46:04.53008",15,16,False,"منطقة العروض ",True,"0","0","0","0",NULL
+"393",15,"FEMMES","women-mafr-app",1,21,1,"TANER.CEVHER","2025-11-14 08:39:59.588928","TANER.CEVHER","2026-03-26 11:57:16.783396",10,16,True,"FEMMES",False,"0","0","0","0",NULL
+"394",17,"HOMMES","men-mafr-app",1,21,1,"TANER.CEVHER","2025-11-14 08:40:14.416808","TANER.CEVHER","2026-03-26 11:57:16.783396",10,16,False,"HOMMES",False,"0","0","0","0",NULL
+"395",23,"ZONE DES OFFRES","dealzone-mafr-app",2,21,1,"TANER.CEVHER","2025-11-14 08:40:25.800968","","2026-06-11 07:46:11.150583",10,16,False,"ZONE DES OFFRES",True,"0","0","0","0",NULL
+"396",18,"FILLES","girls-mafr-app",1,21,1,"TANER.CEVHER","2025-11-14 08:40:41.299451","TANER.CEVHER","2026-03-26 11:57:16.783397",10,16,False,"FILLES",False,"0","0","0","0",NULL
+"397",19,"GARÇONS","boys-mafr-app",1,21,1,"TANER.CEVHER","2025-11-14 08:40:53.770929","TANER.CEVHER","2026-03-26 11:57:16.783397",10,16,False,"GARÇONS",False,"0","0","0","0",NULL
+"398",20,"BÉBÉ","baby-mafr-app",1,21,1,"TANER.CEVHER","2025-11-14 08:41:03.705289","TANER.CEVHER","2026-03-26 11:57:16.783397",10,16,False,"BÉBÉ",False,"0","0","0","0",NULL
+"399",15,"WOMEN","women-maen-app",1,21,1,"TANER.CEVHER","2025-11-14 08:41:30.799743","TANER.CEVHER","2026-03-26 11:57:16.783397",2,16,True,"WOMEN",False,"0","0","0","0",NULL
+"400",17,"MEN","men-maen-app",1,21,1,"TANER.CEVHER","2025-11-14 08:41:41.321529","TANER.CEVHER","2026-03-26 11:57:16.783397",2,16,False,"MEN",False,"0","0","0","0",NULL
+"401",23,"DEAL ZONE","dealzone-maen-app",2,21,1,"TANER.CEVHER","2025-11-14 08:41:52.151673","","2026-06-11 07:46:16.257515",2,16,False,"DEAL ZONE",True,"0","0","0","0",NULL
+"402",18,"GIRLS","girls-maen-app",1,21,1,"TANER.CEVHER","2025-11-14 08:42:04.144106","TANER.CEVHER","2026-03-26 11:57:16.783397",2,16,False,"GIRLS",False,"0","0","0","0",NULL
+"403",19,"BOYS","boys-maen-app",1,21,1,"TANER.CEVHER","2025-11-14 08:42:15.245396","TANER.CEVHER","2026-03-26 11:57:16.783397",2,16,False,"BOYS",False,"0","0","0","0",NULL
+"404",20,"BABY","baby-maen-app",1,21,1,"TANER.CEVHER","2025-11-14 08:42:24.575078","TANER.CEVHER","2026-03-26 11:57:16.783397",2,16,False,"BABY",False,"0","0","0","0",NULL
+"405",15,"WOMEN","women-geen",1,1,0,"TANER.CEVHER","2025-11-14 12:41:33.592871","MACIT.ISIK","2026-06-09 07:00:37.476128",2,12,True,"WOMEN",False,"0","0","0","0","493"
+"406",17,"MEN","men-geen",1,1,0,"TANER.CEVHER","2025-11-14 12:41:41.938527","MACIT.ISIK","2026-06-09 07:00:37.476128",2,12,False,"MEN",False,"0","0","0","0","494"
+"407",18,"GIRLS","girls-geen",1,1,0,"TANER.CEVHER","2025-11-14 12:42:01.455952","MACIT.ISIK","2026-06-09 07:00:37.476128",2,12,False,"GIRLS",False,"0","0","0","0","495"
+"408",19,"BOYS","boys-geen",1,1,0,"TANER.CEVHER","2025-11-14 12:42:09.176124","MACIT.ISIK","2026-06-09 07:00:37.476129",2,12,False,"BOYS",False,"0","0","0","0","496"
+"409",20,"BABY","baby-geen",1,1,0,"TANER.CEVHER","2025-11-14 12:42:17.973175","MACIT.ISIK","2026-06-09 07:00:37.476129",2,12,False,"BABY",False,"0","0","0","0","497"
+"410",22,"SALE %","dealzone-geen",2,1,0,"TANER.CEVHER","2025-11-14 12:42:28.264786","","2026-06-11 09:00:28.172867",2,12,False,"SALE %",True,"0","0","0","0",NULL
+"411",15,"ქალი","women-ge",1,1,0,"TANER.CEVHER","2025-11-14 12:42:58.992794","MACIT.ISIK","2026-06-09 07:00:37.476129",8,12,True,"ქალი",False,"0","0","0","0","499"
+"412",17,"მამაკაცი","men-ge",1,1,0,"TANER.CEVHER","2025-11-14 12:43:07.117886","MACIT.ISIK","2026-06-09 07:00:37.47613",8,12,False,"მამაკაცი",False,"0","0","0","0","500"
+"413",18,"გოგონები","girls-ge",1,1,0,"TANER.CEVHER","2025-11-14 12:43:27.655304","MACIT.ISIK","2026-06-09 07:00:37.47613",8,12,False,"გოგონები",False,"0","0","0","0","501"
+"414",19,"ბიჭები","boys-ge",1,1,0,"TANER.CEVHER","2025-11-14 12:43:39.88003","MACIT.ISIK","2026-06-09 07:00:37.47613",8,12,False,"ბიჭები",True,"0","0","0","0","502"
+"415",20,"ჩვილები","baby-ge",1,1,0,"TANER.CEVHER","2025-11-14 12:43:55.304029","MACIT.ISIK","2026-06-09 07:00:37.47613",8,12,False,"ჩვილები",False,"0","0","0","0","503"
+"416",22,"SALE %","dealzone-ge",2,1,0,"TANER.CEVHER","2025-11-14 12:45:17.653771","","2026-06-11 09:01:03.203023",8,12,False,"SALE %",True,"0","0","0","0",NULL
+"438",113,"YENİ YIL ","yeni-yil",3,1,0,"OKTAY.ATA","2025-11-21 11:25:26.629497","MACIT.ISIK","2026-06-09 07:00:37.476132",1,1,False,"YENİ YIL ",False,"0","0","0","0",NULL
+"439",108,"YENİ YIL","yeni-yil-app",3,21,1,"OKTAY.ATA","2025-11-21 11:26:47.147265","TANER.CEVHER","2026-03-26 11:57:16.783395",1,1,False,"YENİ YIL",False,"0","0","0","0",NULL
+"440",9,"HOMEPAGE","homepage-cren-app",2,21,1,"TANER.CEVHER","2025-11-24 10:02:52.664517","TANER.CEVHER","2026-03-26 11:57:16.783395",2,58,False,"HOMEPAGE",False,"0","0","0","0",NULL
+"441",17,"DEAL ZONE","dealzone-cren-app",2,21,1,"TANER.CEVHER","2025-11-24 10:03:06.33774","","2026-06-11 09:04:02.699689",2,58,False,"DEAL ZONE",True,"0","0","0","0",NULL
+"442",8,"WOMEN","women-cren-app",1,21,1,"TANER.CEVHER","2025-11-24 10:03:18.950768","TANER.CEVHER","2026-03-26 11:57:16.783397",2,58,True,"WOMEN",False,"0","0","0","0",NULL
+"443",10,"MEN","men-cren-app",1,21,1,"TANER.CEVHER","2025-11-24 10:03:28.173204","TANER.CEVHER","2026-03-26 11:57:16.783398",2,58,False,"MEN",False,"0","0","0","0",NULL
+"444",11,"GIRLS","girls-cren-app",1,21,1,"TANER.CEVHER","2025-11-24 10:03:39.453437","TANER.CEVHER","2026-03-26 11:57:16.783398",2,58,False,"GIRLS",False,"0","0","0","0",NULL
+"445",12,"BOYS","boys-cren-app",1,21,1,"TANER.CEVHER","2025-11-24 10:03:49.158392","TANER.CEVHER","2026-03-26 11:57:16.783398",2,58,False,"BOYS",False,"0","0","0","0",NULL
+"446",13,"BABY","baby-cren-app",1,21,1,"TANER.CEVHER","2025-11-24 10:03:58.677939","TANER.CEVHER","2026-03-26 11:57:16.783398",2,58,False,"BABY",False,"0","0","0","0",NULL
+"447",9,"NASLOVNİCA","homepage-cr-app",2,21,1,"TANER.CEVHER","2025-11-24 10:04:14.101728","TANER.CEVHER","2026-03-26 11:57:16.783398",17,58,False,"NASLOVNİCA",False,"0","0","0","0",NULL
+"448",16,"ZONA POPUSTA","dealzone-cr-app",2,21,1,"TANER.CEVHER","2025-11-24 10:04:26.47268","","2026-06-11 09:03:36.852728",17,58,False,"ZONA POPUSTA",True,"0","0","0","0",NULL
+"449",8,"ŽENE","women-cr-app",1,21,1,"TANER.CEVHER","2025-11-24 10:04:37.315411","TANER.CEVHER","2026-03-26 11:57:16.78339",17,58,True,"ŽENE",False,"0","0","0","0",NULL
+"450",10,"MUŠKARCİ","men-cr-app",1,21,1,"TANER.CEVHER","2025-11-24 10:04:45.617549","TANER.CEVHER","2026-03-26 11:57:16.783375",17,58,False,"MUŠKARCİ",False,"0","0","0","0",NULL
+"451",11,"DJEVOJČİCE","girls-cr-app",1,21,1,"TANER.CEVHER","2025-11-24 10:04:57.660075","TANER.CEVHER","2026-03-26 11:57:16.783375",17,58,False,"DJEVOJČİCE",False,"0","0","0","0",NULL
+"452",12,"DJEČACİ","boys-cr-app",1,21,1,"TANER.CEVHER","2025-11-24 10:05:07.486465","TANER.CEVHER","2026-03-26 11:57:16.783376",17,58,False,"DJEČACİ",False,"0","0","0","0",NULL
+"453",13,"BEBE","baby-cr-app",1,21,1,"TANER.CEVHER","2025-11-24 10:05:16.287157","TANER.CEVHER","2026-03-26 11:57:16.783376",17,58,False,"BEBE",False,"0","0","0","0",NULL
+"454",71,"Homepage","ba-web-hp",3,1,0,"YUNUS.AYAN","2025-11-27 07:33:48.76991","MACIT.ISIK","2026-06-09 07:00:37.476134",16,138,False,"Homepage",False,"0","0","0","0",NULL
+"455",323,"Test","test-homepg",3,1,0,"ALI.AYDIN2","2025-11-27 07:56:26.054733","MACIT.ISIK","2026-06-09 07:00:37.476134",3,9,False,"Test",False,"0","0","0","0",NULL
+"456",21,"Christmas","christmas-rsen",2,21,1,"TANER.CEVHER","2025-11-28 10:28:20.3123","TANER.CEVHER","2026-03-26 11:57:16.783395",2,125,False,"Christmas",False,"0","0","0","0",NULL
+"457",22,"BOŽIĆNA","christmas-rs",2,21,1,"TANER.CEVHER","2025-11-28 10:28:38.582619","TANER.CEVHER","2026-03-26 11:57:16.783395",9,125,False,"BOŽIĆNA",False,"0","0","0","0",NULL
+"458",21,"Christmas","christmas-roen",2,21,1,"TANER.CEVHER","2025-11-28 10:37:40.250575","TANER.CEVHER","2026-03-26 11:57:16.783395",2,50,False,"Christmas",False,"0","0","0","0",NULL
+"459",21,"Crăciun","christmas-ro",2,21,1,"TANER.CEVHER","2025-11-28 10:37:55.379068","TANER.CEVHER","2026-03-26 11:57:16.783395",7,50,False,"Crăciun",False,"0","0","0","0",NULL
+"460",15,"Christmas","christmas-bgen",2,21,1,"TANER.CEVHER","2025-11-28 10:39:32.934518","TANER.CEVHER","2026-03-26 11:57:16.783395",2,52,False,"Christmas",False,"0","0","0","0",NULL
+"461",15,"Коледа","christmas-bg",2,21,1,"TANER.CEVHER","2025-11-28 10:39:52.414048","TANER.CEVHER","2026-03-26 11:57:16.783396",11,52,False,"Коледа",False,"0","0","0","0",NULL
+"462",15,"Christmas","christmas-gren",2,21,1,"TANER.CEVHER","2025-11-28 10:41:52.885062","TANER.CEVHER","2026-03-26 11:57:16.783396",2,35,False,"Christmas",False,"0","0","0","0",NULL
+"463",14,"Χριστούγεννα","christmas-gr",2,21,1,"TANER.CEVHER","2025-11-28 10:42:10.338513","TANER.CEVHER","2026-03-26 11:57:16.783399",23,35,False,"Χριστούγεννα",False,"0","0","0","0",NULL
+"464",15,"Christmas","christmas-hren",2,21,1,"TANER.CEVHER","2025-11-28 10:45:27.098445","TANER.CEVHER","2026-03-26 11:57:16.783399",2,58,False,"Christmas",False,"0","0","0","0",NULL
+"465",14,"Božić","christmas-hr",2,21,1,"TANER.CEVHER","2025-11-28 10:46:08.170656","TANER.CEVHER","2026-03-26 11:57:16.783399",17,58,False,"Božić",False,"0","0","0","0",NULL
+"466",22,"New Year","newyear-egen",2,21,1,"TANER.CEVHER","2025-11-28 10:49:50.817714","TANER.CEVHER","2026-03-26 11:57:16.783399",2,8,False,"New Year",False,"0","0","0","0",NULL
+"467",22,"السنة الجديدة","newyear-eg",2,21,1,"TANER.CEVHER","2025-11-28 10:50:07.542336","TANER.CEVHER","2026-03-26 11:57:16.783399",12,8,False,"السنة الجديدة",False,"0","0","0","0",NULL
+"468",21,"New Year","newyear-maen",2,21,1,"TANER.CEVHER","2025-11-28 10:51:38.922134","TANER.CEVHER","2026-03-26 11:57:16.783399",2,16,False,"New Year",False,"0","0","0","0",NULL
+"469",21,"Nouvel An","newyear-mafr",2,21,1,"TANER.CEVHER","2025-11-28 10:52:31.770305","TANER.CEVHER","2026-03-26 11:57:16.7834",10,16,False,"Nouvel An",False,"0","0","0","0",NULL
+"470",21,"السنة الجديدة","newyear-maar",2,21,1,"TANER.CEVHER","2025-11-28 10:52:51.913224","TANER.CEVHER","2026-03-26 11:57:16.7834",15,16,False,"السنة الجديدة",False,"0","0","0","0",NULL
+"471",14,"НОВЫЙ ГОД","newyear-kzru",2,21,1,"TANER.CEVHER","2025-11-28 10:55:51.402632","TANER.CEVHER","2026-03-26 11:57:16.7834",3,10,False,"НОВЫЙ ГОД",False,"0","0","0","0",NULL
+"472",20,"ЖАҢА ЖЫЛ","newyear-kz",2,21,1,"TANER.CEVHER","2025-11-28 10:56:10.008248","TANER.CEVHER","2026-03-26 11:57:16.783398",6,10,False,"ЖАҢА ЖЫЛ",False,"0","0","0","0",NULL
+"473",20,"Різдвяна","christmas-ua",2,21,1,"TANER.CEVHER","2025-11-28 10:58:42.852738","TANER.CEVHER","2026-03-26 11:57:16.783398",5,24,False,"Різдвяна",False,"0","0","0","0",NULL
+"474",20,"Рождественская","christmas-uaru",2,21,1,"TANER.CEVHER","2025-11-28 10:58:57.609189","TANER.CEVHER","2026-03-26 11:57:16.7834",3,24,False,"Рождественская",False,"0","0","0","0",NULL
+"475",22,"New Year","newyear-iren",2,21,1,"TANER.CEVHER","2025-11-28 11:00:38.462411","TANER.CEVHER","2026-03-26 11:57:16.7834",2,13,False,"New Year",False,"0","0","0","0",NULL
+"476",22,"العام الجديد","newyear-irar",2,21,1,"TANER.CEVHER","2025-11-28 11:00:52.411636","TANER.CEVHER","2026-03-26 11:57:16.7834",14,13,False,"العام الجديد",False,"0","0","0","0",NULL
+"477",23,"ساڵی تازە","newyear-irku",2,21,1,"TANER.CEVHER","2025-11-28 11:01:06.513785","TANER.CEVHER","2026-03-26 11:57:16.7834",13,13,False,"ساڵی تازە",False,"0","0","0","0",NULL
+"478",21,"testalanı","testalani",2,1,0,"TANER.CEVHER","2025-12-03 05:29:31.537849","MACIT.ISIK","2026-06-09 07:00:37.476134",2,50,False,"testalanı",False,"0","0","0","0",NULL
+"479",325,"kubra-homepage","kubra-homepage",3,1,0,"KUBRA.KILIC","2025-12-03 06:31:08.74338","MACIT.ISIK","2026-06-09 07:00:37.476134",3,9,False,"kubra-homepage",False,"0","0","0","0",NULL
+"480",16,"ГЛАВНАЯ СТРАНИЦА","homepage-ru",2,1,0,"TANER.CEVHER","2025-12-03 13:31:36.032141","MACIT.ISIK","2026-06-09 07:00:37.476135",3,9,False,"ГЛАВНАЯ СТРАНИЦА",False,"0","0","0","0",NULL
+"481",16,"ГЛАВНАЯ СТРАНИЦА","homepage-app-ru",2,21,1,"TANER.CEVHER","2025-12-03 13:31:45.486008","TANER.CEVHER","2026-03-26 11:57:16.7834",3,9,False,"ГЛАВНАЯ СТРАНИЦА",False,"0","0","0","0",NULL
+"482",15,"ЖЕНЩИНЫ","women-ru",1,1,0,"TANER.CEVHER","2025-12-04 10:52:49.89752","MACIT.ISIK","2026-06-09 07:00:37.476135",3,9,True,"ЖЕНЩИНЫ",False,"0","0","0","0",NULL
+"483",15,"ЖЕНЩИНЫ","women-app-ru",1,21,1,"TANER.CEVHER","2025-12-04 10:52:59.673547","TANER.CEVHER","2026-03-26 11:57:16.783398",3,9,True,"ЖЕНЩИНЫ",False,"0","0","0","0",NULL
+"484",17,"МУЖЧИНЫ","men-app-ru",1,21,1,"TANER.CEVHER","2025-12-04 10:53:08.283766","TANER.CEVHER","2026-03-26 11:57:16.783398",3,9,False,"МУЖЧИНЫ",False,"0","0","0","0",NULL
+"485",18,"ДЕВОЧКИ","girls-app-ru",1,21,1,"TANER.CEVHER","2025-12-04 10:53:20.182152","TANER.CEVHER","2026-03-26 11:57:16.783398",3,9,False,"ДЕВОЧКИ",False,"0","0","0","0",NULL
+"486",19,"МАЛЬЧИКИ","boys-app-ru",1,21,1,"TANER.CEVHER","2025-12-04 10:53:29.396454","TANER.CEVHER","2026-03-26 11:57:16.783398",3,9,False,"МАЛЬЧИКИ",False,"0","0","0","0",NULL
+"487",20,"МАЛЫШИ","baby-app-ru",1,21,1,"TANER.CEVHER","2025-12-04 10:53:38.399992","TANER.CEVHER","2026-03-26 11:57:16.783399",3,9,False,"МАЛЫШИ",False,"0","0","0","0",NULL
+"488",17,"МУЖЧИНЫ","men-ru",1,1,0,"TANER.CEVHER","2025-12-04 10:54:03.376433","MACIT.ISIK","2026-06-09 07:00:37.476136",3,9,False,"МУЖЧИНЫ",False,"0","0","0","0",NULL
+"489",18,"ДЕВОЧКИ","girls-ru",1,1,0,"TANER.CEVHER","2025-12-04 10:54:13.270033","MACIT.ISIK","2026-06-09 07:00:37.476136",3,9,False,"ДЕВОЧКИ",False,"0","0","0","0",NULL
+"490",19,"МАЛЬЧИКИ","boys-ru",1,1,0,"TANER.CEVHER","2025-12-04 10:54:20.444588","MACIT.ISIK","2026-06-09 07:00:37.476136",3,9,False,"МАЛЬЧИКИ",False,"0","0","0","0",NULL
+"491",20,"МАЛЫШИ","baby-ru",1,1,0,"TANER.CEVHER","2025-12-04 10:54:29.426587","MACIT.ISIK","2026-06-09 07:00:37.476135",3,9,False,"МАЛЫШИ",False,"0","0","0","0",NULL
+"492",16,"HOMEPAGE","homepage-geen-app",2,21,1,"","2025-12-17 07:12:01.52696","TANER.CEVHER","2026-03-26 11:57:16.783399",2,12,False,"HOMEPAGE",False,"0","0","0","0",NULL
+"493",15,"WOMEN","women-geen-app",1,21,1,"","2025-12-17 07:12:12.996083","TANER.CEVHER","2026-03-26 11:57:16.783399",2,12,True,"WOMEN",False,"0","0","0","0",NULL
+"494",17,"MEN","men-geen-app",1,21,1,"","2025-12-17 07:12:26.093354","TANER.CEVHER","2026-03-26 11:57:16.783399",2,12,False,"MEN",False,"0","0","0","0",NULL
+"495",18,"GIRLS","",1,21,1,"","2025-12-17 07:12:48.675131","TANER.CEVHER","2026-03-26 11:57:16.783376",2,12,False,"GIRLS",False,"0","0","0","0",NULL
+"496",19,"BOYS","boys-geen-app",1,21,1,"","2025-12-17 07:12:59.588343","TANER.CEVHER","2026-03-26 11:57:16.783377",2,12,False,"BOYS",False,"0","0","0","0",NULL
+"497",20,"BABY","baby-geen-app",1,21,1,"","2025-12-17 07:13:10.211326","TANER.CEVHER","2026-03-26 11:57:16.783377",2,12,False,"BABY",False,"0","0","0","0",NULL
+"498",16,"მთავარი გვერდი","homepage-ge-app",2,21,1,"","2025-12-17 07:13:27.87143","TANER.CEVHER","2026-03-26 11:57:16.783401",8,12,False,"მთავარი გვერდი",False,"0","0","0","0",NULL
+"499",15,"ქალი","women-ge-app",1,21,1,"","2025-12-17 07:13:37.886872","TANER.CEVHER","2026-03-26 11:57:16.7834",8,12,True,"ქალი",False,"0","0","0","0",NULL
+"500",17,"მამაკაცი","men-ge-app",1,21,1,"","2025-12-17 07:13:49.105379","TANER.CEVHER","2026-03-26 11:57:16.7834",8,12,False,"მამაკაცი",False,"0","0","0","0",NULL
+"501",18,"გოგონები","",1,21,1,"","2025-12-17 07:14:01.614671","TANER.CEVHER","2026-03-26 11:57:16.7834",8,12,False,"გოგონები",False,"0","0","0","0",NULL
+"502",19,"ბიჭები","boys-ge-app",1,21,1,"","2025-12-17 07:14:11.360138","TANER.CEVHER","2026-03-26 11:57:16.783401",8,12,False,"ბიჭები",False,"0","0","0","0",NULL
+"503",20,"ჩვილები","baby-ge-app",1,21,1,"","2025-12-17 07:14:20.804528","TANER.CEVHER","2026-03-26 11:57:16.783401",8,12,False,"ჩვილები",False,"0","0","0","0",NULL
+"504",22,"DEAL ZONE","dealzone-geen-app",2,21,1,"","2025-12-17 07:43:15.864209","","2026-06-11 09:00:34.298769",2,12,False,"DEAL ZONE",True,"0","0","0","0",NULL
+"505",22,"SALE %","dealzone-ge-app",2,21,1,"","2025-12-17 07:43:33.127723","","2026-06-11 09:01:02.406082",8,12,False,"SALE %",True,"0","0","0","0",NULL
+"506",22,"СКИДКИ","dealzone-ru",2,1,0,"","2025-12-30 13:59:40.729158","YIGIT.KARAMAN","2026-06-11 07:30:14.532993",3,9,False,"СКИДКИ",True,"0","0","0","0",NULL
+"507",22,"СКИДКИ","dealzone-ru-app",2,21,1,"","2025-12-30 13:59:55.117868","","2026-06-11 07:34:47.427807",3,9,False,"СКИДКИ",True,"0","0","0","0",NULL
+"508",9,"HOMEPAGE","homepage-de-app",2,21,1,"","2026-01-07 10:17:59.49238","TANER.CEVHER","2026-03-26 11:57:16.783401",4,25,False,"HOMEPAGE",False,"0","0","0","0",NULL
+"509",9,"ANASAYFA","homepage-detr-app",2,21,1,"","2026-01-07 10:27:30.222142","TANER.CEVHER","2026-03-26 11:57:16.783401",1,25,False,"ANASAYFA",False,"0","0","0","0",NULL
+"510",8,"DAMEN","women-de-app",1,21,1,"","2026-01-09 12:02:10.027856","TANER.CEVHER","2026-03-26 11:57:16.783401",4,25,True,"DAMEN",False,"0","0","0","0",NULL
+"511",10,"HERREN","men-de-app",1,21,1,"","2026-01-09 12:02:20.785481","TANER.CEVHER","2026-03-26 11:57:16.783401",4,25,False,"HERREN",False,"0","0","0","0",NULL
+"512",11,"MÄDCHEN","girls-de-app",1,21,1,"","2026-01-09 12:02:35.196211","TANER.CEVHER","2026-03-26 11:57:16.783401",4,25,False,"MÄDCHEN",False,"0","0","0","0",NULL
+"513",12,"JUNGEN","boys-de-app",1,21,1,"","2026-01-09 12:02:47.008627","TANER.CEVHER","2026-03-26 11:57:16.783402",4,25,False,"JUNGEN",False,"0","0","0","0",NULL
+"514",13,"BABY","baby-de-app",1,21,1,"","2026-01-09 12:02:59.945764","TANER.CEVHER","2026-03-26 11:57:16.783402",4,25,False,"BABY",False,"0","0","0","0",NULL
+"515",8,"KADIN","women-detr-app",1,21,1,"","2026-01-09 12:03:40.218582","TANER.CEVHER","2026-03-26 11:57:16.783402",1,25,True,"KADIN",False,"0","0","0","0",NULL
+"516",10,"ERKEK","men-detr-app",1,21,1,"","2026-01-09 12:03:48.249376","TANER.CEVHER","2026-03-26 11:57:16.783402",1,25,False,"ERKEK",False,"0","0","0","0",NULL
+"517",11,"KIZ ÇOCUK","girls-detr-app",1,21,1,"","2026-01-09 12:03:59.332978","TANER.CEVHER","2026-03-26 11:57:16.783402",1,25,False,"KIZ ÇOCUK",False,"0","0","0","0",NULL
+"518",12,"ERKEK ÇOCUK","boys-detr-app",1,21,1,"","2026-01-09 12:04:16.920603","TANER.CEVHER","2026-03-26 11:57:16.783402",1,25,False,"ERKEK ÇOCUK",False,"0","0","0","0",NULL
+"519",13,"BEBEK","baby-detr-app",1,21,1,"","2026-01-09 12:04:27.1699","TANER.CEVHER","2026-03-26 11:57:16.783377",1,25,False,"BEBEK",False,"0","0","0","0",NULL
+"520",15,"FIRSAT ALANI","dealzone-detr-app",1,21,1,"","2026-01-09 12:04:43.336966","TANER.CEVHER","2026-03-26 11:57:16.783377",1,25,False,"FIRSAT ALANI",True,"0","0","0","0",NULL
+"521",15,"DEAL-ZONE","dealzone-de-app",2,21,1,"","2026-01-09 12:05:13.807786","","2026-06-11 12:27:30.720628",4,25,False,"DEAL-ZONE",True,"0","0","0","0",NULL
+"522",22,"LCW HOME","home-living-rsen-app",1,21,1,"","2026-01-14 10:18:28.862139","TANER.CEVHER","2026-03-26 11:57:16.783377",2,125,False,"LCW HOME",False,"0","0","0","0",NULL
+"523",21,"LCW HOME","home-living-rsen",1,1,0,"","2026-01-14 10:19:39.028343","MACIT.ISIK","2026-06-09 07:00:37.476136",2,125,False,"LCW HOME",False,"0","0","0","0",NULL
+"524",23,"LCW HOME","home-living-rs-app",1,21,1,"","2026-01-14 10:20:29.905","TANER.CEVHER","2026-03-26 11:57:16.783377",9,125,False,"LCW HOME",False,"0","0","0","0",NULL
+"525",10,"LCW HOME","home-living-rs",1,1,0,"","2026-01-14 10:21:10.390418","MACIT.ISIK","2026-06-09 07:00:37.476136",9,125,False,"LCW HOME",False,"0","0","0","0",NULL
+"526",23,"LCW HOME","home-living-egen-app",1,21,1,"","2026-01-14 10:25:23.190776","TANER.CEVHER","2026-03-26 11:57:16.783377",2,8,False,"LCW HOME",False,"0","0","0","0",NULL
+"527",327,"LCW HOME","home-living-egen",1,1,0,"","2026-01-14 10:25:46.237053","MACIT.ISIK","2026-06-09 07:00:37.47614",2,8,False,"LCW HOME",False,"0","0","0","0",NULL
+"528",23,"LCW HOME","home-living-eg-app",1,21,1,"","2026-01-14 10:26:19.301926","TANER.CEVHER","2026-03-26 11:57:16.783378",12,8,False,"LCW HOME",False,"0","0","0","0",NULL
+"529",22,"LCW HOME","home-living-eg",1,1,0,"","2026-01-14 10:27:07.486346","MACIT.ISIK","2026-06-09 07:00:37.47614",12,8,False,"LCW HOME",False,"0","0","0","0",NULL
+"530",22,"LCW HOME","home-living-roen-app",1,21,1,"","2026-01-14 10:35:01.448732","TANER.CEVHER","2026-03-26 11:57:16.783378",2,50,False,"LCW HOME",False,"0","0","0","0",NULL
+"531",22,"LCW HOME","home-living-roen",1,1,0,"","2026-01-14 10:35:27.788671","MACIT.ISIK","2026-06-09 07:00:37.476141",2,50,False,"LCW HOME",False,"0","0","0","0",NULL
+"532",22,"LCW HOME","home-living-ro-app",1,21,1,"","2026-01-14 10:36:36.176554","TANER.CEVHER","2026-03-26 11:57:16.783378",7,50,False,"LCW HOME",False,"0","0","0","0",NULL
+"533",21,"LCW HOME","home-living-ro",1,1,0,"","2026-01-14 10:36:51.260441","MACIT.ISIK","2026-06-09 07:00:37.476141",7,50,False,"LCW HOME",False,"0","0","0","0",NULL
+"534",23,"LCW HOME","home-living-iren-app",1,21,1,"","2026-01-14 10:39:06.524619","TANER.CEVHER","2026-03-26 11:57:16.783378",2,13,False,"LCW HOME",False,"0","0","0","0",NULL
+"535",21,"LCW HOME","home-living-iren",1,1,0,"","2026-01-14 10:40:35.995148","MACIT.ISIK","2026-06-09 07:00:37.476141",2,13,False,"LCW HOME",False,"0","0","0","0",NULL
+"536",23,"LCW HOME","home-living-irar-app",1,21,1,"","2026-01-14 10:41:33.439225","TANER.CEVHER","2026-03-26 11:57:16.783378",14,13,False,"LCW HOME",False,"0","0","0","0",NULL
+"537",23,"LCW HOME","home-living-irar",1,1,0,"","2026-01-14 10:41:56.111456","MACIT.ISIK","2026-06-09 07:00:37.476141",14,13,False,"LCW HOME",False,"0","0","0","0",NULL
+"538",24,"LCW HOME","home-living-irku-app",1,21,1,"","2026-01-14 10:42:18.160051","TANER.CEVHER","2026-03-26 11:57:16.783378",13,13,False,"LCW HOME",False,"0","0","0","0",NULL
+"539",22,"LCW HOME","home-living-irku",1,1,0,"","2026-01-14 10:42:39.46752","MACIT.ISIK","2026-06-09 07:00:37.476141",13,13,False,"LCW HOME",False,"0","0","0","0",NULL
+"540",22,"LCW HOME","home-living-maen-app",1,21,1,"","2026-01-14 10:45:20.740136","TANER.CEVHER","2026-03-26 11:57:16.783378",2,16,False,"LCW HOME",False,"0","0","0","0",NULL
+"541",22,"LCW HOME","home-living-maen",1,1,0,"","2026-01-14 10:45:41.820609","MACIT.ISIK","2026-06-09 07:00:37.476141",2,16,False,"LCW HOME",False,"0","0","0","0",NULL
+"542",22,"LCW HOME","home-living-mafr-app",1,21,1,"","2026-01-14 10:46:24.836933","TANER.CEVHER","2026-03-26 11:57:16.783369",10,16,False,"LCW HOME",False,"0","0","0","0",NULL
+"543",22,"LCW HOME","home-living-mafr",1,1,0,"","2026-01-14 10:46:43.592767","MACIT.ISIK","2026-06-09 07:00:37.476142",10,16,False,"LCW HOME",False,"0","0","0","0",NULL
+"544",22,"LCW HOME","home-living-maar-app",1,21,1,"","2026-01-14 10:48:11.917709","TANER.CEVHER","2026-03-26 11:57:16.78337",15,16,False,"LCW HOME",False,"0","0","0","0",NULL
+"545",22,"LCW HOME","home-living-maar",1,1,0,"","2026-01-14 10:48:28.447047","MACIT.ISIK","2026-06-09 07:00:37.476142",15,16,False,"LCW HOME",False,"0","0","0","0",NULL
+"546",21,"LCW HOME","home-living-ua-app",1,21,1,"","2026-01-14 10:53:44.563046","TANER.CEVHER","2026-03-26 11:57:16.78337",5,24,False,"LCW HOME",False,"0","0","0","0",NULL
+"547",21,"Для Дому","home-living-ua",1,1,0,"","2026-01-14 10:54:01.153525","MACIT.ISIK","2026-06-09 07:00:37.476142",5,24,False,"Для Дому",False,"0","0","0","0",NULL
+"548",21,"LCW HOME","home-living-uaru-app",1,21,1,"","2026-01-14 10:54:18.886681","TANER.CEVHER","2026-03-26 11:57:16.78337",3,24,False,"LCW HOME",False,"0","0","0","0",NULL
+"549",21,"Дом","home-living-uaru",1,1,0,"","2026-01-14 10:54:36.456779","MACIT.ISIK","2026-06-09 07:00:37.47614",3,24,False,"Дом",False,"0","0","0","0",NULL
+"550",21,"LCW HOME","home-living-geen-app",1,21,1,"","2026-01-14 10:59:47.337798","TANER.CEVHER","2026-03-26 11:57:16.78337",2,12,False,"LCW HOME",False,"0","0","0","0",NULL
+"551",21,"LCW HOME","home-living-geen",1,1,0,"","2026-01-14 11:00:05.074147","MACIT.ISIK","2026-06-09 07:00:37.476138",2,12,False,"LCW HOME",False,"0","0","0","0",NULL
+"552",21,"LCW HOME","home-living-ge-app",1,21,1,"","2026-01-14 11:01:09.975939","TANER.CEVHER","2026-03-26 11:57:16.78337",8,12,False,"LCW HOME",False,"0","0","0","0",NULL
+"553",21,"LCW HOME","home-living-ge",1,1,0,"","2026-01-14 11:01:23.123128","MACIT.ISIK","2026-06-09 07:00:37.476145",8,12,False,"LCW HOME",False,"0","0","0","0",NULL
+"554",70,"HOMEPAGE-EN","ba-en-hp-def",3,1,0,"","2026-01-19 08:24:20.513481","MACIT.ISIK","2026-06-09 07:00:37.476145",2,138,False,"HOMEPAGE-EN",False,"0","0","0","0",NULL
+"555",69,"ANASAYFA","al-al-hp-def",3,1,0,"","2026-01-19 13:47:19.0976","MACIT.ISIK","2026-06-09 07:00:37.476145",21,143,False,"ANASAYFA",False,"0","0","0","0",NULL
+"556",68,"ANASAYFA","al-en-def-hp",3,1,0,"","2026-01-19 13:48:31.200409","MACIT.ISIK","2026-06-09 07:00:37.476145",2,143,False,"ANASAYFA",False,"0","0","0","0",NULL
+"557",61,"ANASAYFA","mk-en-def-hp",3,1,0,"","2026-01-19 13:49:21.71994","MACIT.ISIK","2026-06-09 07:00:37.476146",2,114,False,"ANASAYFA",False,"0","0","0","0",NULL
+"558",63,"ANASAYFA","mk-mk-hp-def",3,1,0,"","2026-01-19 13:51:00.389402","MACIT.ISIK","2026-06-09 07:00:37.476142",22,114,False,"ANASAYFA",False,"0","0","0","0",NULL
+"559",62,"ANASAYFA","mk-al-hp-def",3,1,0,"","2026-01-19 13:52:22.123052","MACIT.ISIK","2026-06-09 07:00:37.476142",21,114,False,"ANASAYFA",False,"0","0","0","0",NULL
+"560",65,"ANASAYFA","me-hp-def",3,1,0,"","2026-01-19 13:53:08.590046","MACIT.ISIK","2026-06-09 07:00:37.476136",20,119,False,"ANASAYFA",False,"0","0","0","0",NULL
+"561",64,"ANASAYFA","me-en-hp-def",3,1,0,"","2026-01-19 13:54:37.350398","MACIT.ISIK","2026-06-09 07:00:37.476137",2,119,False,"ANASAYFA",False,"0","0","0","0",NULL
+"562",66,"ANASAYFA","xk-hp-def",3,1,0,"","2026-01-19 13:55:33.782399","MACIT.ISIK","2026-06-09 07:00:37.476137",2,155,False,"ANASAYFA",False,"0","0","0","0",NULL
+"563",67,"ANASAYFA","xk-en-hp-def",3,1,0,"","2026-01-19 13:56:44.040594","MACIT.ISIK","2026-06-09 07:00:37.476137",21,155,False,"ANASAYFA",False,"0","0","0","0",NULL
+"564",49,"APP-BSBA-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.78337",16,138,False,"Homepage",False,"37","2","21","1",NULL
+"565",50,"APP-ENBA-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783403",2,138,False,"Homepage",False,"37","2","21","1",NULL
+"566",56,"APP-SQAL-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783403",21,143,False,"Homepage",True,"37","2","21","1",NULL
+"567",57,"APP-ENAL-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783404",2,143,False,"Homepage",True,"37","2","21","1",NULL
+"568",53,"APP-ENMK-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783404",2,114,False,"Homepage",False,"37","2","21","1",NULL
+"569",52,"APP-SQMK-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783404",21,114,False,"Homepage",False,"37","2","21","1",NULL
+"570",51,"APP-MKMK-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783404",22,114,False,"Homepage",False,"37","2","21","1",NULL
+"571",55,"APP-SRME-HOME","homepage-roen-app",1,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783404",20,119,True,"Homepage",False,"37","2","21","1",NULL
+"572",54,"APP-ENME-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783404",2,119,False,"Homepage",False,"37","2","21","1",NULL
+"573",58,"APP-ENXK-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783404",2,155,False,"Homepage",False,"37","2","21","1",NULL
+"574",59,"APP-SQXK-HOME","homepage-roen-app",3,21,1,"TANER.CEVHER","2026-01-20 13:40:02.789444","TANER.CEVHER","2026-03-26 11:57:16.783372",21,155,False,"Homepage",False,"37","2","21","1",NULL
+"575",20,"DEAL ZONE","dealzone-alen-app",1,21,1,"TANER.CEVHER","2026-01-29 11:47:56.847835","TANER.CEVHER","2026-03-26 11:57:16.783404",2,143,False,"DEAL ZONE",True,"0","0","0","0",NULL
+"576",9,"DEAL ZONE","dealzone-alen",1,1,0,"TANER.CEVHER","2026-01-29 11:48:16.949344","MACIT.ISIK","2026-06-09 07:00:37.476146",2,143,False,"DEAL ZONE",True,"0","0","0","0","575"
+"577",20,"ULJE %","dealzone-al-app",1,21,1,"TANER.CEVHER","2026-01-29 11:48:41.71182","TANER.CEVHER","2026-03-26 11:57:16.783404",21,143,False,"ULJE %",True,"0","0","0","0",NULL
+"578",9,"ULJE %","dealzone-al",1,1,0,"TANER.CEVHER","2026-01-29 11:48:57.119243","MACIT.ISIK","2026-06-09 07:00:37.476146",21,143,False,"ULJE %",True,"0","0","0","0","577"
+"579",45,"DEAL ZONE","dealzone-baen-app",3,21,1,"TANER.CEVHER","2026-01-29 11:55:20.927797","TANER.CEVHER","2026-03-26 11:57:16.783404",2,138,False,"DEAL ZONE",True,"0","0","0","0",NULL
+"580",53,"DEAL ZONE","dealzone-baen",3,1,0,"TANER.CEVHER","2026-01-29 11:55:46.570669","MACIT.ISIK","2026-06-09 07:00:37.476146",2,138,False,"DEAL ZONE",True,"0","0","0","0","579"
+"581",46,"DEAL ZONE","dealzone-ba-app",3,21,1,"TANER.CEVHER","2026-01-29 11:56:09.439361","TANER.CEVHER","2026-03-26 11:57:16.783405",16,138,False,"DEAL ZONE",True,"0","0","0","0",NULL
+"582",54,"DEAL ZONE","dealzone-ba",3,1,0,"TANER.CEVHER","2026-01-29 11:56:27.904841","MACIT.ISIK","2026-06-09 07:00:37.476147",16,138,False,"DEAL ZONE",True,"0","0","0","0","581"
+"583",21,"ДОМ","home-app",1,21,1,"TANER.CEVHER","2026-02-06 13:16:06.746192","TANER.CEVHER","2026-03-26 11:57:16.783353",3,9,False,"ДОМ",False,"0","0","0","0",NULL
+"584",21,"Дом","home",1,1,0,"TANER.CEVHER","2026-02-06 13:16:16.866392","MACIT.ISIK","2026-06-09 07:00:37.476069",3,9,False,"Дом",False,"0","0","0","0","583"
+"616",15,"WOMEN","women-alen-app",1,21,1,"TANER.CEVHER","2026-02-17 05:26:36.083097","TANER.CEVHER","2026-03-26 11:57:16.783402",2,143,True,"WOMEN",False,"0","0","0","0",NULL
+"617",16,"MEN","men-alen-app",1,21,1,"TANER.CEVHER","2026-02-17 05:26:46.582613","TANER.CEVHER","2026-03-26 11:57:16.783403",2,143,False,"MEN",False,"0","0","0","0",NULL
+"618",17,"GIRLS","girls-alen-app",1,21,1,"TANER.CEVHER","2026-02-17 05:26:57.123753","TANER.CEVHER","2026-03-26 11:57:16.78337",2,143,False,"GIRLS",False,"0","0","0","0",NULL
+"619",18,"BOYS","boys-alen-app",1,21,1,"TANER.CEVHER","2026-02-17 05:27:08.750109","TANER.CEVHER","2026-03-26 11:57:16.783378",2,143,False,"BOYS",False,"0","0","0","0",NULL
+"620",19,"BABY","baby-alen-app",1,21,1,"TANER.CEVHER","2026-02-17 05:27:20.079001","TANER.CEVHER","2026-03-26 11:57:16.783379",2,143,False,"BABY",False,"0","0","0","0",NULL
+"621",3,"WOMEN","women-alen",1,1,0,"TANER.CEVHER","2026-02-17 05:27:44.772823","MACIT.ISIK","2026-06-09 07:00:37.476143",2,143,True,"WOMEN",False,"0","0","0","0","616"
+"622",4,"MEN","men-alen",1,1,0,"TANER.CEVHER","2026-02-17 05:27:54.523232","MACIT.ISIK","2026-06-09 07:00:37.47607",2,143,False,"MEN",False,"0","0","0","0","617"
+"623",5,"GIRLS","girls-alen",1,1,0,"TANER.CEVHER","2026-02-17 05:28:05.449928","MACIT.ISIK","2026-06-09 07:00:37.476143",2,143,False,"GIRLS",False,"0","0","0","0","618"
+"624",6,"BOYS","boys-alen",1,1,0,"TANER.CEVHER","2026-02-17 05:28:16.13078","MACIT.ISIK","2026-06-09 07:00:37.476074",2,143,False,"BOYS",False,"0","0","0","0","619"
+"625",7,"BABY","baby-alen",1,1,0,"TANER.CEVHER","2026-02-17 05:28:27.134839","MACIT.ISIK","2026-06-09 07:00:37.476143",2,143,False,"BABY",False,"0","0","0","0","620"
+"626",15,"GRUA","women-al-app",1,21,1,"TANER.CEVHER","2026-02-17 05:29:15.978145","TANER.CEVHER","2026-03-26 11:57:16.783357",21,143,True,"GRUA",False,"0","0","0","0",NULL
+"627",16,"BURRË","men-al-app",1,21,1,"TANER.CEVHER","2026-02-17 05:29:28.891407","TANER.CEVHER","2026-03-26 11:57:16.783357",21,143,False,"BURRË",False,"0","0","0","0",NULL
+"628",17,"VAJZA","girls-al-app",1,21,1,"TANER.CEVHER","2026-02-17 05:29:38.144993","TANER.CEVHER","2026-03-26 11:57:16.783403",21,143,False,"VAJZA",False,"0","0","0","0",NULL
+"629",18,"DJEM","boys-al-app",1,21,1,"TANER.CEVHER","2026-02-17 05:29:48.589633","TANER.CEVHER","2026-03-26 11:57:16.783357",21,143,False,"DJEM",False,"0","0","0","0",NULL
+"630",19,"BEBE","baby-al-app",1,21,1,"TANER.CEVHER","2026-02-17 05:29:57.631451","TANER.CEVHER","2026-03-26 11:57:16.783358",21,143,False,"BEBE",False,"0","0","0","0",NULL
+"631",1,"GRUA","women-al",1,1,0,"TANER.CEVHER","2026-02-17 05:30:12.631094","MACIT.ISIK","2026-06-09 07:00:37.476138",21,143,True,"GRUA",False,"0","0","0","0","626"
+"632",4,"BURRË","men-al",1,1,0,"TANER.CEVHER","2026-02-17 05:30:24.648603","MACIT.ISIK","2026-06-09 07:00:37.476078",21,143,False,"BURRË",False,"0","0","0","0","627"
+"633",5,"VAJZA","girls-al",1,1,0,"TANER.CEVHER","2026-02-17 05:30:35.521564","MACIT.ISIK","2026-06-09 07:00:37.476138",21,143,False,"VAJZA",False,"0","0","0","0","628"
+"634",6,"DJEM","boys-al",1,1,0,"TANER.CEVHER","2026-02-17 05:30:45.647716","MACIT.ISIK","2026-06-09 07:00:37.476083",21,143,False,"DJEM",False,"0","0","0","0","629"
+"635",7,"BEBE","baby-al",1,1,0,"TANER.CEVHER","2026-02-17 05:30:54.717778","MACIT.ISIK","2026-06-09 07:00:37.476139",21,143,False,"BEBE",False,"0","0","0","0","630"
+"636",8,"WOMEN","women-gren-app",1,21,1,"ALI.AYDIN2","2026-02-19 15:07:57.585671","TANER.CEVHER","2026-03-26 11:57:16.783403",2,35,True,"WOMEN",False,"0","0","0","0",NULL
+"637",14,"LCW HOME","/home-living-t-5",3,21,1,"YIGIT.KARAMAN","2026-02-25 06:51:29.93445","TANER.CEVHER","2026-03-26 11:57:16.783403",2,58,False,"LCW HOME",False,"0","0","0","0",NULL
+"638",352,"KADIN","xk-web-en-hp",3,1,0,"YUNUS.AYAN","2026-02-26 06:37:47.741164","MACIT.ISIK","2026-06-09 07:00:37.476139",2,155,False,"KADIN",False,"0","0","0","0",NULL
+"639",11,"23 NİSAN","23-nisan-nt",2,21,1,"OKTAY.ATA","2026-03-02 13:21:45.770832","","2026-04-21 05:40:58.94114",1,1,False,"23 NİSAN",False,"0","0","0","0",NULL
+"640",353,"23 NİSAN ","23-nisan",3,1,0,"OKTAY.ATA","2026-03-02 13:57:12.42691","MACIT.ISIK","2026-06-09 07:00:37.476139",1,1,False,"23 NİSAN",False,"0","0","0","0",NULL
+"641",18,"23 NİSAN","23-nisan",2,1,0,"OKTAY.ATA","2026-03-02 14:03:43.525734","MACIT.ISIK","2026-06-09 07:00:37.476143",1,1,False,"23-NİSAN",False,"0","0","0","0","639"
+"642",191,"LCW HOME","spiti-diaviosi-t-5",3,21,1,"YIGIT.KARAMAN","2026-03-04 04:56:27.988127","TANER.CEVHER","2026-03-26 11:57:16.783402",23,35,False,"LCW HOME",False,"0","0","0","0",NULL
+"643",353,"LCW HOME","home-living-gr",3,1,0,"YIGIT.KARAMAN","2026-03-04 05:04:49.862858","MACIT.ISIK","2026-06-09 07:00:37.476143",23,35,False,"LCW HOME",False,"0","0","0","0",NULL
+"644",191,"LCW HOME","lcw-home-gr",3,21,1,"YIGIT.KARAMAN","2026-03-04 10:13:15.063399","TANER.CEVHER","2026-03-26 11:57:16.783402",23,35,False,"LCW HOME",False,"0","0","0","0",NULL
+"645",16,"LCW HOME","lcw-home-bgen-app",1,21,1,"TANER.CEVHER","2026-03-04 12:44:17.40187","TANER.CEVHER","2026-03-26 11:57:16.783402",2,52,False,"LCW HOME",False,"0","0","0","0",NULL
+"646",16,"LCW HOME","lcw-home-bg-app",1,21,1,"TANER.CEVHER","2026-03-04 12:44:36.397883","TANER.CEVHER","2026-03-26 11:57:16.783403",11,52,False,"LCW HOME",False,"0","0","0","0",NULL
+"647",16,"LCW HOME","lcw-home-cren-app",1,21,1,"TANER.CEVHER","2026-03-04 12:45:09.91057","TANER.CEVHER","2026-03-26 11:57:16.783403",2,58,False,"LCW HOME",False,"0","0","0","0",NULL
+"648",15,"LCW HOME","lcw-home-cr-app",1,21,1,"TANER.CEVHER","2026-03-04 12:45:43.233197","TANER.CEVHER","2026-03-26 11:57:16.783371",17,58,False,"LCW HOME",False,"0","0","0","0",NULL
+"649",14,"LCW HOME","lcw-home-de-app",1,21,1,"TANER.CEVHER","2026-03-04 12:47:03.347175","TANER.CEVHER","2026-03-26 11:57:16.783379",4,25,False,"LCW HOME",False,"0","0","0","0",NULL
+"650",14,"LCW HOME","lcw-home-detr-app",1,21,1,"TANER.CEVHER","2026-03-04 12:47:18.863788","TANER.CEVHER","2026-03-26 11:57:16.783379",1,25,False,"LCW HOME",False,"0","0","0","0",NULL
+"651",15,"LCW HOME","lcw-home-gr-app",1,21,1,"TANER.CEVHER","2026-03-04 12:47:33.237853","TANER.CEVHER","2026-03-26 11:57:16.783379",23,35,False,"LCW HOME",False,"0","0","0","0",NULL
+"652",16,"LCW HOME","lcw-home-gren-app",1,21,1,"TANER.CEVHER","2026-03-04 12:47:42.404124","TANER.CEVHER","2026-03-26 11:57:16.783403",2,35,False,"LCW HOME",False,"0","0","0","0",NULL
+"653",15,"LCW HOME","lcw-home-kzru-app",1,21,1,"TANER.CEVHER","2026-03-04 12:47:56.384087","TANER.CEVHER","2026-03-26 11:57:16.783371",3,10,False,"LCW HOME",False,"0","0","0","0",NULL
+"654",201,"LCW HOME","lcw-home-kz-app",1,21,1,"TANER.CEVHER","2026-03-04 12:48:06.867349","TANER.CEVHER","2026-03-26 11:57:16.783403",6,10,False,"LCW HOME",False,"0","0","0","0",NULL
+"655",354,"LCW HOME","lcw-home-bgen",1,1,0,"TANER.CEVHER","2026-03-12 10:56:26.705273","MACIT.ISIK","2026-06-09 07:00:37.476139",2,52,False,"LCW HOME",False,"0","0","0","0","645"
+"656",355,"LCW HOME","lcw-home-bg",1,1,0,"TANER.CEVHER","2026-03-12 10:57:07.229067","MACIT.ISIK","2026-06-09 07:00:37.476144",11,52,False,"LCW HOME",False,"0","0","0","0","646"
+"657",356,"LCW HOME","lcw-home-gr",1,1,0,"TANER.CEVHER","2026-03-12 10:57:26.816722","MACIT.ISIK","2026-06-09 07:00:37.47614",23,35,False,"LCW HOME",False,"0","0","0","0","651"
+"658",357,"LCW HOME","lcw-home-gren",1,1,0,"TANER.CEVHER","2026-03-12 10:57:43.521375","MACIT.ISIK","2026-06-09 07:00:37.476144",2,35,False,"LCW HOME",False,"0","0","0","0","652"
+"659",358,"LCW HOME","lcw-home-kzru",1,1,0,"TANER.CEVHER","2026-03-12 10:58:08.781506","MACIT.ISIK","2026-06-09 07:00:37.476144",3,10,False,"LCW HOME",False,"0","0","0","0","653"
+"660",359,"LCW HOME","lcw-home-kz",1,1,0,"TANER.CEVHER","2026-03-12 10:58:28.621087","MACIT.ISIK","2026-06-09 07:00:37.476144",6,10,False,"LCW HOME",False,"0","0","0","0","654"
+"661",360,"LCW HOME","lcw-home-detr",1,1,0,"TANER.CEVHER","2026-03-12 10:59:47.830386","MACIT.ISIK","2026-06-09 07:00:37.476144",1,25,False,"LCW HOME",False,"0","0","0","0","650"
+"662",361,"LCW HOME","lcw-home-de",1,1,0,"TANER.CEVHER","2026-03-12 11:00:06.93437","MACIT.ISIK","2026-06-09 07:00:37.476147",4,25,False,"LCW HOME",False,"0","0","0","0","649"
+"663",362,"LCW HOME","lcw-home-fr",1,1,0,"TANER.CEVHER","2026-03-12 11:00:27.872968","MACIT.ISIK","2026-06-09 07:00:37.476096",10,27,False,"LCW HOME",False,"0","0","0","0",NULL
+"664",363,"LCW HOME","lcw-home-frtr",1,1,0,"TANER.CEVHER","2026-03-12 11:00:39.7023","MACIT.ISIK","2026-06-09 07:00:37.476147",1,27,False,"LCW HOME",False,"0","0","0","0",NULL
+"665",364,"LCW HOME","lcw-home-it",1,1,0,"TANER.CEVHER","2026-03-12 11:00:52.458893","MACIT.ISIK","2026-06-09 07:00:37.476145",2,38,False,"LCW HOME",False,"0","0","0","0","674"
+"666",365,"LCW HOME","lcw-home-cren",1,1,0,"TANER.CEVHER","2026-03-12 11:01:20.741854","MACIT.ISIK","2026-06-09 07:00:37.476145",2,58,False,"LCW HOME",False,"0","0","0","0","647"
+"667",366,"LCW HOME","lcw-home-cr",1,1,0,"TANER.CEVHER","2026-03-12 11:01:36.60082","MACIT.ISIK","2026-06-09 07:00:37.476096",17,58,False,"LCW HOME",False,"0","0","0","0","648"
+"668",202,"WOMEN","women-it-app",2,21,1,"TANER.CEVHER","2026-03-13 12:36:41.672478","TANER.CEVHER","2026-03-26 11:57:16.783379",2,38,False,"WOMEN",False,"0","0","0","0",NULL
+"669",203,"HOMEPAGE","homepage-it-app",2,21,1,"TANER.CEVHER","2026-03-13 12:36:57.316762","TANER.CEVHER","2026-03-26 11:57:16.783379",2,38,False,"HOMEPAGE",False,"0","0","0","0",NULL
+"670",204,"MEN","men-it-app",2,21,1,"TANER.CEVHER","2026-03-13 12:37:09.820487","TANER.CEVHER","2026-03-26 11:57:16.78338",2,38,False,"MEN",False,"0","0","0","0",NULL
+"671",205,"GIRLS","girls-it-app",2,21,1,"TANER.CEVHER","2026-03-13 12:37:19.626785","TANER.CEVHER","2026-03-26 11:57:16.78338",2,38,False,"GIRLS",False,"0","0","0","0",NULL
+"672",206,"BOYS","boys-it-app",2,21,1,"TANER.CEVHER","2026-03-13 12:37:35.543538","TANER.CEVHER","2026-03-26 11:57:16.78338",2,38,False,"BOYS",False,"0","0","0","0",NULL
+"673",207,"BABY","baby-it-app",2,21,1,"TANER.CEVHER","2026-03-13 12:37:44.924229","TANER.CEVHER","2026-03-26 11:57:16.78338",2,38,False,"BABY",False,"0","0","0","0",NULL
+"674",208,"LCW HOME","lcw-home-it-app",2,21,1,"TANER.CEVHER","2026-03-13 12:38:05.631652","TANER.CEVHER","2026-03-26 11:57:16.783403",2,38,False,"LCW HOME",False,"0","0","0","0",NULL
+"675",8,"WOMEN","women-mken-app",1,21,1,"TANER.CEVHER","2026-03-26 10:55:57.994836","TANER.CEVHER","2026-03-26 11:57:16.78338",2,114,True,"WOMEN",False,"0","0","0","0",NULL
+"676",210,"MEN","men-mken-app",1,21,1,"TANER.CEVHER","2026-03-26 10:56:06.809896","TANER.CEVHER","2026-03-26 11:57:16.78338",2,114,False,"MEN",False,"0","0","0","0",NULL
+"677",211,"GIRLS","girls-mken-app",1,21,1,"TANER.CEVHER","2026-03-26 10:56:17.138524","TANER.CEVHER","2026-03-26 11:57:16.783371",2,114,False,"GIRLS",False,"0","0","0","0",NULL
+"678",212,"BOYS","boys-mken-app",1,21,1,"TANER.CEVHER","2026-03-26 10:56:27.074712","TANER.CEVHER","2026-03-26 11:57:16.78338",2,114,False,"BOYS",False,"0","0","0","0",NULL
+"679",213,"BABY","baby-mken-app",1,21,1,"TANER.CEVHER","2026-03-26 11:11:26.929191","TANER.CEVHER","2026-03-26 11:57:16.783357",2,114,False,"BABY",False,"0","0","0","0",NULL
+"680",14,"WOMEN","women-mken",1,1,0,"TANER.CEVHER","2026-03-26 11:13:21.344911","MACIT.ISIK","2026-06-09 07:00:37.476078",2,114,True,"WOMEN",False,"0","0","0","0","675"
+"681",368,"MEN","men-mken",1,1,0,"TANER.CEVHER","2026-03-26 11:13:36.040539","MACIT.ISIK","2026-06-09 07:00:37.476079",2,114,False,"MEN",False,"0","0","0","0","676"
+"682",369,"GIRLS","girls-mken",1,1,0,"TANER.CEVHER","2026-03-26 11:13:46.083051","MACIT.ISIK","2026-06-09 07:00:37.476097",2,114,False,"GIRLS",False,"0","0","0","0","677"
+"683",370,"BOYS","boys-mken",1,1,0,"TANER.CEVHER","2026-03-26 11:13:58.444688","MACIT.ISIK","2026-06-09 07:00:37.476097",2,114,False,"BOYS",False,"0","0","0","0","678"
+"684",371,"BABY","baby-mken",1,1,0,"TANER.CEVHER","2026-03-26 11:14:08.355486","MACIT.ISIK","2026-06-09 07:00:37.476097",2,114,False,"BABY",False,"0","0","0","0","679"
+"685",7,"WOMEN","women-mkal-app",1,21,1,"TANER.CEVHER","2026-03-26 11:16:25.474141","TANER.CEVHER","2026-03-26 11:57:16.783358",21,114,True,"WOMEN",False,"0","0","0","0",NULL
+"686",215,"MEN","men-mkal-app",1,21,1,"TANER.CEVHER","2026-03-26 11:16:34.918755","TANER.CEVHER","2026-03-26 11:57:16.783358",21,114,False,"MEN",False,"0","0","0","0",NULL
+"687",216,"GIRLS","girls-mkal-app",1,21,1,"TANER.CEVHER","2026-03-26 11:16:43.681615","TANER.CEVHER","2026-03-26 11:57:16.783359",21,114,False,"GIRLS",False,"0","0","0","0",NULL
+"688",217,"BOYS","boys-mkal-app",1,21,1,"TANER.CEVHER","2026-03-26 11:16:51.882011","TANER.CEVHER","2026-03-26 11:57:16.783359",21,114,False,"BOYS",False,"0","0","0","0",NULL
+"689",218,"BABY","baby-mkal-app",1,21,1,"TANER.CEVHER","2026-03-26 11:17:00.113268","TANER.CEVHER","2026-03-26 11:57:16.78336",21,114,False,"BABY",False,"0","0","0","0",NULL
+"690",13,"WOMEN","women-mkal",1,1,0,"TANER.CEVHER","2026-03-26 11:17:16.725871","MACIT.ISIK","2026-06-09 07:00:37.476079",21,114,True,"WOMEN",False,"0","0","0","0","685"
+"691",373,"MEN","men-mkal",1,1,0,"TANER.CEVHER","2026-03-26 11:17:30.958568","MACIT.ISIK","2026-06-09 07:00:37.476081",21,114,False,"MEN",False,"0","0","0","0","686"
+"692",374,"GIRLS","girls-mkal",1,1,0,"TANER.CEVHER","2026-03-26 11:17:41.172509","MACIT.ISIK","2026-06-09 07:00:37.476097",21,114,False,"GIRLS",False,"0","0","0","0","687"
+"693",375,"BOYS","boys-mkal",1,1,0,"TANER.CEVHER","2026-03-26 11:17:53.160366","MACIT.ISIK","2026-06-09 07:00:37.476098",21,114,False,"BOYS",False,"0","0","0","0","688"
+"694",376,"BABY","baby-mkal",1,1,0,"TANER.CEVHER","2026-03-26 11:18:03.830436","MACIT.ISIK","2026-06-09 07:00:37.476098",21,114,False,"BABY",False,"0","0","0","0","689"
+"695",6,"WOMEN","women-mk-app",1,21,1,"TANER.CEVHER","2026-03-26 11:18:44.499089","TANER.CEVHER","2026-03-26 11:57:16.78336",22,114,True,"WOMEN",False,"0","0","0","0",NULL
+"696",220,"MEN","men-mk-app",1,21,1,"TANER.CEVHER","2026-03-26 11:18:49.888758","TANER.CEVHER","2026-03-26 11:57:16.78336",22,114,False,"MEN",False,"0","0","0","0",NULL
+"697",221,"GIRLS","girls-mk-app",1,21,1,"TANER.CEVHER","2026-03-26 11:18:58.4742","TANER.CEVHER","2026-03-26 11:57:16.78336",22,114,False,"GIRLS",False,"0","0","0","0",NULL
+"698",222,"BOYS","boys-mk-app",1,21,1,"TANER.CEVHER","2026-03-26 11:19:09.551743","TANER.CEVHER","2026-03-26 11:57:16.783358",22,114,False,"BOYS",False,"0","0","0","0",NULL
+"699",223,"BABY","baby-mk-app",1,21,1,"TANER.CEVHER","2026-03-26 11:19:17.653787","TANER.CEVHER","2026-03-26 11:57:16.783361",22,114,False,"BABY",False,"0","0","0","0",NULL
+"700",12,"WOMEN","women-mk",1,1,0,"TANER.CEVHER","2026-03-26 11:19:29.778416","MACIT.ISIK","2026-06-09 07:00:37.476098",22,114,True,"WOMEN",False,"0","0","0","0","695"
+"701",378,"MEN","men-mk",1,1,0,"TANER.CEVHER","2026-03-26 11:19:36.857027","MACIT.ISIK","2026-06-09 07:00:37.476098",22,114,False,"MEN",False,"0","0","0","0","696"
+"702",379,"GIRLS","girls-mk",1,1,0,"TANER.CEVHER","2026-03-26 11:19:47.061132","MACIT.ISIK","2026-06-09 07:00:37.476099",22,114,False,"GIRLS",False,"0","0","0","0","697"
+"703",380,"BOYS","boys-mk",1,1,0,"TANER.CEVHER","2026-03-26 11:19:55.135631","MACIT.ISIK","2026-06-09 07:00:37.476099",22,114,False,"BOYS",False,"0","0","0","0","698"
+"704",381,"BABY","baby-mk",1,1,0,"TANER.CEVHER","2026-03-26 11:20:04.564867","MACIT.ISIK","2026-06-09 07:00:37.476099",22,114,False,"BABY",False,"0","0","0","0","699"
+"705",5,"WOMEN","women-ksen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:20:42.237637","TANER.CEVHER","2026-03-26 11:57:16.783361",2,155,True,"WOMEN",False,"0","0","0","0",NULL
+"706",225,"MEN","men-ksen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:20:50.93215","TANER.CEVHER","2026-03-26 11:57:16.783359",2,155,False,"MEN",False,"0","0","0","0",NULL
+"707",226,"GIRLS","girls-ksen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:20:59.027056","TANER.CEVHER","2026-03-26 11:57:16.783359",2,155,False,"GIRLS",False,"0","0","0","0",NULL
+"708",227,"BOYS","boys-ksen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:21:18.932334","TANER.CEVHER","2026-03-26 11:57:16.78338",2,155,False,"BOYS",False,"0","0","0","0",NULL
+"709",228,"BABY","baby-ksen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:21:26.255561","TANER.CEVHER","2026-03-26 11:57:16.783359",2,155,False,"BABY",False,"0","0","0","0",NULL
+"710",11,"WOMEN","women-ksen",1,1,0,"TANER.CEVHER","2026-03-26 11:21:52.311776","MACIT.ISIK","2026-06-09 07:00:37.476087",2,155,True,"WOMEN",False,"0","0","0","0","705"
+"711",383,"MEN","men-ksen",1,1,0,"TANER.CEVHER","2026-03-26 11:21:59.641116","MACIT.ISIK","2026-06-09 07:00:37.47609",2,155,False,"MEN",False,"0","0","0","0","706"
+"712",384,"GIRLS","girls-ksen",1,1,0,"TANER.CEVHER","2026-03-26 11:22:08.278135","MACIT.ISIK","2026-06-09 07:00:37.47609",2,155,False,"GIRLS",False,"0","0","0","0","707"
+"713",385,"BOYS","boys-ksen",1,1,0,"TANER.CEVHER","2026-03-26 11:22:17.162452","MACIT.ISIK","2026-06-09 07:00:37.476087",2,155,False,"BOYS",False,"0","0","0","0","708"
+"714",386,"BABY","baby-ksen",1,1,0,"TANER.CEVHER","2026-03-26 11:22:24.63072","MACIT.ISIK","2026-06-09 07:00:37.476096",2,155,False,"BABY",False,"0","0","0","0","709"
+"715",4,"WOMEN","women-ks-app",1,21,1,"TANER.CEVHER","2026-03-26 11:22:45.737488","TANER.CEVHER","2026-03-26 11:57:16.78338",21,155,True,"WOMEN",False,"0","0","0","0",NULL
+"716",230,"MEN","men-ks-app",1,21,1,"TANER.CEVHER","2026-03-26 11:22:59.042116","TANER.CEVHER","2026-03-26 11:57:16.783381",21,155,False,"MEN",False,"0","0","0","0",NULL
+"717",231,"GIRLS","girls-ks-app",1,21,1,"TANER.CEVHER","2026-03-26 11:23:05.920802","TANER.CEVHER","2026-03-26 11:57:16.783371",21,155,False,"GIRLS",False,"0","0","0","0",NULL
+"718",232,"BOYS","boys-ks-app",1,21,1,"TANER.CEVHER","2026-03-26 11:23:15.416254","TANER.CEVHER","2026-03-26 11:57:16.783381",21,155,False,"BOYS",False,"0","0","0","0",NULL
+"719",233,"BABY","baby-ks-app",1,21,1,"TANER.CEVHER","2026-03-26 11:23:21.316508","TANER.CEVHER","2026-03-26 11:57:16.783372",21,155,False,"BABY",False,"0","0","0","0",NULL
+"720",10,"WOMEN","women-ks",1,1,0,"TANER.CEVHER","2026-03-26 11:23:43.561125","MACIT.ISIK","2026-06-09 07:00:37.47609",21,155,True,"WOMEN",False,"0","0","0","0","715"
+"721",388,"MEN","men-ks",1,1,0,"TANER.CEVHER","2026-03-26 11:24:03.110875","MACIT.ISIK","2026-06-09 07:00:37.476087",21,155,False,"MEN",False,"0","0","0","0","716"
+"722",389,"GIRLS","girls-ks",1,1,0,"TANER.CEVHER","2026-03-26 11:24:12.104431","MACIT.ISIK","2026-06-09 07:00:37.476091",21,155,False,"GIRLS",False,"0","0","0","0","717"
+"723",390,"BOYS","boys-ks",1,1,0,"TANER.CEVHER","2026-03-26 11:24:19.285361","MACIT.ISIK","2026-06-09 07:00:37.476087",21,155,False,"BOYS",False,"0","0","0","0","718"
+"724",391,"BABY","baby-ks",1,1,0,"TANER.CEVHER","2026-03-26 11:24:29.306263","MACIT.ISIK","2026-06-09 07:00:37.476088",21,155,False,"BABY",False,"0","0","0","0","719"
+"725",3,"WOMEN","women-baen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:25:07.176323","TANER.CEVHER","2026-03-26 11:57:16.783381",2,138,True,"WOMEN",False,"0","0","0","0",NULL
+"726",235,"MEN","men-baen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:25:14.180012","TANER.CEVHER","2026-03-26 11:57:16.783375",2,138,False,"MEN",False,"0","0","0","0",NULL
+"727",236,"GIRLS","girls-baen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:25:22.172762","TANER.CEVHER","2026-03-26 11:57:16.783381",2,138,False,"GIRLS",False,"0","0","0","0",NULL
+"728",237,"BOYS","boys-baen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:25:30.318484","TANER.CEVHER","2026-03-26 11:57:16.783381",2,138,False,"BOYS",False,"0","0","0","0",NULL
+"729",238,"BABY","baby-baen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:25:38.859258","TANER.CEVHER","2026-03-26 11:57:16.783371",2,138,False,"BABY",False,"0","0","0","0",NULL
+"730",9,"WOMEN","women-baen",1,1,0,"TANER.CEVHER","2026-03-26 11:26:00.080815","MACIT.ISIK","2026-06-09 07:00:37.476096",2,138,True,"WOMEN",False,"0","0","0","0","725"
+"731",393,"MEN","men-baen",1,1,0,"TANER.CEVHER","2026-03-26 11:26:09.899884","MACIT.ISIK","2026-06-09 07:00:37.476088",2,138,False,"MEN",False,"0","0","0","0","726"
+"732",394,"GIRLS","girls-baen",1,1,0,"TANER.CEVHER","2026-03-26 11:26:18.366713","MACIT.ISIK","2026-06-09 07:00:37.476088",2,138,False,"GIRLS",False,"0","0","0","0","727"
+"733",395,"BOYS","boys-baen",1,1,0,"TANER.CEVHER","2026-03-26 11:26:25.84134","MACIT.ISIK","2026-06-09 07:00:37.476088",2,138,False,"BOYS",False,"0","0","0","0","728"
+"734",396,"BABY","baby-baen",1,1,0,"TANER.CEVHER","2026-03-26 11:26:35.747232","MACIT.ISIK","2026-06-09 07:00:37.476091",2,138,False,"BABY",False,"0","0","0","0","729"
+"735",2,"WOMEN","women-ba-app",1,21,1,"TANER.CEVHER","2026-03-26 11:26:50.703774","TANER.CEVHER","2026-03-26 11:57:16.783381",16,138,True,"WOMEN",False,"0","0","0","0",NULL
+"736",240,"MEN","men-ba-app",1,21,1,"TANER.CEVHER","2026-03-26 11:26:58.283196","TANER.CEVHER","2026-03-26 11:57:16.783366",16,138,False,"MEN",False,"0","0","0","0",NULL
+"737",241,"GIRLS","girls-ba-app",1,21,1,"TANER.CEVHER","2026-03-26 11:27:03.621071","TANER.CEVHER","2026-03-26 11:57:16.783381",16,138,False,"GIRLS",False,"0","0","0","0",NULL
+"738",242,"BOYS","boys-ba-app",1,21,1,"TANER.CEVHER","2026-03-26 11:27:12.638511","TANER.CEVHER","2026-03-26 11:57:16.783366",16,138,False,"BOYS",False,"0","0","0","0",NULL
+"739",243,"BABY","baby-ba-app",1,21,1,"TANER.CEVHER","2026-03-26 11:27:19.084529","TANER.CEVHER","2026-03-26 11:57:16.783371",16,138,False,"BABY",False,"0","0","0","0",NULL
+"740",8,"WOMEN","women-ba",1,1,0,"TANER.CEVHER","2026-03-26 11:27:38.891734","MACIT.ISIK","2026-06-09 07:00:37.476091",16,138,True,"WOMEN",False,"0","0","0","0","735"
+"741",398,"MEN","men-ba",1,1,0,"TANER.CEVHER","2026-03-26 11:27:46.891848","MACIT.ISIK","2026-06-09 07:00:37.476091",16,138,False,"MEN",False,"0","0","0","0","736"
+"742",399,"GIRLS","girls-ba",1,1,0,"TANER.CEVHER","2026-03-26 11:27:55.642079","MACIT.ISIK","2026-06-09 07:00:37.476091",16,138,False,"GIRLS",False,"0","0","0","0","737"
+"743",400,"BOYS","boys-ba",1,1,0,"TANER.CEVHER","2026-03-26 11:28:02.381884","MACIT.ISIK","2026-06-09 07:00:37.476092",16,138,False,"BOYS",False,"0","0","0","0","738"
+"744",401,"BABY","baby-ba",1,1,0,"TANER.CEVHER","2026-03-26 11:28:25.060865","MACIT.ISIK","2026-06-09 07:00:37.476091",16,138,False,"BABY",False,"0","0","0","0","739"
+"745",1,"WOMEN","women-meen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:28:57.670526","TANER.CEVHER","2026-03-26 11:57:16.783365",2,119,True,"WOMEN",False,"0","0","0","0",NULL
+"746",245,"MEN","men-meen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:29:15.097025","TANER.CEVHER","2026-03-26 11:57:16.783365",2,119,False,"MEN",False,"0","0","0","0",NULL
+"747",246,"GIRLS","girls-meen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:29:22.420974","TANER.CEVHER","2026-03-26 11:57:16.783366",2,119,False,"GIRLS",False,"0","0","0","0",NULL
+"748",247,"BOYS","boys-meen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:29:31.606093","TANER.CEVHER","2026-03-26 11:57:16.783366",2,119,False,"BOYS",False,"0","0","0","0",NULL
+"749",248,"BABY","baby-meen-app",1,21,1,"TANER.CEVHER","2026-03-26 11:29:38.337666","TANER.CEVHER","2026-03-26 11:57:16.783367",2,119,False,"BABY",False,"0","0","0","0",NULL
+"750",6,"WOMEN","women-meen",1,1,0,"TANER.CEVHER","2026-03-26 11:29:50.686318","MACIT.ISIK","2026-06-09 07:00:37.476091",2,119,True,"WOMEN",False,"0","0","0","0","745"
+"751",403,"MEN","men-meen",1,1,0,"TANER.CEVHER","2026-03-26 11:30:06.385137","MACIT.ISIK","2026-06-09 07:00:37.476092",2,119,False,"MEN",False,"0","0","0","0","746"
+"752",404,"GIRLS","girls-meen",1,1,0,"TANER.CEVHER","2026-03-26 11:30:16.303827","MACIT.ISIK","2026-06-09 07:00:37.476092",2,119,False,"GIRLS",False,"0","0","0","0","747"
+"753",405,"BOYS","boys-meen",1,1,0,"TANER.CEVHER","2026-03-26 11:30:27.628324","MACIT.ISIK","2026-06-09 07:00:37.476091",2,119,False,"BOYS",False,"0","0","0","0","748"
+"754",406,"BABY","baby-meen",1,1,0,"TANER.CEVHER","2026-03-26 11:30:36.378888","MACIT.ISIK","2026-06-09 07:00:37.476091",2,119,False,"BABY",False,"0","0","0","0","749"
+"755",249,"WOMEN","women-me-app",1,21,1,"TANER.CEVHER","2026-03-26 11:30:55.518593","","2026-04-14 12:21:35.363786",20,119,False,"WOMEN",False,"0","0","0","0",NULL
+"756",250,"MEN","men-me-app",1,21,1,"TANER.CEVHER","2026-03-26 11:31:30.343591","","2026-04-14 12:21:36.81",20,119,False,"MEN",False,"0","0","0","0",NULL
+"757",251,"GIRLS","girls-me-app",1,21,1,"TANER.CEVHER","2026-03-26 11:31:37.839125","","2026-04-14 12:21:38.237561",20,119,False,"GIRLS",False,"0","0","0","0",NULL
+"758",252,"BOYS","boys-me-app",1,21,1,"TANER.CEVHER","2026-03-26 11:31:44.324216","","2026-04-14 12:21:39.37877",20,119,False,"BOYS",False,"0","0","0","0",NULL
+"759",253,"BABY","baby-me-app",1,21,1,"TANER.CEVHER","2026-03-26 11:31:49.931405","","2026-04-14 12:21:40.778036",20,119,False,"BABY",False,"0","0","0","0",NULL
+"760",7,"WOMEN","women-me",1,1,0,"TANER.CEVHER","2026-03-26 11:32:02.87646","MACIT.ISIK","2026-06-09 07:00:37.476092",20,119,True,"WOMEN",False,"0","0","0","0","755"
+"761",408,"MEN","men-me",1,1,0,"TANER.CEVHER","2026-03-26 11:32:12.097443","MACIT.ISIK","2026-06-09 07:00:37.476092",20,119,False,"MEN",False,"0","0","0","0","756"
+"762",409,"GIRLS","girls-me",1,1,0,"TANER.CEVHER","2026-03-26 11:32:19.519799","MACIT.ISIK","2026-06-09 07:00:37.476092",20,119,False,"GIRLS",False,"0","0","0","0","757"
+"763",410,"BOYS","boys-me",1,1,0,"TANER.CEVHER","2026-03-26 11:32:27.513553","MACIT.ISIK","2026-06-09 07:00:37.476093",20,119,False,"BOYS",False,"0","0","0","0","758"
+"764",411,"BABY","baby-me",1,1,0,"TANER.CEVHER","2026-03-26 11:32:34.707041","MACIT.ISIK","2026-06-09 07:00:37.476093",20,119,False,"BABY",False,"0","0","0","0","759"
+"765",412,"LCW HOME","lcw-home-me",1,1,0,"TANER.CEVHER","2026-04-14 12:04:46.346472","MACIT.ISIK","2026-06-09 07:00:37.476106",20,119,False,"LCW HOME",False,"0","0","0","0","766"
+"766",254,"LCW HOME","lcw-home-me-app",1,21,1,"TANER.CEVHER","2026-04-14 12:05:08.966646","","2026-04-14 12:21:42.100513",20,119,False,"LCW HOME",False,"0","0","0","0",NULL
+"767",255,"LCW HOME","lcw-home-meen-app",1,21,1,"TANER.CEVHER","2026-04-14 12:05:31.091059","","2026-04-14 12:21:52.845694",2,119,False,"LCW HOME",False,"0","0","0","0",NULL
+"768",413,"LCW HOME","lcw-home-meen",1,1,0,"TANER.CEVHER","2026-04-14 12:05:42.298724","MACIT.ISIK","2026-06-09 07:00:37.476106",2,119,False,"LCW HOME",False,"0","0","0","0","767"
+"769",256,"LCW HOME","lcw-home-baen-app",1,21,1,"TANER.CEVHER","2026-04-14 12:05:59.282869","","2026-04-14 12:21:09.474772",2,138,False,"LCW HOME",False,"0","0","0","0",NULL
+"770",414,"LCW HOME","lcw-home-baen",1,1,0,"TANER.CEVHER","2026-04-14 12:06:12.224116","MACIT.ISIK","2026-06-09 07:00:37.476106",2,138,False,"LCW HOME",False,"0","0","0","0","769"
+"771",257,"LCW HOME","lcw-home-ba-app",1,21,1,"TANER.CEVHER","2026-04-14 12:06:23.7687","","2026-04-14 12:21:15.168843",16,138,False,"LCW HOME",False,"0","0","0","0",NULL
+"772",415,"LCW HOME","lcw-home-ba",1,1,0,"TANER.CEVHER","2026-04-14 12:06:33.990846","MACIT.ISIK","2026-06-09 07:00:37.476107",16,138,False,"LCW HOME",False,"0","0","0","0","771"
+"773",258,"LCW HOME","lcw-home-alen-app",1,21,1,"TANER.CEVHER","2026-04-14 12:06:52.99829","","2026-04-14 12:20:35.668763",2,143,False,"LCW HOME",False,"0","0","0","0",NULL
+"774",8,"LCW HOME","lcw-home-alen",1,1,0,"TANER.CEVHER","2026-04-14 12:07:05.930581","MACIT.ISIK","2026-06-09 07:00:37.476107",2,143,False,"LCW HOME",False,"0","0","0","0","773"
+"775",259,"LCW HOME","lcw-home-al-app",1,21,1,"TANER.CEVHER","2026-04-14 12:07:17.884791","","2026-04-14 12:20:54.419948",21,143,False,"LCW HOME",False,"0","0","0","0",NULL
+"776",8,"LCW HOME","lcw-home-al",1,1,0,"TANER.CEVHER","2026-04-14 12:07:28.285652","MACIT.ISIK","2026-06-09 07:00:37.476107",21,143,False,"LCW HOME",False,"0","0","0","0","775"
+"777",260,"LCW HOME","lcw-home-ks-app",1,21,1,"TANER.CEVHER","2026-04-14 12:07:43.274549","","2026-04-14 12:20:07.128654",21,155,False,"LCW HOME",False,"0","0","0","0",NULL
+"778",418,"LCW HOME","lcw-home-ks",1,1,0,"TANER.CEVHER","2026-04-14 12:07:55.876365","MACIT.ISIK","2026-06-09 07:00:37.476109",21,155,False,"LCW HOME",False,"0","0","0","0","777"
+"779",261,"LCW HOME","lcw-home-ksen-app",1,21,1,"TANER.CEVHER","2026-04-14 12:08:19.251858","","2026-04-14 12:20:29.605242",2,155,False,"LCW HOME",False,"0","0","0","0",NULL
+"780",419,"LCW HOME","lcw-home-ksen",1,1,0,"TANER.CEVHER","2026-04-14 12:08:29.23651","MACIT.ISIK","2026-06-09 07:00:37.476107",2,155,False,"LCW HOME",False,"0","0","0","0","779"
+"781",262,"LCW HOME","lcw-home-mken-app",1,21,1,"TANER.CEVHER","2026-04-14 12:08:42.972706","","2026-04-14 12:19:49.84986",2,114,False,"LCW HOME",False,"0","0","0","0",NULL
+"782",420,"LCW HOME","lcw-home-mken",1,1,0,"TANER.CEVHER","2026-04-14 12:08:50.638864","MACIT.ISIK","2026-06-09 07:00:37.476107",2,114,False,"LCW HOME",False,"0","0","0","0","781"
+"783",263,"LCW HOME","lcw-home-mkal-app",1,21,1,"TANER.CEVHER","2026-04-14 12:09:03.319476","","2026-04-14 12:19:54.672688",21,114,False,"LCW HOME",False,"0","0","0","0",NULL
+"784",421,"LCW HOME","lcw-home-mkal",1,1,0,"TANER.CEVHER","2026-04-14 12:09:13.679172","MACIT.ISIK","2026-06-09 07:00:37.47611",21,114,False,"LCW HOME",False,"0","0","0","0","783"
+"785",264,"LCW HOME","lcw-home-mk-app",1,21,1,"TANER.CEVHER","2026-04-14 12:09:23.707108","","2026-04-14 12:20:00.007869",22,114,False,"LCW HOME",False,"0","0","0","0",NULL
+"786",422,"LCW HOME","lcw-home-mk",1,1,0,"TANER.CEVHER","2026-04-14 12:09:34.907533","MACIT.ISIK","2026-06-09 07:00:37.47611",22,114,False,"LCW HOME",False,"0","0","0","0","785"
+"95675",107,"deafult app old","default",3,21,1,"cihan","2025-07-04 14:20:35","TANER.CEVHER","2026-03-26 11:57:16.783361",1,1,False,"default",False,"0","3","21","1",NULL
+"95676",15,"TÜM KATEGORİLER","tumurunler",2,1,0,"cihan","2025-07-04 14:20:35","MACIT.ISIK","2026-06-09 07:00:37.476104",1,1,False,"TÜM KATEGORİLER",False,"1","1","1","0",NULL
+"95677",121,"Erkek","erkek-web",3,1,0,"YUNUS.AYAN","2025-08-05 09:45:19","MACIT.ISIK","2026-06-09 07:00:37.476101",1,1,False,"Erkek",False,"2","3","1","0",NULL
+"95678",121,"erkek","erkek-web",3,1,0,"YUNUS.AYAN","2025-08-05 09:49:26","MACIT.ISIK","2026-06-09 07:00:37.476101",1,1,False,"Erkek",False,"3","3","1","0",NULL
+"95679",9,"KADIN","kadin-app",1,21,1,"MACIT.ISIK","2025-08-07 10:13:10","TANER.CEVHER","2026-03-26 11:57:16.783361",1,1,True,"KADIN",False,"4","1","21","1",NULL
+"95680",8,"TÜM KATEGORİLER","defaultapp",2,21,1,"MACIT.ISIK","2025-08-07 10:20:02","TANER.CEVHER","2026-03-26 11:57:16.783362",1,1,False,"TÜM KATEGORİLER",False,"5","1","21","1",NULL
+"95681",10,"ERKEK","erkek-app",1,21,1,"CAN.AYDIN","2025-08-07 12:11:15","TANER.CEVHER","2026-03-26 11:57:16.783362",1,1,False,"ERKEK",False,"6","1","21","1",NULL
+"95682",109,"Ev Yaşam","ev-yasam",3,21,1,"CAN.AYDIN","2025-08-07 12:11:41","TANER.CEVHER","2026-03-26 11:57:16.783362",1,1,False,"Ev Yaşam",False,"7","3","21","1",NULL
+"95683",104,"test","test",3,21,1,"CAN.AYDIN","2025-08-07 12:55:19","TANER.CEVHER","2026-03-26 11:57:16.783372",1,1,False,"Test",False,"8","3","21","1",NULL
+"95684",13,"ERKEK ÇOCUK","erkekcocuk-app",1,21,1,"BETUL.SAGIR","2025-08-08 06:43:17","TANER.CEVHER","2026-03-26 11:57:16.783372",1,1,False,"ERKEK ÇOCUK",False,"9","1","21","1",NULL
+"95685",12,"KIZ ÇOCUK","kizcocuk-app",1,21,1,"BETUL.SAGIR","2025-08-08 06:44:09","TANER.CEVHER","2026-03-26 11:57:16.783372",1,1,False,"KIZ ÇOCUK",False,"10","1","21","1",NULL
+"95686",14,"BEBEK","bebek-app",1,21,1,"BETUL.SAGIR","2025-08-08 06:44:25","TANER.CEVHER","2026-03-26 11:57:16.783372",1,1,False,"BEBEK",False,"11","1","21","1",NULL
+"95687",16,"EV YAŞAM","evyasam-app",1,21,1,"BETUL.SAGIR","2025-08-08 06:45:06","TANER.CEVHER","2026-03-26 11:57:16.783381",1,1,False,"EV YAŞAM",False,"12","1","21","1",NULL
+"95688",17,"AYAKKABI VE AKSESUAR","ayakkabiaksesuar-app",2,21,1,"BETUL.SAGIR","2025-08-08 06:45:49","TANER.CEVHER","2026-03-26 11:57:16.783381",1,1,False,"AYAKKABI VE AKSESUAR",False,"13","2","21","1",NULL
+"95689",18,"KOZMETİK","kozmetik-app",1,21,1,"BETUL.SAGIR","2025-08-08 06:46:03","TANER.CEVHER","2026-03-26 11:57:16.783388",1,1,False,"KOZMETİK",False,"14","1","21","1",NULL
+"95690",15,"FIRSAT ALANI %","firsatalani-app",1,21,1,"BETUL.SAGIR","2025-08-08 06:46:17","TANER.CEVHER","2026-03-26 11:57:16.783388",1,1,False,"FIRSAT ALANI %",True,"15","1","21","1",NULL
+"95691",3,"KADIN","kadin",1,1,0,"BETUL.SAGIR","2025-08-08 08:11:05","MACIT.ISIK","2026-06-09 07:00:37.476101",1,1,True,"KADIN",False,"16","1","1","0","95679"
+"95692",20,"MARKALAR","markalar-app",1,21,1,"BETUL.SAGIR","2025-08-08 08:24:57","TANER.CEVHER","2026-03-26 11:57:16.783388",1,1,False,"MARKALAR",False,"17","1","21","1",NULL
+"95693",17,"ERKEK","erkek",1,1,0,"BETUL.SAGIR","2025-08-08 08:25:15","MACIT.ISIK","2026-06-09 07:00:37.476101",1,1,False,"ERKEK",False,"18","1","1","0",NULL
+"95694",20,"ERKEK ÇOCUK","erkekcocuk",1,1,0,"BETUL.SAGIR","2025-08-08 08:25:27","MACIT.ISIK","2026-06-09 07:00:37.476102",1,1,False,"ERKEK ÇOCUK",False,"19","1","1","0",NULL
+"95695",19,"KIZ ÇOCUK","kizcocuk",1,1,0,"BETUL.SAGIR","2025-08-08 08:25:38","MACIT.ISIK","2026-06-09 07:00:37.476102",1,1,False,"KIZ ÇOCUK",False,"20","1","1","0",NULL
+"95696",21,"BEBEK","bebek",1,1,0,"BETUL.SAGIR","2025-08-08 08:25:48","MACIT.ISIK","2026-06-09 07:00:37.476102",1,1,False,"BEBEK",False,"21","1","1","0",NULL
+"95697",23,"EV YAŞAM","evyasam",1,1,0,"BETUL.SAGIR","2025-08-08 08:26:02","MACIT.ISIK","2026-06-09 07:00:37.476103",1,1,False,"EV YAŞAM",False,"22","1","1","0",NULL
+"95698",24,"AYAKKABI VE AKSESUAR","ayakkabiaksesuar",0,1,0,"BETUL.SAGIR","2025-08-08 08:26:25","MACIT.ISIK","2026-06-09 07:00:37.476135",1,1,False,"AYAKKABI VE AKSESUAR",False,"23","0","1","0",NULL
+"95699",25,"KOZMETİK","kozmetik",1,1,0,"BETUL.SAGIR","2025-08-08 08:26:40","MACIT.ISIK","2026-06-09 07:00:37.476132",1,1,False,"KOZMETİK",False,"24","1","1","0",NULL
+"95700",22,"FIRSAT ALANI %","firsatalani",1,1,0,"BETUL.SAGIR","2025-08-08 08:26:54","MACIT.ISIK","2026-06-09 07:00:37.476133",1,1,False,"FIRSAT ALANI %",True,"25","1","1","0",NULL
+"95701",27,"MARKALAR","markalar",1,1,0,"BETUL.SAGIR","2025-08-08 08:27:16","MACIT.ISIK","2026-06-09 07:00:37.476133",1,1,False,"MARKALAR ",False,"26","1","1","0",NULL
+"95702",106,"OKUL TRENDİ","okultrendiapp",3,21,1,"IREM.YILDIRIM","2025-08-15 11:09:59","TANER.CEVHER","2026-03-26 11:57:16.783388",1,1,False,"OKUL TRENDİ",False,"27","3","21","1",NULL
+"95703",26,"BÜYÜK BEDEN","buyukbeden",2,1,0,"OKTAY.ATA","2025-08-18 06:59:42","MACIT.ISIK","2026-06-09 07:00:37.476133",1,1,False,"BÜYÜK BEDEN",False,"28","1","1","0",NULL
+"95704",19,"BÜYÜK BEDEN","appbuyukbeden",2,21,1,"OKTAY.ATA","2025-08-18 07:59:51","TANER.CEVHER","2026-03-26 11:57:16.783388",1,1,False,"BÜYÜK BEDEN",False,"29","1","21","1",NULL
+"95706",131,"Kubra-Sayfa-Adı-Test1","kubra-test1",3,1,0,"KUBRA.KILIC","2025-08-20 07:55:18","MACIT.ISIK","2026-06-09 07:00:37.476133",1,1,False,"Kubra-Sayfa-Başlığı-Test1",False,"31","3","1","0",NULL
+"95707",131,"fdssf","test",3,1,0,"KUBRA.KILIC","2025-08-21 05:52:16","MACIT.ISIK","2026-06-09 07:00:37.476133",1,1,False,"dsfs",False,"32","3","1","0",NULL
+"95708",126,"OKUL TRENDİ","okultrendi",3,1,0,"OKTAY.ATA","2025-08-21 09:13:46","MACIT.ISIK","2026-06-09 07:00:37.476127",1,1,False,"OKUL TRENDİ",False,"33","3","1","0",NULL
+"95709",28,"testtest","testvideotest",2,1,0,"TANER.CEVHER","2025-09-04 09:40:50","MACIT.ISIK","2026-06-09 07:00:37.476127",1,1,False,"testvideedittest",False,"34","2","1","0",NULL

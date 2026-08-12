@@ -1,0 +1,6068 @@
+{
+  "generatedAt": "2026-08-12T07:39:33.929Z",
+  "source": "static-file",
+  "summary": {
+    "projectCount": 8,
+    "openWorkCount": 13,
+    "p0Count": 1,
+    "p1Count": 8,
+    "recentActivityCount": 20
+  },
+  "workItems": [
+    {
+      "id": "MD-001",
+      "priority": "P0",
+      "title": "Opus → LCW mockup entegrasyon ve test matrisi",
+      "status": "Açık",
+      "guide": "OPUS_LCW_INTEGRATION.md",
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+        },
+        {
+          "done": true,
+          "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+        },
+        {
+          "done": true,
+          "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+        },
+        {
+          "done": false,
+          "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+        },
+        {
+          "done": false,
+          "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+        }
+      ],
+      "exitCriteria": "SCAN_LOG'da başarılı test notu; bu maddede tüm alt görevler işaretli.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+        },
+        {
+          "done": false,
+          "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+        },
+        {
+          "done": false,
+          "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+        },
+        {
+          "done": true,
+          "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+        }
+      ],
+      "progress": 40
+    },
+    {
+      "id": "MD-003",
+      "priority": "P1",
+      "title": "BannerPlanner → LCW vitrin entegrasyonu",
+      "status": "Açık",
+      "guide": "BANNER_LCW_INTEGRATION.md",
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+        },
+        {
+          "done": false,
+          "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+        },
+        {
+          "done": false,
+          "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+        },
+        {
+          "done": false,
+          "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+        }
+      ],
+      "exitCriteria": "LCW ana sayfada export edilen banner görünür; SCAN_LOG kaydı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+        },
+        {
+          "done": false,
+          "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+        },
+        {
+          "done": false,
+          "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+        },
+        {
+          "done": false,
+          "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-002",
+      "priority": "P2",
+      "title": "BannerPlanner ↔ Opus campaign model eşlemesi",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Banner alanları listelendi"
+        },
+        {
+          "done": false,
+          "text": "Opus campaign alanları ile eşleme tablosu"
+        },
+        {
+          "done": false,
+          "text": "Eksik/uyumsuz alanlar backlog notu"
+        }
+      ],
+      "exitCriteria": "Eşleme tablosu (INTEGRATION_MAP veya proje kartına link).",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Banner alanları listelendi"
+        },
+        {
+          "done": false,
+          "text": "Opus campaign alanları ile eşleme tablosu"
+        },
+        {
+          "done": false,
+          "text": "Eksik/uyumsuz alanlar backlog notu"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-004",
+      "priority": "P1",
+      "title": "CMS Homepage domain hizalama + Global operasyon UX",
+      "status": "Açık",
+      "guide": "CMS_HOME_LAYOUT_UNIFICATION.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+        },
+        {
+          "done": true,
+          "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+        },
+        {
+          "done": true,
+          "text": "Template edit Home Pages → homePageId dropdown"
+        },
+        {
+          "done": true,
+          "text": "Component items JSON editörü (entity değil)"
+        },
+        {
+          "done": false,
+          "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+        },
+        {
+          "done": false,
+          "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+        },
+        {
+          "done": false,
+          "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+        },
+        {
+          "done": false,
+          "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+        },
+        {
+          "done": false,
+          "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+        }
+      ],
+      "exitCriteria": "Homepage → Template → Component(items JSON) simülasyonda doğru; Global toplu senaryo ST-004 kabul kriterleri; SCAN_LOG kaydı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+        },
+        {
+          "done": false,
+          "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+        },
+        {
+          "done": false,
+          "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+        },
+        {
+          "done": false,
+          "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+        },
+        {
+          "done": false,
+          "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+        },
+        {
+          "done": true,
+          "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+        },
+        {
+          "done": true,
+          "text": "Template edit Home Pages → homePageId dropdown"
+        },
+        {
+          "done": true,
+          "text": "Component items JSON editörü (entity değil)"
+        }
+      ],
+      "progress": 40
+    },
+    {
+      "id": "MD-007",
+      "priority": "P1",
+      "title": "Content Publish Contract (BannerPlanner → CMS)",
+      "status": "Açık",
+      "guide": "CONTENT_PUBLISH_CONTRACT.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "CPC v1 şema + CMS güncel model doğrulaması"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner exportCpc() prototipi"
+        },
+        {
+          "done": false,
+          "text": "CMS import + itemKey zorunlu validasyon"
+        },
+        {
+          "done": false,
+          "text": "LCW render + content_impression / content_click (MD-003 ile)"
+        },
+        {
+          "done": false,
+          "text": "Opus content analytics raporu"
+        }
+      ],
+      "exitCriteria": "Onaylı BP plan → CPC JSON → CMS seed/import → LCW’de görünür + Opus event’te itemKey.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "BannerPlanner exportCpc() prototipi"
+        },
+        {
+          "done": false,
+          "text": "CMS import + itemKey zorunlu validasyon"
+        },
+        {
+          "done": false,
+          "text": "LCW render + content_impression / content_click (MD-003 ile)"
+        },
+        {
+          "done": false,
+          "text": "Opus content analytics raporu"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "CPC v1 şema + CMS güncel model doğrulaması"
+        }
+      ],
+      "progress": 20
+    },
+    {
+      "id": "MD-005",
+      "priority": "P2",
+      "title": "Opus site bazlı gezinti raporu (CMS + iç uygulamalar)",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Events ingest: site_id / siteKey her event’te çözümlensin"
+        },
+        {
+          "done": false,
+          "text": "GET /api/v1/analytics/navigation — site + userId filtreli kronoloji"
+        },
+        {
+          "done": false,
+          "text": "Admin UI: site seçici + kullanıcı gezinti raporu"
+        },
+        {
+          "done": false,
+          "text": "CMS preview oturumunda uçtan uca doğrulama"
+        }
+      ],
+      "exitCriteria": "CMS editör navigasyonu Admin’de cms_editor_dev_key filtresiyle görünür.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Events ingest: site_id / siteKey her event’te çözümlensin"
+        },
+        {
+          "done": false,
+          "text": "GET /api/v1/analytics/navigation — site + userId filtreli kronoloji"
+        },
+        {
+          "done": false,
+          "text": "Admin UI: site seçici + kullanıcı gezinti raporu"
+        },
+        {
+          "done": false,
+          "text": "CMS preview oturumunda uçtan uca doğrulama"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-006",
+      "priority": "P2",
+      "title": "shared/opus-client + CMS preview Opus",
+      "status": "Tamamlandı",
+      "guide": "shared/opus-client/README.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Opus sites.json: cms_editor_dev_key"
+        },
+        {
+          "done": true,
+          "text": "shared/opus-client loader + page context"
+        },
+        {
+          "done": true,
+          "text": "CMS preview modu (opus-preview.js)"
+        },
+        {
+          "done": true,
+          "text": "CMS dev server (monorepo kökü, port 3010)"
+        }
+      ],
+      "exitCriteria": "",
+      "openSubtasks": [],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Opus sites.json: cms_editor_dev_key"
+        },
+        {
+          "done": true,
+          "text": "shared/opus-client loader + page context"
+        },
+        {
+          "done": true,
+          "text": "CMS preview modu (opus-preview.js)"
+        },
+        {
+          "done": true,
+          "text": "CMS dev server (monorepo kökü, port 3010)"
+        }
+      ],
+      "progress": 100
+    },
+    {
+      "id": "MD-008",
+      "priority": "P2",
+      "title": "EPIM admin simülasyonu bootstrap + IIS port",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Proje iskeleti (index.html, shell CSS, menü, routing)"
+        },
+        {
+          "done": true,
+          "text": "Ürün Havuzu referans ekranı (filtre grid + boş sonuç)"
+        },
+        {
+          "done": true,
+          "text": "AGENT_SYNC.md + proje kartı (projects/EPIM.md)"
+        },
+        {
+          "done": false,
+          "text": "IIS site portu onayı — önerilen: 3281 (BannerPlanner 3280, Pulse 3290)"
+        },
+        {
+          "done": false,
+          "text": "İlk entegrasyon hattı tanımı (CMS kategori / üretim EPIM API mock)"
+        }
+      ],
+      "exitCriteria": "IIS'te http://localhost:3281/ üzerinden simülasyon erişilebilir; port envanterde kesinleşmiş.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "IIS site portu onayı — önerilen: 3281 (BannerPlanner 3280, Pulse 3290)"
+        },
+        {
+          "done": false,
+          "text": "İlk entegrasyon hattı tanımı (CMS kategori / üretim EPIM API mock)"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Proje iskeleti (index.html, shell CSS, menü, routing)"
+        },
+        {
+          "done": true,
+          "text": "Ürün Havuzu referans ekranı (filtre grid + boş sonuç)"
+        },
+        {
+          "done": true,
+          "text": "AGENT_SYNC.md + proje kartı (projects/EPIM.md)"
+        }
+      ],
+      "progress": 60
+    },
+    {
+      "id": "MD-010",
+      "priority": "P1",
+      "title": "Mobile lokalizasyon → CMS ortaklaştırma (Backoffice + Web)",
+      "status": "Açık",
+      "guide": "LOCALIZATION_CMS_UNIFICATION.md",
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+        },
+        {
+          "done": false,
+          "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+        },
+        {
+          "done": false,
+          "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+        },
+        {
+          "done": false,
+          "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+        },
+        {
+          "done": false,
+          "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+        },
+        {
+          "done": false,
+          "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+        },
+        {
+          "done": false,
+          "text": "Üretim CMS ekibi handoff + onay"
+        }
+      ],
+      "exitCriteria": "Envanter + model taslağı + simülasyonda örnek ortak parametre seti; SCAN_LOG kaydı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+        },
+        {
+          "done": false,
+          "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+        },
+        {
+          "done": false,
+          "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+        },
+        {
+          "done": false,
+          "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+        },
+        {
+          "done": false,
+          "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+        },
+        {
+          "done": false,
+          "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+        },
+        {
+          "done": false,
+          "text": "Üretim CMS ekibi handoff + onay"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-011",
+      "priority": "P1",
+      "title": "LCW Next.js headless vitrin + CMS API tüketimi",
+      "status": "Açık",
+      "guide": "LCW_NEXTJS_HEADLESS.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+        },
+        {
+          "done": false,
+          "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+        },
+        {
+          "done": true,
+          "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+        },
+        {
+          "done": true,
+          "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+        },
+        {
+          "done": true,
+          "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+        },
+        {
+          "done": true,
+          "text": "LCW page-content.js opsiyonel CMS tüketimi"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+        },
+        {
+          "done": false,
+          "text": "Statik mockup cutover / port envanteri kararı"
+        }
+      ],
+      "exitCriteria": "Next.js LCW menü+homepage CMS API’den render; BP→CMS→LCW uçtan uca en az 1 planlama senaryosu gözlemlendi; SCAN_LOG kaydı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+        },
+        {
+          "done": false,
+          "text": "Statik mockup cutover / port envanteri kararı"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+        },
+        {
+          "done": true,
+          "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+        },
+        {
+          "done": true,
+          "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+        },
+        {
+          "done": true,
+          "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+        },
+        {
+          "done": true,
+          "text": "LCW page-content.js opsiyonel CMS tüketimi"
+        }
+      ],
+      "progress": 63
+    },
+    {
+      "id": "MD-014",
+      "priority": "P1",
+      "title": "Opus Omni Postcheckout",
+      "status": "Planlama",
+      "guide": "OPUS_OMNI_POSTCHECKOUT.md",
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Omni order OpenAPI v0.1 (Fulfilment)"
+        },
+        {
+          "done": false,
+          "text": "OTP akış + güvenlik spec (CE Backend)"
+        },
+        {
+          "done": false,
+          "text": "Anket kararı: Opus survey inline (CE + ürün)"
+        },
+        {
+          "done": false,
+          "text": "Wireframe + modül feature flags (CE UI)"
+        },
+        {
+          "done": false,
+          "text": "Faz 0 workshop çıktısı → SCAN_LOG"
+        },
+        {
+          "done": false,
+          "text": "Postcheckout SPA iskeleti (Opus/apps/postcheckout)"
+        },
+        {
+          "done": false,
+          "text": "OTP API + session (CE Backend)"
+        },
+        {
+          "done": false,
+          "text": "Sipariş özeti UI + BFF → Fulfilment omni order"
+        },
+        {
+          "done": false,
+          "text": "Anket inline (Opus survey SDK/API)"
+        },
+        {
+          "done": false,
+          "text": "Trigger: order/delivery → SMS link"
+        },
+        {
+          "done": false,
+          "text": "E2E test T1–T6 → SCAN_LOG"
+        },
+        {
+          "done": false,
+          "text": "e-Arşiv + iade QR (Fulfilment + CE UI)"
+        },
+        {
+          "done": false,
+          "text": "Kombin (EComAI), iletişim/üyelik (Customer)"
+        },
+        {
+          "done": false,
+          "text": "Mağaza kanalı + çoklu ülke"
+        },
+        {
+          "done": false,
+          "text": "Üretim deploy + admin trigger şablonları"
+        }
+      ],
+      "exitCriteria": "",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Omni order OpenAPI v0.1 (Fulfilment)"
+        },
+        {
+          "done": false,
+          "text": "OTP akış + güvenlik spec (CE Backend)"
+        },
+        {
+          "done": false,
+          "text": "Anket kararı: Opus survey inline (CE + ürün)"
+        },
+        {
+          "done": false,
+          "text": "Wireframe + modül feature flags (CE UI)"
+        },
+        {
+          "done": false,
+          "text": "Faz 0 workshop çıktısı → SCAN_LOG"
+        },
+        {
+          "done": false,
+          "text": "Postcheckout SPA iskeleti (Opus/apps/postcheckout)"
+        },
+        {
+          "done": false,
+          "text": "OTP API + session (CE Backend)"
+        },
+        {
+          "done": false,
+          "text": "Sipariş özeti UI + BFF → Fulfilment omni order"
+        },
+        {
+          "done": false,
+          "text": "Anket inline (Opus survey SDK/API)"
+        },
+        {
+          "done": false,
+          "text": "Trigger: order/delivery → SMS link"
+        },
+        {
+          "done": false,
+          "text": "E2E test T1–T6 → SCAN_LOG"
+        },
+        {
+          "done": false,
+          "text": "e-Arşiv + iade QR (Fulfilment + CE UI)"
+        },
+        {
+          "done": false,
+          "text": "Kombin (EComAI), iletişim/üyelik (Customer)"
+        },
+        {
+          "done": false,
+          "text": "Mağaza kanalı + çoklu ülke"
+        },
+        {
+          "done": false,
+          "text": "Üretim deploy + admin trigger şablonları"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-009",
+      "priority": "P2",
+      "title": "Pulse çoklu domain site sağlık izleme",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": true,
+          "text": "BannerPlanner kabuğu + MBA site envanteri (21 ülke)"
+        },
+        {
+          "done": true,
+          "text": "Node crawler API + canlı progress / raporlar"
+        },
+        {
+          "done": true,
+          "text": "Ülke detay: dil bazlı tarama, menü/banner link, CMS menü tree client"
+        },
+        {
+          "done": false,
+          "text": "Opus alert hattı değerlendirmesi (MD-006)"
+        },
+        {
+          "done": false,
+          "text": "Periyodik tarama zamanlayıcı / üretim runbook"
+        }
+      ],
+      "exitCriteria": "Periyodik tarama + en az 1 kritik alert yolu; SCAN_LOG.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Opus alert hattı değerlendirmesi (MD-006)"
+        },
+        {
+          "done": false,
+          "text": "Periyodik tarama zamanlayıcı / üretim runbook"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "BannerPlanner kabuğu + MBA site envanteri (21 ülke)"
+        },
+        {
+          "done": true,
+          "text": "Node crawler API + canlı progress / raporlar"
+        },
+        {
+          "done": true,
+          "text": "Ülke detay: dil bazlı tarama, menü/banner link, CMS menü tree client"
+        }
+      ],
+      "progress": 60
+    },
+    {
+      "id": "MD-015",
+      "priority": "P1",
+      "title": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": true,
+          "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+        },
+        {
+          "done": true,
+          "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+        },
+        {
+          "done": true,
+          "text": "Personalization Player (müşteri önizleme iskeleti)"
+        },
+        {
+          "done": true,
+          "text": "Content API GET /api/v1/content/personalization*"
+        },
+        {
+          "done": true,
+          "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+        },
+        {
+          "done": false,
+          "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+        },
+        {
+          "done": false,
+          "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+        },
+        {
+          "done": false,
+          "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+        }
+      ],
+      "exitCriteria": "CMS kapalıyken LCW fallback; CMS açıkken listing+modal canlı; EPIM sınır notu onaylı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+        },
+        {
+          "done": false,
+          "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+        },
+        {
+          "done": false,
+          "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+        },
+        {
+          "done": true,
+          "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+        },
+        {
+          "done": true,
+          "text": "Personalization Player (müşteri önizleme iskeleti)"
+        },
+        {
+          "done": true,
+          "text": "Content API GET /api/v1/content/personalization*"
+        },
+        {
+          "done": true,
+          "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+        }
+      ],
+      "progress": 63
+    },
+    {
+      "id": "MD-016",
+      "priority": "P1",
+      "title": "EPIM ↔ CMS kategori / menü sınır netleştirme",
+      "status": "Açık",
+      "guide": "EPIM_CMS_BOUNDARY.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Sınır dokümanı + RACI taslağı"
+        },
+        {
+          "done": false,
+          "text": "Kategori + içerik ekibi onayı"
+        },
+        {
+          "done": false,
+          "text": "EPIM export → CMS Category Tree import demo"
+        },
+        {
+          "done": false,
+          "text": "Menu Matching salt okunur doğrulama notu / UI"
+        },
+        {
+          "done": false,
+          "text": "SCAN_LOG kapanış kaydı"
+        }
+      ],
+      "exitCriteria": "Onaylı RACI; parent-child tek kaynak EPIM; menü CMS’de kalır, CategoryId/t-{id} ile bağlı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Kategori + içerik ekibi onayı"
+        },
+        {
+          "done": false,
+          "text": "EPIM export → CMS Category Tree import demo"
+        },
+        {
+          "done": false,
+          "text": "Menu Matching salt okunur doğrulama notu / UI"
+        },
+        {
+          "done": false,
+          "text": "SCAN_LOG kapanış kaydı"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Sınır dokümanı + RACI taslağı"
+        }
+      ],
+      "progress": 20
+    }
+  ],
+  "openPriorities": [
+    {
+      "id": "MD-001",
+      "priority": "P0",
+      "title": "Opus → LCW mockup entegrasyon ve test matrisi",
+      "status": "Açık",
+      "guide": "OPUS_LCW_INTEGRATION.md",
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+        },
+        {
+          "done": true,
+          "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+        },
+        {
+          "done": true,
+          "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+        },
+        {
+          "done": false,
+          "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+        },
+        {
+          "done": false,
+          "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+        }
+      ],
+      "exitCriteria": "SCAN_LOG'da başarılı test notu; bu maddede tüm alt görevler işaretli.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+        },
+        {
+          "done": false,
+          "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+        },
+        {
+          "done": false,
+          "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+        },
+        {
+          "done": true,
+          "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+        }
+      ],
+      "progress": 40
+    },
+    {
+      "id": "MD-003",
+      "priority": "P1",
+      "title": "BannerPlanner → LCW vitrin entegrasyonu",
+      "status": "Açık",
+      "guide": "BANNER_LCW_INTEGRATION.md",
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+        },
+        {
+          "done": false,
+          "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+        },
+        {
+          "done": false,
+          "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+        },
+        {
+          "done": false,
+          "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+        }
+      ],
+      "exitCriteria": "LCW ana sayfada export edilen banner görünür; SCAN_LOG kaydı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+        },
+        {
+          "done": false,
+          "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+        },
+        {
+          "done": false,
+          "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+        },
+        {
+          "done": false,
+          "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-004",
+      "priority": "P1",
+      "title": "CMS Homepage domain hizalama + Global operasyon UX",
+      "status": "Açık",
+      "guide": "CMS_HOME_LAYOUT_UNIFICATION.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+        },
+        {
+          "done": true,
+          "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+        },
+        {
+          "done": true,
+          "text": "Template edit Home Pages → homePageId dropdown"
+        },
+        {
+          "done": true,
+          "text": "Component items JSON editörü (entity değil)"
+        },
+        {
+          "done": false,
+          "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+        },
+        {
+          "done": false,
+          "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+        },
+        {
+          "done": false,
+          "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+        },
+        {
+          "done": false,
+          "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+        },
+        {
+          "done": false,
+          "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+        }
+      ],
+      "exitCriteria": "Homepage → Template → Component(items JSON) simülasyonda doğru; Global toplu senaryo ST-004 kabul kriterleri; SCAN_LOG kaydı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+        },
+        {
+          "done": false,
+          "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+        },
+        {
+          "done": false,
+          "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+        },
+        {
+          "done": false,
+          "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+        },
+        {
+          "done": false,
+          "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+        },
+        {
+          "done": true,
+          "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+        },
+        {
+          "done": true,
+          "text": "Template edit Home Pages → homePageId dropdown"
+        },
+        {
+          "done": true,
+          "text": "Component items JSON editörü (entity değil)"
+        }
+      ],
+      "progress": 40
+    },
+    {
+      "id": "MD-007",
+      "priority": "P1",
+      "title": "Content Publish Contract (BannerPlanner → CMS)",
+      "status": "Açık",
+      "guide": "CONTENT_PUBLISH_CONTRACT.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "CPC v1 şema + CMS güncel model doğrulaması"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner exportCpc() prototipi"
+        },
+        {
+          "done": false,
+          "text": "CMS import + itemKey zorunlu validasyon"
+        },
+        {
+          "done": false,
+          "text": "LCW render + content_impression / content_click (MD-003 ile)"
+        },
+        {
+          "done": false,
+          "text": "Opus content analytics raporu"
+        }
+      ],
+      "exitCriteria": "Onaylı BP plan → CPC JSON → CMS seed/import → LCW’de görünür + Opus event’te itemKey.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "BannerPlanner exportCpc() prototipi"
+        },
+        {
+          "done": false,
+          "text": "CMS import + itemKey zorunlu validasyon"
+        },
+        {
+          "done": false,
+          "text": "LCW render + content_impression / content_click (MD-003 ile)"
+        },
+        {
+          "done": false,
+          "text": "Opus content analytics raporu"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "CPC v1 şema + CMS güncel model doğrulaması"
+        }
+      ],
+      "progress": 20
+    },
+    {
+      "id": "MD-010",
+      "priority": "P1",
+      "title": "Mobile lokalizasyon → CMS ortaklaştırma (Backoffice + Web)",
+      "status": "Açık",
+      "guide": "LOCALIZATION_CMS_UNIFICATION.md",
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+        },
+        {
+          "done": false,
+          "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+        },
+        {
+          "done": false,
+          "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+        },
+        {
+          "done": false,
+          "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+        },
+        {
+          "done": false,
+          "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+        },
+        {
+          "done": false,
+          "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+        },
+        {
+          "done": false,
+          "text": "Üretim CMS ekibi handoff + onay"
+        }
+      ],
+      "exitCriteria": "Envanter + model taslağı + simülasyonda örnek ortak parametre seti; SCAN_LOG kaydı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+        },
+        {
+          "done": false,
+          "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+        },
+        {
+          "done": false,
+          "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+        },
+        {
+          "done": false,
+          "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+        },
+        {
+          "done": false,
+          "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+        },
+        {
+          "done": false,
+          "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+        },
+        {
+          "done": false,
+          "text": "Üretim CMS ekibi handoff + onay"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-011",
+      "priority": "P1",
+      "title": "LCW Next.js headless vitrin + CMS API tüketimi",
+      "status": "Açık",
+      "guide": "LCW_NEXTJS_HEADLESS.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+        },
+        {
+          "done": false,
+          "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+        },
+        {
+          "done": true,
+          "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+        },
+        {
+          "done": true,
+          "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+        },
+        {
+          "done": true,
+          "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+        },
+        {
+          "done": true,
+          "text": "LCW page-content.js opsiyonel CMS tüketimi"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+        },
+        {
+          "done": false,
+          "text": "Statik mockup cutover / port envanteri kararı"
+        }
+      ],
+      "exitCriteria": "Next.js LCW menü+homepage CMS API’den render; BP→CMS→LCW uçtan uca en az 1 planlama senaryosu gözlemlendi; SCAN_LOG kaydı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+        },
+        {
+          "done": false,
+          "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+        },
+        {
+          "done": false,
+          "text": "Statik mockup cutover / port envanteri kararı"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+        },
+        {
+          "done": true,
+          "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+        },
+        {
+          "done": true,
+          "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+        },
+        {
+          "done": true,
+          "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+        },
+        {
+          "done": true,
+          "text": "LCW page-content.js opsiyonel CMS tüketimi"
+        }
+      ],
+      "progress": 63
+    },
+    {
+      "id": "MD-014",
+      "priority": "P1",
+      "title": "Opus Omni Postcheckout",
+      "status": "Planlama",
+      "guide": "OPUS_OMNI_POSTCHECKOUT.md",
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Omni order OpenAPI v0.1 (Fulfilment)"
+        },
+        {
+          "done": false,
+          "text": "OTP akış + güvenlik spec (CE Backend)"
+        },
+        {
+          "done": false,
+          "text": "Anket kararı: Opus survey inline (CE + ürün)"
+        },
+        {
+          "done": false,
+          "text": "Wireframe + modül feature flags (CE UI)"
+        },
+        {
+          "done": false,
+          "text": "Faz 0 workshop çıktısı → SCAN_LOG"
+        },
+        {
+          "done": false,
+          "text": "Postcheckout SPA iskeleti (Opus/apps/postcheckout)"
+        },
+        {
+          "done": false,
+          "text": "OTP API + session (CE Backend)"
+        },
+        {
+          "done": false,
+          "text": "Sipariş özeti UI + BFF → Fulfilment omni order"
+        },
+        {
+          "done": false,
+          "text": "Anket inline (Opus survey SDK/API)"
+        },
+        {
+          "done": false,
+          "text": "Trigger: order/delivery → SMS link"
+        },
+        {
+          "done": false,
+          "text": "E2E test T1–T6 → SCAN_LOG"
+        },
+        {
+          "done": false,
+          "text": "e-Arşiv + iade QR (Fulfilment + CE UI)"
+        },
+        {
+          "done": false,
+          "text": "Kombin (EComAI), iletişim/üyelik (Customer)"
+        },
+        {
+          "done": false,
+          "text": "Mağaza kanalı + çoklu ülke"
+        },
+        {
+          "done": false,
+          "text": "Üretim deploy + admin trigger şablonları"
+        }
+      ],
+      "exitCriteria": "",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Omni order OpenAPI v0.1 (Fulfilment)"
+        },
+        {
+          "done": false,
+          "text": "OTP akış + güvenlik spec (CE Backend)"
+        },
+        {
+          "done": false,
+          "text": "Anket kararı: Opus survey inline (CE + ürün)"
+        },
+        {
+          "done": false,
+          "text": "Wireframe + modül feature flags (CE UI)"
+        },
+        {
+          "done": false,
+          "text": "Faz 0 workshop çıktısı → SCAN_LOG"
+        },
+        {
+          "done": false,
+          "text": "Postcheckout SPA iskeleti (Opus/apps/postcheckout)"
+        },
+        {
+          "done": false,
+          "text": "OTP API + session (CE Backend)"
+        },
+        {
+          "done": false,
+          "text": "Sipariş özeti UI + BFF → Fulfilment omni order"
+        },
+        {
+          "done": false,
+          "text": "Anket inline (Opus survey SDK/API)"
+        },
+        {
+          "done": false,
+          "text": "Trigger: order/delivery → SMS link"
+        },
+        {
+          "done": false,
+          "text": "E2E test T1–T6 → SCAN_LOG"
+        },
+        {
+          "done": false,
+          "text": "e-Arşiv + iade QR (Fulfilment + CE UI)"
+        },
+        {
+          "done": false,
+          "text": "Kombin (EComAI), iletişim/üyelik (Customer)"
+        },
+        {
+          "done": false,
+          "text": "Mağaza kanalı + çoklu ülke"
+        },
+        {
+          "done": false,
+          "text": "Üretim deploy + admin trigger şablonları"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-015",
+      "priority": "P1",
+      "title": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": true,
+          "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+        },
+        {
+          "done": true,
+          "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+        },
+        {
+          "done": true,
+          "text": "Personalization Player (müşteri önizleme iskeleti)"
+        },
+        {
+          "done": true,
+          "text": "Content API GET /api/v1/content/personalization*"
+        },
+        {
+          "done": true,
+          "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+        },
+        {
+          "done": false,
+          "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+        },
+        {
+          "done": false,
+          "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+        },
+        {
+          "done": false,
+          "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+        }
+      ],
+      "exitCriteria": "CMS kapalıyken LCW fallback; CMS açıkken listing+modal canlı; EPIM sınır notu onaylı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+        },
+        {
+          "done": false,
+          "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+        },
+        {
+          "done": false,
+          "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+        },
+        {
+          "done": true,
+          "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+        },
+        {
+          "done": true,
+          "text": "Personalization Player (müşteri önizleme iskeleti)"
+        },
+        {
+          "done": true,
+          "text": "Content API GET /api/v1/content/personalization*"
+        },
+        {
+          "done": true,
+          "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+        }
+      ],
+      "progress": 63
+    },
+    {
+      "id": "MD-016",
+      "priority": "P1",
+      "title": "EPIM ↔ CMS kategori / menü sınır netleştirme",
+      "status": "Açık",
+      "guide": "EPIM_CMS_BOUNDARY.md",
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Sınır dokümanı + RACI taslağı"
+        },
+        {
+          "done": false,
+          "text": "Kategori + içerik ekibi onayı"
+        },
+        {
+          "done": false,
+          "text": "EPIM export → CMS Category Tree import demo"
+        },
+        {
+          "done": false,
+          "text": "Menu Matching salt okunur doğrulama notu / UI"
+        },
+        {
+          "done": false,
+          "text": "SCAN_LOG kapanış kaydı"
+        }
+      ],
+      "exitCriteria": "Onaylı RACI; parent-child tek kaynak EPIM; menü CMS’de kalır, CategoryId/t-{id} ile bağlı.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Kategori + içerik ekibi onayı"
+        },
+        {
+          "done": false,
+          "text": "EPIM export → CMS Category Tree import demo"
+        },
+        {
+          "done": false,
+          "text": "Menu Matching salt okunur doğrulama notu / UI"
+        },
+        {
+          "done": false,
+          "text": "SCAN_LOG kapanış kaydı"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Sınır dokümanı + RACI taslağı"
+        }
+      ],
+      "progress": 20
+    },
+    {
+      "id": "MD-002",
+      "priority": "P2",
+      "title": "BannerPlanner ↔ Opus campaign model eşlemesi",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Banner alanları listelendi"
+        },
+        {
+          "done": false,
+          "text": "Opus campaign alanları ile eşleme tablosu"
+        },
+        {
+          "done": false,
+          "text": "Eksik/uyumsuz alanlar backlog notu"
+        }
+      ],
+      "exitCriteria": "Eşleme tablosu (INTEGRATION_MAP veya proje kartına link).",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Banner alanları listelendi"
+        },
+        {
+          "done": false,
+          "text": "Opus campaign alanları ile eşleme tablosu"
+        },
+        {
+          "done": false,
+          "text": "Eksik/uyumsuz alanlar backlog notu"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-005",
+      "priority": "P2",
+      "title": "Opus site bazlı gezinti raporu (CMS + iç uygulamalar)",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": false,
+          "text": "Events ingest: site_id / siteKey her event’te çözümlensin"
+        },
+        {
+          "done": false,
+          "text": "GET /api/v1/analytics/navigation — site + userId filtreli kronoloji"
+        },
+        {
+          "done": false,
+          "text": "Admin UI: site seçici + kullanıcı gezinti raporu"
+        },
+        {
+          "done": false,
+          "text": "CMS preview oturumunda uçtan uca doğrulama"
+        }
+      ],
+      "exitCriteria": "CMS editör navigasyonu Admin’de cms_editor_dev_key filtresiyle görünür.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Events ingest: site_id / siteKey her event’te çözümlensin"
+        },
+        {
+          "done": false,
+          "text": "GET /api/v1/analytics/navigation — site + userId filtreli kronoloji"
+        },
+        {
+          "done": false,
+          "text": "Admin UI: site seçici + kullanıcı gezinti raporu"
+        },
+        {
+          "done": false,
+          "text": "CMS preview oturumunda uçtan uca doğrulama"
+        }
+      ],
+      "doneSubtasks": [],
+      "progress": 0
+    },
+    {
+      "id": "MD-008",
+      "priority": "P2",
+      "title": "EPIM admin simülasyonu bootstrap + IIS port",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": true,
+          "text": "Proje iskeleti (index.html, shell CSS, menü, routing)"
+        },
+        {
+          "done": true,
+          "text": "Ürün Havuzu referans ekranı (filtre grid + boş sonuç)"
+        },
+        {
+          "done": true,
+          "text": "AGENT_SYNC.md + proje kartı (projects/EPIM.md)"
+        },
+        {
+          "done": false,
+          "text": "IIS site portu onayı — önerilen: 3281 (BannerPlanner 3280, Pulse 3290)"
+        },
+        {
+          "done": false,
+          "text": "İlk entegrasyon hattı tanımı (CMS kategori / üretim EPIM API mock)"
+        }
+      ],
+      "exitCriteria": "IIS'te http://localhost:3281/ üzerinden simülasyon erişilebilir; port envanterde kesinleşmiş.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "IIS site portu onayı — önerilen: 3281 (BannerPlanner 3280, Pulse 3290)"
+        },
+        {
+          "done": false,
+          "text": "İlk entegrasyon hattı tanımı (CMS kategori / üretim EPIM API mock)"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "Proje iskeleti (index.html, shell CSS, menü, routing)"
+        },
+        {
+          "done": true,
+          "text": "Ürün Havuzu referans ekranı (filtre grid + boş sonuç)"
+        },
+        {
+          "done": true,
+          "text": "AGENT_SYNC.md + proje kartı (projects/EPIM.md)"
+        }
+      ],
+      "progress": 60
+    },
+    {
+      "id": "MD-009",
+      "priority": "P2",
+      "title": "Pulse çoklu domain site sağlık izleme",
+      "status": "Açık",
+      "guide": null,
+      "subtasks": [
+        {
+          "done": true,
+          "text": "BannerPlanner kabuğu + MBA site envanteri (21 ülke)"
+        },
+        {
+          "done": true,
+          "text": "Node crawler API + canlı progress / raporlar"
+        },
+        {
+          "done": true,
+          "text": "Ülke detay: dil bazlı tarama, menü/banner link, CMS menü tree client"
+        },
+        {
+          "done": false,
+          "text": "Opus alert hattı değerlendirmesi (MD-006)"
+        },
+        {
+          "done": false,
+          "text": "Periyodik tarama zamanlayıcı / üretim runbook"
+        }
+      ],
+      "exitCriteria": "Periyodik tarama + en az 1 kritik alert yolu; SCAN_LOG.",
+      "openSubtasks": [
+        {
+          "done": false,
+          "text": "Opus alert hattı değerlendirmesi (MD-006)"
+        },
+        {
+          "done": false,
+          "text": "Periyodik tarama zamanlayıcı / üretim runbook"
+        }
+      ],
+      "doneSubtasks": [
+        {
+          "done": true,
+          "text": "BannerPlanner kabuğu + MBA site envanteri (21 ülke)"
+        },
+        {
+          "done": true,
+          "text": "Node crawler API + canlı progress / raporlar"
+        },
+        {
+          "done": true,
+          "text": "Ülke detay: dil bazlı tarama, menü/banner link, CMS menü tree client"
+        }
+      ],
+      "progress": 60
+    }
+  ],
+  "nextActions": [
+    {
+      "workId": "MD-001",
+      "priority": "P0",
+      "workTitle": "Opus → LCW mockup entegrasyon ve test matrisi",
+      "task": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+    },
+    {
+      "workId": "MD-001",
+      "priority": "P0",
+      "workTitle": "Opus → LCW mockup entegrasyon ve test matrisi",
+      "task": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+    },
+    {
+      "workId": "MD-001",
+      "priority": "P0",
+      "workTitle": "Opus → LCW mockup entegrasyon ve test matrisi",
+      "task": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+    },
+    {
+      "workId": "MD-003",
+      "priority": "P1",
+      "workTitle": "BannerPlanner → LCW vitrin entegrasyonu",
+      "task": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+    },
+    {
+      "workId": "MD-003",
+      "priority": "P1",
+      "workTitle": "BannerPlanner → LCW vitrin entegrasyonu",
+      "task": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+    },
+    {
+      "workId": "MD-003",
+      "priority": "P1",
+      "workTitle": "BannerPlanner → LCW vitrin entegrasyonu",
+      "task": "Homepage hero en az 1 BannerPlanner slide ile render"
+    },
+    {
+      "workId": "MD-004",
+      "priority": "P1",
+      "workTitle": "CMS Homepage domain hizalama + Global operasyon UX",
+      "task": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+    },
+    {
+      "workId": "MD-004",
+      "priority": "P1",
+      "workTitle": "CMS Homepage domain hizalama + Global operasyon UX",
+      "task": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+    },
+    {
+      "workId": "MD-004",
+      "priority": "P1",
+      "workTitle": "CMS Homepage domain hizalama + Global operasyon UX",
+      "task": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+    },
+    {
+      "workId": "MD-007",
+      "priority": "P1",
+      "workTitle": "Content Publish Contract (BannerPlanner → CMS)",
+      "task": "BannerPlanner exportCpc() prototipi"
+    },
+    {
+      "workId": "MD-007",
+      "priority": "P1",
+      "workTitle": "Content Publish Contract (BannerPlanner → CMS)",
+      "task": "CMS import + itemKey zorunlu validasyon"
+    },
+    {
+      "workId": "MD-007",
+      "priority": "P1",
+      "workTitle": "Content Publish Contract (BannerPlanner → CMS)",
+      "task": "LCW render + content_impression / content_click (MD-003 ile)"
+    }
+  ],
+  "agenda": [
+    {
+      "id": "p0-opus-lcw",
+      "priority": "P0",
+      "title": "Opus → LCW entegrasyon test matrisi",
+      "detail": "T1–T6 tarayıcı testleri; Admin kampanya popup (T4) henüz doğrulanmadı.",
+      "workId": "MD-001"
+    },
+    {
+      "id": "p1-opus-postcheckout",
+      "priority": "P1",
+      "title": "Opus Omni Postcheckout Faz 0",
+      "detail": "Workshop: omni order API, OTP spec, anket kararı (Opus survey). Sprint 1 backlog hazır.",
+      "workId": "MD-014"
+    },
+    {
+      "id": "p1-banner-lcw",
+      "priority": "P1",
+      "title": "BannerPlanner → LCW vitrin export",
+      "detail": "banner-feed.js + örnek export; hero en az 1 slide ile render.",
+      "workId": "MD-003"
+    },
+    {
+      "id": "p1-cpc",
+      "priority": "P1",
+      "title": "Content Publish Contract uygulaması",
+      "detail": "Şema hazır — exportCpc, CMS import ve itemKey validasyonu bekliyor.",
+      "workId": "MD-007"
+    },
+    {
+      "id": "p1-cms-global",
+      "priority": "P1",
+      "title": "CMS global operasyon UX",
+      "detail": "Faz 1 bitti; toplu uygulama + menü yayın taslağı (ST-004) sırada.",
+      "workId": "MD-004"
+    },
+    {
+      "id": "p1-opus-postcheckout",
+      "priority": "P1",
+      "title": "Opus Omni Postcheckout",
+      "detail": "SMS/Push → OTP → sipariş + anket MVP (TR e-ticaret). Fulfilment omni order kritik yol.",
+      "workId": "MD-014"
+    },
+    {
+      "id": "p1-lcw-next",
+      "priority": "P1",
+      "title": "LCW Next.js + CMS API vitrin",
+      "detail": "Menü + Homepage/Template/Component Read API hazır; BP→CMS→LCW gözlem ve cutover bekliyor.",
+      "workId": "MD-011"
+    },
+    {
+      "id": "p1-perso",
+      "priority": "P1",
+      "title": "Ürün kişiselleştirme CMS → LCW",
+      "detail": "Editör+katalog+player+API hazır; UAT ve EPIM master veri sınırı (MD-016).",
+      "workId": "MD-015"
+    },
+    {
+      "id": "p1-epim-cms-boundary",
+      "priority": "P1",
+      "title": "EPIM kategori vs CMS menü sınırı",
+      "detail": "Taksonomi EPIM; menü CMS; CategoryId tek kimlik — ekip onayı bekleniyor.",
+      "workId": "MD-016"
+    },
+    {
+      "id": "p1-l10n-cms",
+      "priority": "P1",
+      "title": "Mobile lokalizasyon → CMS ortaklaştırma",
+      "detail": "Backoffice mobile lokalizasyon CMS ortak DB'ye; Web bağımsız süreç birleştirilecek — toplantı kararı.",
+      "workId": "MD-010"
+    },
+    {
+      "id": "p2-epim-port",
+      "priority": "P2",
+      "title": "EPIM IIS port onayı",
+      "detail": "Önerilen port 3281 — envanter kesinleşince IIS site tanımı.",
+      "workId": "MD-008"
+    }
+  ],
+  "projects": [
+    {
+      "id": "opus",
+      "name": "Opus",
+      "subtitle": "Engagement platform · SDK + API",
+      "path": "Opus",
+      "icon": "bi-lightning-charge-fill",
+      "iconSrc": "Opus/apps/admin/public/favicon.svg",
+      "accent": "#6f42c1",
+      "devUrls": [
+        {
+          "label": "Admin",
+          "url": "http://127.0.0.1:3180"
+        },
+        {
+          "label": "API",
+          "url": "http://127.0.0.1:3102"
+        }
+      ],
+      "agentSync": "Opus/AGENT_SYNC.md",
+      "workIds": [
+        "MD-001",
+        "MD-002",
+        "MD-005",
+        "MD-006",
+        "MD-014"
+      ],
+      "card": "MasterDevelopment/projects/Opus.md",
+      "recent": [
+        {
+          "date": "2026-06-04",
+          "change": "Admin Data: site key seÃ§ici (LCW / CMS Editor)",
+          "project": "Opus Admin",
+          "note": "data-admin.js, page-data"
+        },
+        {
+          "date": "2026-06-04",
+          "change": "CMS site key API doÄŸrulama (sites.json lookup)",
+          "project": "Opus",
+          "note": "middleware/siteAuth.js, optionalSite.js"
+        },
+        {
+          "date": "2026-06-04",
+          "change": "CMS Editor iÃ§in yeni site key (cms_editor_dev_key)",
+          "project": "Opus, CMS",
+          "note": "data/tables/sites.json, consent-config.json"
+        },
+        {
+          "date": "2026-06-04",
+          "change": "Talep (MD-005): Site bazlÄ± kullanÄ±cÄ± gezinti raporu â€” CMS editÃ¶r oturumlarÄ±",
+          "project": "Opus Admin, API",
+          "note": "AÅŸaÄŸÄ±daki MD-005 spesifikasyonu"
+        },
+        {
+          "date": "2026-05-27",
+          "change": "MD-014: Opus Omni Postcheckout planlama + sprint backlog",
+          "project": "Opus, Fulfilment, Customer",
+          "note": "OPUS_OMNI_POSTCHECKOUT.md, WORK_QUEUE MD-014"
+        }
+      ],
+      "relatedWork": [
+        {
+          "id": "MD-001",
+          "priority": "P0",
+          "title": "Opus → LCW mockup entegrasyon ve test matrisi",
+          "status": "Açık",
+          "guide": "OPUS_LCW_INTEGRATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+            },
+            {
+              "done": true,
+              "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+            },
+            {
+              "done": true,
+              "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+            },
+            {
+              "done": false,
+              "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+            },
+            {
+              "done": false,
+              "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+            }
+          ],
+          "exitCriteria": "SCAN_LOG'da başarılı test notu; bu maddede tüm alt görevler işaretli.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+            },
+            {
+              "done": false,
+              "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+            },
+            {
+              "done": false,
+              "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+            },
+            {
+              "done": true,
+              "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+            }
+          ],
+          "progress": 40
+        },
+        {
+          "id": "MD-002",
+          "priority": "P2",
+          "title": "BannerPlanner ↔ Opus campaign model eşlemesi",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Banner alanları listelendi"
+            },
+            {
+              "done": false,
+              "text": "Opus campaign alanları ile eşleme tablosu"
+            },
+            {
+              "done": false,
+              "text": "Eksik/uyumsuz alanlar backlog notu"
+            }
+          ],
+          "exitCriteria": "Eşleme tablosu (INTEGRATION_MAP veya proje kartına link).",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Banner alanları listelendi"
+            },
+            {
+              "done": false,
+              "text": "Opus campaign alanları ile eşleme tablosu"
+            },
+            {
+              "done": false,
+              "text": "Eksik/uyumsuz alanlar backlog notu"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-005",
+          "priority": "P2",
+          "title": "Opus site bazlı gezinti raporu (CMS + iç uygulamalar)",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Events ingest: site_id / siteKey her event’te çözümlensin"
+            },
+            {
+              "done": false,
+              "text": "GET /api/v1/analytics/navigation — site + userId filtreli kronoloji"
+            },
+            {
+              "done": false,
+              "text": "Admin UI: site seçici + kullanıcı gezinti raporu"
+            },
+            {
+              "done": false,
+              "text": "CMS preview oturumunda uçtan uca doğrulama"
+            }
+          ],
+          "exitCriteria": "CMS editör navigasyonu Admin’de cms_editor_dev_key filtresiyle görünür.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Events ingest: site_id / siteKey her event’te çözümlensin"
+            },
+            {
+              "done": false,
+              "text": "GET /api/v1/analytics/navigation — site + userId filtreli kronoloji"
+            },
+            {
+              "done": false,
+              "text": "Admin UI: site seçici + kullanıcı gezinti raporu"
+            },
+            {
+              "done": false,
+              "text": "CMS preview oturumunda uçtan uca doğrulama"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-006",
+          "priority": "P2",
+          "title": "shared/opus-client + CMS preview Opus",
+          "status": "Tamamlandı",
+          "guide": "shared/opus-client/README.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Opus sites.json: cms_editor_dev_key"
+            },
+            {
+              "done": true,
+              "text": "shared/opus-client loader + page context"
+            },
+            {
+              "done": true,
+              "text": "CMS preview modu (opus-preview.js)"
+            },
+            {
+              "done": true,
+              "text": "CMS dev server (monorepo kökü, port 3010)"
+            }
+          ],
+          "exitCriteria": "",
+          "openSubtasks": [],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Opus sites.json: cms_editor_dev_key"
+            },
+            {
+              "done": true,
+              "text": "shared/opus-client loader + page context"
+            },
+            {
+              "done": true,
+              "text": "CMS preview modu (opus-preview.js)"
+            },
+            {
+              "done": true,
+              "text": "CMS dev server (monorepo kökü, port 3010)"
+            }
+          ],
+          "progress": 100
+        },
+        {
+          "id": "MD-014",
+          "priority": "P1",
+          "title": "Opus Omni Postcheckout",
+          "status": "Planlama",
+          "guide": "OPUS_OMNI_POSTCHECKOUT.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Omni order OpenAPI v0.1 (Fulfilment)"
+            },
+            {
+              "done": false,
+              "text": "OTP akış + güvenlik spec (CE Backend)"
+            },
+            {
+              "done": false,
+              "text": "Anket kararı: Opus survey inline (CE + ürün)"
+            },
+            {
+              "done": false,
+              "text": "Wireframe + modül feature flags (CE UI)"
+            },
+            {
+              "done": false,
+              "text": "Faz 0 workshop çıktısı → SCAN_LOG"
+            },
+            {
+              "done": false,
+              "text": "Postcheckout SPA iskeleti (Opus/apps/postcheckout)"
+            },
+            {
+              "done": false,
+              "text": "OTP API + session (CE Backend)"
+            },
+            {
+              "done": false,
+              "text": "Sipariş özeti UI + BFF → Fulfilment omni order"
+            },
+            {
+              "done": false,
+              "text": "Anket inline (Opus survey SDK/API)"
+            },
+            {
+              "done": false,
+              "text": "Trigger: order/delivery → SMS link"
+            },
+            {
+              "done": false,
+              "text": "E2E test T1–T6 → SCAN_LOG"
+            },
+            {
+              "done": false,
+              "text": "e-Arşiv + iade QR (Fulfilment + CE UI)"
+            },
+            {
+              "done": false,
+              "text": "Kombin (EComAI), iletişim/üyelik (Customer)"
+            },
+            {
+              "done": false,
+              "text": "Mağaza kanalı + çoklu ülke"
+            },
+            {
+              "done": false,
+              "text": "Üretim deploy + admin trigger şablonları"
+            }
+          ],
+          "exitCriteria": "",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Omni order OpenAPI v0.1 (Fulfilment)"
+            },
+            {
+              "done": false,
+              "text": "OTP akış + güvenlik spec (CE Backend)"
+            },
+            {
+              "done": false,
+              "text": "Anket kararı: Opus survey inline (CE + ürün)"
+            },
+            {
+              "done": false,
+              "text": "Wireframe + modül feature flags (CE UI)"
+            },
+            {
+              "done": false,
+              "text": "Faz 0 workshop çıktısı → SCAN_LOG"
+            },
+            {
+              "done": false,
+              "text": "Postcheckout SPA iskeleti (Opus/apps/postcheckout)"
+            },
+            {
+              "done": false,
+              "text": "OTP API + session (CE Backend)"
+            },
+            {
+              "done": false,
+              "text": "Sipariş özeti UI + BFF → Fulfilment omni order"
+            },
+            {
+              "done": false,
+              "text": "Anket inline (Opus survey SDK/API)"
+            },
+            {
+              "done": false,
+              "text": "Trigger: order/delivery → SMS link"
+            },
+            {
+              "done": false,
+              "text": "E2E test T1–T6 → SCAN_LOG"
+            },
+            {
+              "done": false,
+              "text": "e-Arşiv + iade QR (Fulfilment + CE UI)"
+            },
+            {
+              "done": false,
+              "text": "Kombin (EComAI), iletişim/üyelik (Customer)"
+            },
+            {
+              "done": false,
+              "text": "Mağaza kanalı + çoklu ülke"
+            },
+            {
+              "done": false,
+              "text": "Üretim deploy + admin trigger şablonları"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        }
+      ],
+      "openWork": [
+        {
+          "id": "MD-001",
+          "priority": "P0",
+          "title": "Opus → LCW mockup entegrasyon ve test matrisi",
+          "status": "Açık",
+          "guide": "OPUS_LCW_INTEGRATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+            },
+            {
+              "done": true,
+              "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+            },
+            {
+              "done": true,
+              "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+            },
+            {
+              "done": false,
+              "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+            },
+            {
+              "done": false,
+              "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+            }
+          ],
+          "exitCriteria": "SCAN_LOG'da başarılı test notu; bu maddede tüm alt görevler işaretli.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+            },
+            {
+              "done": false,
+              "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+            },
+            {
+              "done": false,
+              "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+            },
+            {
+              "done": true,
+              "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+            }
+          ],
+          "progress": 40
+        },
+        {
+          "id": "MD-002",
+          "priority": "P2",
+          "title": "BannerPlanner ↔ Opus campaign model eşlemesi",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Banner alanları listelendi"
+            },
+            {
+              "done": false,
+              "text": "Opus campaign alanları ile eşleme tablosu"
+            },
+            {
+              "done": false,
+              "text": "Eksik/uyumsuz alanlar backlog notu"
+            }
+          ],
+          "exitCriteria": "Eşleme tablosu (INTEGRATION_MAP veya proje kartına link).",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Banner alanları listelendi"
+            },
+            {
+              "done": false,
+              "text": "Opus campaign alanları ile eşleme tablosu"
+            },
+            {
+              "done": false,
+              "text": "Eksik/uyumsuz alanlar backlog notu"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-005",
+          "priority": "P2",
+          "title": "Opus site bazlı gezinti raporu (CMS + iç uygulamalar)",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Events ingest: site_id / siteKey her event’te çözümlensin"
+            },
+            {
+              "done": false,
+              "text": "GET /api/v1/analytics/navigation — site + userId filtreli kronoloji"
+            },
+            {
+              "done": false,
+              "text": "Admin UI: site seçici + kullanıcı gezinti raporu"
+            },
+            {
+              "done": false,
+              "text": "CMS preview oturumunda uçtan uca doğrulama"
+            }
+          ],
+          "exitCriteria": "CMS editör navigasyonu Admin’de cms_editor_dev_key filtresiyle görünür.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Events ingest: site_id / siteKey her event’te çözümlensin"
+            },
+            {
+              "done": false,
+              "text": "GET /api/v1/analytics/navigation — site + userId filtreli kronoloji"
+            },
+            {
+              "done": false,
+              "text": "Admin UI: site seçici + kullanıcı gezinti raporu"
+            },
+            {
+              "done": false,
+              "text": "CMS preview oturumunda uçtan uca doğrulama"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-014",
+          "priority": "P1",
+          "title": "Opus Omni Postcheckout",
+          "status": "Planlama",
+          "guide": "OPUS_OMNI_POSTCHECKOUT.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Omni order OpenAPI v0.1 (Fulfilment)"
+            },
+            {
+              "done": false,
+              "text": "OTP akış + güvenlik spec (CE Backend)"
+            },
+            {
+              "done": false,
+              "text": "Anket kararı: Opus survey inline (CE + ürün)"
+            },
+            {
+              "done": false,
+              "text": "Wireframe + modül feature flags (CE UI)"
+            },
+            {
+              "done": false,
+              "text": "Faz 0 workshop çıktısı → SCAN_LOG"
+            },
+            {
+              "done": false,
+              "text": "Postcheckout SPA iskeleti (Opus/apps/postcheckout)"
+            },
+            {
+              "done": false,
+              "text": "OTP API + session (CE Backend)"
+            },
+            {
+              "done": false,
+              "text": "Sipariş özeti UI + BFF → Fulfilment omni order"
+            },
+            {
+              "done": false,
+              "text": "Anket inline (Opus survey SDK/API)"
+            },
+            {
+              "done": false,
+              "text": "Trigger: order/delivery → SMS link"
+            },
+            {
+              "done": false,
+              "text": "E2E test T1–T6 → SCAN_LOG"
+            },
+            {
+              "done": false,
+              "text": "e-Arşiv + iade QR (Fulfilment + CE UI)"
+            },
+            {
+              "done": false,
+              "text": "Kombin (EComAI), iletişim/üyelik (Customer)"
+            },
+            {
+              "done": false,
+              "text": "Mağaza kanalı + çoklu ülke"
+            },
+            {
+              "done": false,
+              "text": "Üretim deploy + admin trigger şablonları"
+            }
+          ],
+          "exitCriteria": "",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Omni order OpenAPI v0.1 (Fulfilment)"
+            },
+            {
+              "done": false,
+              "text": "OTP akış + güvenlik spec (CE Backend)"
+            },
+            {
+              "done": false,
+              "text": "Anket kararı: Opus survey inline (CE + ürün)"
+            },
+            {
+              "done": false,
+              "text": "Wireframe + modül feature flags (CE UI)"
+            },
+            {
+              "done": false,
+              "text": "Faz 0 workshop çıktısı → SCAN_LOG"
+            },
+            {
+              "done": false,
+              "text": "Postcheckout SPA iskeleti (Opus/apps/postcheckout)"
+            },
+            {
+              "done": false,
+              "text": "OTP API + session (CE Backend)"
+            },
+            {
+              "done": false,
+              "text": "Sipariş özeti UI + BFF → Fulfilment omni order"
+            },
+            {
+              "done": false,
+              "text": "Anket inline (Opus survey SDK/API)"
+            },
+            {
+              "done": false,
+              "text": "Trigger: order/delivery → SMS link"
+            },
+            {
+              "done": false,
+              "text": "E2E test T1–T6 → SCAN_LOG"
+            },
+            {
+              "done": false,
+              "text": "e-Arşiv + iade QR (Fulfilment + CE UI)"
+            },
+            {
+              "done": false,
+              "text": "Kombin (EComAI), iletişim/üyelik (Customer)"
+            },
+            {
+              "done": false,
+              "text": "Mağaza kanalı + çoklu ülke"
+            },
+            {
+              "done": false,
+              "text": "Üretim deploy + admin trigger şablonları"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "id": "lcw",
+      "name": "LCW Mockup",
+      "subtitle": "E-ticaret vitrin simülasyonu",
+      "path": "lcw",
+      "icon": "bi-shop-window",
+      "iconSrc": "lcw/favicon.svg",
+      "accent": "#193db0",
+      "devUrls": [
+        {
+          "label": "Vitrin",
+          "url": "http://127.0.0.1:3000"
+        }
+      ],
+      "agentSync": "lcw/AGENT_SYNC.md",
+      "workIds": [
+        "MD-001",
+        "MD-003",
+        "MD-011",
+        "MD-015"
+      ],
+      "card": "MasterDevelopment/projects/LCW.md",
+      "recent": [
+        {
+          "date": "2026-06-01",
+          "change": "Koordinasyon iskeleti kuruldu",
+          "project": "BannerPlanner, MasterDevelopment",
+          "note": "AGENT_SYNC, BANNER_FEED.md"
+        },
+        {
+          "date": "2026-05-27",
+          "change": "Opus SDK + kimlik baÄŸlantÄ±sÄ±",
+          "project": "Opus",
+          "note": "opus-integration.js, common.js"
+        },
+        {
+          "date": "2026-05-27",
+          "change": "Anket hedefleme + Ã§ok sayfa UI",
+          "project": "Opus, LCW",
+          "note": "surveyDecisions.js, opus-survey.js, opus-page-context.js"
+        },
+        {
+          "date": "2026-05-27",
+          "change": "MD-011: LCW Next.js headless + CMS API stratejisi",
+          "project": "LCW, CMS, MasterDevelopment",
+          "note": "LCW_NEXTJS_HEADLESS.md"
+        },
+        {
+          "date": "2026-06-08",
+          "change": "Stale build / ChunkLoadError Ã¶nleme dokÃ¼mantasyonu",
+          "project": "LCW",
+          "note": "docs/DEV_SERVER.md, .cursor/rules/nextjs-dev-server.mdc"
+        }
+      ],
+      "relatedWork": [
+        {
+          "id": "MD-001",
+          "priority": "P0",
+          "title": "Opus → LCW mockup entegrasyon ve test matrisi",
+          "status": "Açık",
+          "guide": "OPUS_LCW_INTEGRATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+            },
+            {
+              "done": true,
+              "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+            },
+            {
+              "done": true,
+              "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+            },
+            {
+              "done": false,
+              "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+            },
+            {
+              "done": false,
+              "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+            }
+          ],
+          "exitCriteria": "SCAN_LOG'da başarılı test notu; bu maddede tüm alt görevler işaretli.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+            },
+            {
+              "done": false,
+              "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+            },
+            {
+              "done": false,
+              "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+            },
+            {
+              "done": true,
+              "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+            }
+          ],
+          "progress": 40
+        },
+        {
+          "id": "MD-003",
+          "priority": "P1",
+          "title": "BannerPlanner → LCW vitrin entegrasyonu",
+          "status": "Açık",
+          "guide": "BANNER_LCW_INTEGRATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+            },
+            {
+              "done": false,
+              "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+            },
+            {
+              "done": false,
+              "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+            },
+            {
+              "done": false,
+              "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+            }
+          ],
+          "exitCriteria": "LCW ana sayfada export edilen banner görünür; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+            },
+            {
+              "done": false,
+              "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+            },
+            {
+              "done": false,
+              "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+            },
+            {
+              "done": false,
+              "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-011",
+          "priority": "P1",
+          "title": "LCW Next.js headless vitrin + CMS API tüketimi",
+          "status": "Açık",
+          "guide": "LCW_NEXTJS_HEADLESS.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+            },
+            {
+              "done": false,
+              "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+            },
+            {
+              "done": true,
+              "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+            },
+            {
+              "done": true,
+              "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+            },
+            {
+              "done": true,
+              "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+            },
+            {
+              "done": true,
+              "text": "LCW page-content.js opsiyonel CMS tüketimi"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+            },
+            {
+              "done": false,
+              "text": "Statik mockup cutover / port envanteri kararı"
+            }
+          ],
+          "exitCriteria": "Next.js LCW menü+homepage CMS API’den render; BP→CMS→LCW uçtan uca en az 1 planlama senaryosu gözlemlendi; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+            },
+            {
+              "done": false,
+              "text": "Statik mockup cutover / port envanteri kararı"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+            },
+            {
+              "done": true,
+              "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+            },
+            {
+              "done": true,
+              "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+            },
+            {
+              "done": true,
+              "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+            },
+            {
+              "done": true,
+              "text": "LCW page-content.js opsiyonel CMS tüketimi"
+            }
+          ],
+          "progress": 63
+        },
+        {
+          "id": "MD-015",
+          "priority": "P1",
+          "title": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            },
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "exitCriteria": "CMS kapalıyken LCW fallback; CMS açıkken listing+modal canlı; EPIM sınır notu onaylı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            }
+          ],
+          "progress": 63
+        }
+      ],
+      "openWork": [
+        {
+          "id": "MD-001",
+          "priority": "P0",
+          "title": "Opus → LCW mockup entegrasyon ve test matrisi",
+          "status": "Açık",
+          "guide": "OPUS_LCW_INTEGRATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+            },
+            {
+              "done": true,
+              "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+            },
+            {
+              "done": true,
+              "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+            },
+            {
+              "done": false,
+              "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+            },
+            {
+              "done": false,
+              "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+            }
+          ],
+          "exitCriteria": "SCAN_LOG'da başarılı test notu; bu maddede tüm alt görevler işaretli.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus API + admin çalışır durumda (port net: 3102) — yerelde doğrulanacak"
+            },
+            {
+              "done": false,
+              "text": "Admin'den aktif kampanya → LCW'de popup görünür (T4)"
+            },
+            {
+              "done": false,
+              "text": "Test matrisi T1–T6 → SCAN_LOG sonuç satırları"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "LCW tüm şablon HTML'lere Opus yükleyici eklendi (opus-config.js, opus-integration.js)"
+            },
+            {
+              "done": true,
+              "text": "common.js: page_view (SDK), add_to_cart, remove_from_cart, category_click, consent_granted"
+            }
+          ],
+          "progress": 40
+        },
+        {
+          "id": "MD-003",
+          "priority": "P1",
+          "title": "BannerPlanner → LCW vitrin entegrasyonu",
+          "status": "Açık",
+          "guide": "BANNER_LCW_INTEGRATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+            },
+            {
+              "done": false,
+              "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+            },
+            {
+              "done": false,
+              "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+            },
+            {
+              "done": false,
+              "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+            }
+          ],
+          "exitCriteria": "LCW ana sayfada export edilen banner görünür; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+            },
+            {
+              "done": false,
+              "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+            },
+            {
+              "done": false,
+              "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+            },
+            {
+              "done": false,
+              "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-011",
+          "priority": "P1",
+          "title": "LCW Next.js headless vitrin + CMS API tüketimi",
+          "status": "Açık",
+          "guide": "LCW_NEXTJS_HEADLESS.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+            },
+            {
+              "done": false,
+              "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+            },
+            {
+              "done": true,
+              "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+            },
+            {
+              "done": true,
+              "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+            },
+            {
+              "done": true,
+              "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+            },
+            {
+              "done": true,
+              "text": "LCW page-content.js opsiyonel CMS tüketimi"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+            },
+            {
+              "done": false,
+              "text": "Statik mockup cutover / port envanteri kararı"
+            }
+          ],
+          "exitCriteria": "Next.js LCW menü+homepage CMS API’den render; BP→CMS→LCW uçtan uca en az 1 planlama senaryosu gözlemlendi; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+            },
+            {
+              "done": false,
+              "text": "Statik mockup cutover / port envanteri kararı"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+            },
+            {
+              "done": true,
+              "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+            },
+            {
+              "done": true,
+              "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+            },
+            {
+              "done": true,
+              "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+            },
+            {
+              "done": true,
+              "text": "LCW page-content.js opsiyonel CMS tüketimi"
+            }
+          ],
+          "progress": 63
+        },
+        {
+          "id": "MD-015",
+          "priority": "P1",
+          "title": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            },
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "exitCriteria": "CMS kapalıyken LCW fallback; CMS açıkken listing+modal canlı; EPIM sınır notu onaylı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            }
+          ],
+          "progress": 63
+        }
+      ]
+    },
+    {
+      "id": "bannerplanner",
+      "name": "BannerPlanner",
+      "subtitle": "Banner planlama & LCW önizleme",
+      "path": "BannerPlanner",
+      "icon": "bi-card-image",
+      "iconSrc": "BannerPlanner/favicon.svg",
+      "accent": "#2550d4",
+      "devUrls": [
+        {
+          "label": "IIS",
+          "url": "http://localhost:3280/"
+        }
+      ],
+      "agentSync": "BannerPlanner/AGENT_SYNC.md",
+      "workIds": [
+        "MD-002",
+        "MD-003",
+        "MD-007"
+      ],
+      "card": "MasterDevelopment/projects/BannerPlanner.md",
+      "recent": [
+        {
+          "date": "2026-06-01",
+          "change": "Koordinasyon iskeleti kuruldu",
+          "project": "LCW, MasterDevelopment",
+          "note": "AGENT_SYNC, LCW_EXPORT.md, BANNER_LCW_INTEGRATION"
+        },
+        {
+          "date": "2026-05-27",
+          "change": "LCW Ã–nizleme lcwCompMod: yayÄ±n Ã¼lke + tarih aralÄ±ÄŸÄ± (planlama modalÄ± ile aynÄ±)",
+          "project": "BannerPlanner",
+          "note": "js/preview.js, BannerPlannerPublish export"
+        },
+        {
+          "date": "2026-05-27",
+          "change": "lcwCompMod katlanÄ±r kutular, localStorage UI, Ã¼lkeye gÃ¶re medya klonu",
+          "project": "BannerPlanner",
+          "note": "js/preview.js, css/preview.css, lcw_comp_mod_ui"
+        },
+        {
+          "date": "2026-05-27",
+          "change": "Referans ÅŸablon â†” Åžablon Planlama senkronu (Markalar vb.)",
+          "project": "BannerPlanner",
+          "note": "js/template-plan.js, repairTemplatePlans, openInPlanning"
+        },
+        {
+          "date": "2026-05-27",
+          "change": "Ana Sayfa: Ã–nizleme â†’ Åžablon Planlama ÅŸablon kaybÄ±",
+          "project": "BannerPlanner",
+          "note": "go() senkron Ã¶nce render; planningPage/HOMEPAGE hizasÄ±"
+        }
+      ],
+      "relatedWork": [
+        {
+          "id": "MD-003",
+          "priority": "P1",
+          "title": "BannerPlanner → LCW vitrin entegrasyonu",
+          "status": "Açık",
+          "guide": "BANNER_LCW_INTEGRATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+            },
+            {
+              "done": false,
+              "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+            },
+            {
+              "done": false,
+              "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+            },
+            {
+              "done": false,
+              "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+            }
+          ],
+          "exitCriteria": "LCW ana sayfada export edilen banner görünür; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+            },
+            {
+              "done": false,
+              "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+            },
+            {
+              "done": false,
+              "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+            },
+            {
+              "done": false,
+              "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-002",
+          "priority": "P2",
+          "title": "BannerPlanner ↔ Opus campaign model eşlemesi",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Banner alanları listelendi"
+            },
+            {
+              "done": false,
+              "text": "Opus campaign alanları ile eşleme tablosu"
+            },
+            {
+              "done": false,
+              "text": "Eksik/uyumsuz alanlar backlog notu"
+            }
+          ],
+          "exitCriteria": "Eşleme tablosu (INTEGRATION_MAP veya proje kartına link).",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Banner alanları listelendi"
+            },
+            {
+              "done": false,
+              "text": "Opus campaign alanları ile eşleme tablosu"
+            },
+            {
+              "done": false,
+              "text": "Eksik/uyumsuz alanlar backlog notu"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-007",
+          "priority": "P1",
+          "title": "Content Publish Contract (BannerPlanner → CMS)",
+          "status": "Açık",
+          "guide": "CONTENT_PUBLISH_CONTRACT.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CPC v1 şema + CMS güncel model doğrulaması"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner exportCpc() prototipi"
+            },
+            {
+              "done": false,
+              "text": "CMS import + itemKey zorunlu validasyon"
+            },
+            {
+              "done": false,
+              "text": "LCW render + content_impression / content_click (MD-003 ile)"
+            },
+            {
+              "done": false,
+              "text": "Opus content analytics raporu"
+            }
+          ],
+          "exitCriteria": "Onaylı BP plan → CPC JSON → CMS seed/import → LCW’de görünür + Opus event’te itemKey.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "BannerPlanner exportCpc() prototipi"
+            },
+            {
+              "done": false,
+              "text": "CMS import + itemKey zorunlu validasyon"
+            },
+            {
+              "done": false,
+              "text": "LCW render + content_impression / content_click (MD-003 ile)"
+            },
+            {
+              "done": false,
+              "text": "Opus content analytics raporu"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CPC v1 şema + CMS güncel model doğrulaması"
+            }
+          ],
+          "progress": 20
+        }
+      ],
+      "openWork": [
+        {
+          "id": "MD-003",
+          "priority": "P1",
+          "title": "BannerPlanner → LCW vitrin entegrasyonu",
+          "status": "Açık",
+          "guide": "BANNER_LCW_INTEGRATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+            },
+            {
+              "done": false,
+              "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+            },
+            {
+              "done": false,
+              "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+            },
+            {
+              "done": false,
+              "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+            }
+          ],
+          "exitCriteria": "LCW ana sayfada export edilen banner görünür; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Export sözleşmesi netleştirildi (BannerPlanner/docs/LCW_EXPORT.md)"
+            },
+            {
+              "done": false,
+              "text": "LCW tüketim modülü (lcw/docs/BANNER_FEED.md → js/banner-feed.js)"
+            },
+            {
+              "done": false,
+              "text": "Homepage hero en az 1 BannerPlanner slide ile render"
+            },
+            {
+              "done": false,
+              "text": "Her iki projede AGENT_SYNC.md günlüğü güncel"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-002",
+          "priority": "P2",
+          "title": "BannerPlanner ↔ Opus campaign model eşlemesi",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Banner alanları listelendi"
+            },
+            {
+              "done": false,
+              "text": "Opus campaign alanları ile eşleme tablosu"
+            },
+            {
+              "done": false,
+              "text": "Eksik/uyumsuz alanlar backlog notu"
+            }
+          ],
+          "exitCriteria": "Eşleme tablosu (INTEGRATION_MAP veya proje kartına link).",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Banner alanları listelendi"
+            },
+            {
+              "done": false,
+              "text": "Opus campaign alanları ile eşleme tablosu"
+            },
+            {
+              "done": false,
+              "text": "Eksik/uyumsuz alanlar backlog notu"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-007",
+          "priority": "P1",
+          "title": "Content Publish Contract (BannerPlanner → CMS)",
+          "status": "Açık",
+          "guide": "CONTENT_PUBLISH_CONTRACT.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CPC v1 şema + CMS güncel model doğrulaması"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner exportCpc() prototipi"
+            },
+            {
+              "done": false,
+              "text": "CMS import + itemKey zorunlu validasyon"
+            },
+            {
+              "done": false,
+              "text": "LCW render + content_impression / content_click (MD-003 ile)"
+            },
+            {
+              "done": false,
+              "text": "Opus content analytics raporu"
+            }
+          ],
+          "exitCriteria": "Onaylı BP plan → CPC JSON → CMS seed/import → LCW’de görünür + Opus event’te itemKey.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "BannerPlanner exportCpc() prototipi"
+            },
+            {
+              "done": false,
+              "text": "CMS import + itemKey zorunlu validasyon"
+            },
+            {
+              "done": false,
+              "text": "LCW render + content_impression / content_click (MD-003 ile)"
+            },
+            {
+              "done": false,
+              "text": "Opus content analytics raporu"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CPC v1 şema + CMS güncel model doğrulaması"
+            }
+          ],
+          "progress": 20
+        }
+      ]
+    },
+    {
+      "id": "cms",
+      "name": "CMS Editor",
+      "subtitle": "Homepage → Template → Component",
+      "path": "CMS",
+      "icon": "bi-layout-text-window-reverse",
+      "iconSrc": "CMS/favicon.svg",
+      "accent": "#0d9488",
+      "devUrls": [
+        {
+          "label": "Dev server",
+          "url": "http://127.0.0.1:3458/"
+        }
+      ],
+      "agentSync": "CMS/AGENT_SYNC.md",
+      "workIds": [
+        "MD-004",
+        "MD-006",
+        "MD-007",
+        "MD-010",
+        "MD-011",
+        "MD-015",
+        "MD-016"
+      ],
+      "card": "MasterDevelopment/projects/CMS.md",
+      "recent": [
+        {
+          "date": "2026-06-04",
+          "change": "Homepage List/Edit UI simÃ¼lasyonu eklendi",
+          "project": "CMS",
+          "note": "js/homepage.js, data/config/homepage-records.json, css/pages.css"
+        },
+        {
+          "date": "2026-06-04",
+          "change": "Strateji sinyali: HomePage kavramÄ± Layout'a dÃ¶nÃ¼ÅŸtÃ¼rÃ¼lebilir",
+          "project": "CMS, BannerPlanner, MasterDevelopment",
+          "note": "CMS_HOME_LAYOUT_UNIFICATION.md, MD-004; BannerPlanner gÃ¼ncellemeleri Ã¶nden gidebilir"
+        },
+        {
+          "date": "2026-06-04",
+          "change": "Opus preview: shared/opus-client + Layout editÃ¶r",
+          "project": "CMS, Opus",
+          "note": "../shared/opus-client/, js/opus-config.js, js/opus-preview.js, site key cms_editor_dev_key"
+        },
+        {
+          "date": "2026-06-04",
+          "change": "CMS ekibi doÄŸrulamasÄ±: Homepage = Ã¼lkeÃ—kategoriÃ—dil (1 adet); Templateâ†’homePageId; Component items=JSON",
+          "project": "CMS, MasterDevelopment",
+          "note": "docs/domain-model.md, MD-004 revize; Layout birleÅŸtirme geri Ã§ekildi"
+        },
+        {
+          "date": "2026-06-04",
+          "change": "Faz 1 birincil simÃ¼lasyon: locale filtre, homePageId dropdown, items JSON editÃ¶r",
+          "project": "CMS",
+          "note": "js/cms-context.js, homepage/template/component-v5 gÃ¼ncellemeleri"
+        }
+      ],
+      "relatedWork": [
+        {
+          "id": "MD-004",
+          "priority": "P1",
+          "title": "CMS Homepage domain hizalama + Global operasyon UX",
+          "status": "Açık",
+          "guide": "CMS_HOME_LAYOUT_UNIFICATION.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+            },
+            {
+              "done": true,
+              "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+            },
+            {
+              "done": true,
+              "text": "Template edit Home Pages → homePageId dropdown"
+            },
+            {
+              "done": true,
+              "text": "Component items JSON editörü (entity değil)"
+            },
+            {
+              "done": false,
+              "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+            },
+            {
+              "done": false,
+              "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+            }
+          ],
+          "exitCriteria": "Homepage → Template → Component(items JSON) simülasyonda doğru; Global toplu senaryo ST-004 kabul kriterleri; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+            },
+            {
+              "done": false,
+              "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+            },
+            {
+              "done": true,
+              "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+            },
+            {
+              "done": true,
+              "text": "Template edit Home Pages → homePageId dropdown"
+            },
+            {
+              "done": true,
+              "text": "Component items JSON editörü (entity değil)"
+            }
+          ],
+          "progress": 40
+        },
+        {
+          "id": "MD-007",
+          "priority": "P1",
+          "title": "Content Publish Contract (BannerPlanner → CMS)",
+          "status": "Açık",
+          "guide": "CONTENT_PUBLISH_CONTRACT.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CPC v1 şema + CMS güncel model doğrulaması"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner exportCpc() prototipi"
+            },
+            {
+              "done": false,
+              "text": "CMS import + itemKey zorunlu validasyon"
+            },
+            {
+              "done": false,
+              "text": "LCW render + content_impression / content_click (MD-003 ile)"
+            },
+            {
+              "done": false,
+              "text": "Opus content analytics raporu"
+            }
+          ],
+          "exitCriteria": "Onaylı BP plan → CPC JSON → CMS seed/import → LCW’de görünür + Opus event’te itemKey.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "BannerPlanner exportCpc() prototipi"
+            },
+            {
+              "done": false,
+              "text": "CMS import + itemKey zorunlu validasyon"
+            },
+            {
+              "done": false,
+              "text": "LCW render + content_impression / content_click (MD-003 ile)"
+            },
+            {
+              "done": false,
+              "text": "Opus content analytics raporu"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CPC v1 şema + CMS güncel model doğrulaması"
+            }
+          ],
+          "progress": 20
+        },
+        {
+          "id": "MD-006",
+          "priority": "P2",
+          "title": "shared/opus-client + CMS preview Opus",
+          "status": "Tamamlandı",
+          "guide": "shared/opus-client/README.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Opus sites.json: cms_editor_dev_key"
+            },
+            {
+              "done": true,
+              "text": "shared/opus-client loader + page context"
+            },
+            {
+              "done": true,
+              "text": "CMS preview modu (opus-preview.js)"
+            },
+            {
+              "done": true,
+              "text": "CMS dev server (monorepo kökü, port 3010)"
+            }
+          ],
+          "exitCriteria": "",
+          "openSubtasks": [],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Opus sites.json: cms_editor_dev_key"
+            },
+            {
+              "done": true,
+              "text": "shared/opus-client loader + page context"
+            },
+            {
+              "done": true,
+              "text": "CMS preview modu (opus-preview.js)"
+            },
+            {
+              "done": true,
+              "text": "CMS dev server (monorepo kökü, port 3010)"
+            }
+          ],
+          "progress": 100
+        },
+        {
+          "id": "MD-010",
+          "priority": "P1",
+          "title": "Mobile lokalizasyon → CMS ortaklaştırma (Backoffice + Web)",
+          "status": "Açık",
+          "guide": "LOCALIZATION_CMS_UNIFICATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+            },
+            {
+              "done": false,
+              "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+            },
+            {
+              "done": false,
+              "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+            },
+            {
+              "done": false,
+              "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+            },
+            {
+              "done": false,
+              "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+            },
+            {
+              "done": false,
+              "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ekibi handoff + onay"
+            }
+          ],
+          "exitCriteria": "Envanter + model taslağı + simülasyonda örnek ortak parametre seti; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+            },
+            {
+              "done": false,
+              "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+            },
+            {
+              "done": false,
+              "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+            },
+            {
+              "done": false,
+              "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+            },
+            {
+              "done": false,
+              "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+            },
+            {
+              "done": false,
+              "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ekibi handoff + onay"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-011",
+          "priority": "P1",
+          "title": "LCW Next.js headless vitrin + CMS API tüketimi",
+          "status": "Açık",
+          "guide": "LCW_NEXTJS_HEADLESS.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+            },
+            {
+              "done": false,
+              "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+            },
+            {
+              "done": true,
+              "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+            },
+            {
+              "done": true,
+              "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+            },
+            {
+              "done": true,
+              "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+            },
+            {
+              "done": true,
+              "text": "LCW page-content.js opsiyonel CMS tüketimi"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+            },
+            {
+              "done": false,
+              "text": "Statik mockup cutover / port envanteri kararı"
+            }
+          ],
+          "exitCriteria": "Next.js LCW menü+homepage CMS API’den render; BP→CMS→LCW uçtan uca en az 1 planlama senaryosu gözlemlendi; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+            },
+            {
+              "done": false,
+              "text": "Statik mockup cutover / port envanteri kararı"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+            },
+            {
+              "done": true,
+              "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+            },
+            {
+              "done": true,
+              "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+            },
+            {
+              "done": true,
+              "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+            },
+            {
+              "done": true,
+              "text": "LCW page-content.js opsiyonel CMS tüketimi"
+            }
+          ],
+          "progress": 63
+        },
+        {
+          "id": "MD-015",
+          "priority": "P1",
+          "title": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            },
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "exitCriteria": "CMS kapalıyken LCW fallback; CMS açıkken listing+modal canlı; EPIM sınır notu onaylı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            }
+          ],
+          "progress": 63
+        },
+        {
+          "id": "MD-016",
+          "priority": "P1",
+          "title": "EPIM ↔ CMS kategori / menü sınır netleştirme",
+          "status": "Açık",
+          "guide": "EPIM_CMS_BOUNDARY.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Sınır dokümanı + RACI taslağı"
+            },
+            {
+              "done": false,
+              "text": "Kategori + içerik ekibi onayı"
+            },
+            {
+              "done": false,
+              "text": "EPIM export → CMS Category Tree import demo"
+            },
+            {
+              "done": false,
+              "text": "Menu Matching salt okunur doğrulama notu / UI"
+            },
+            {
+              "done": false,
+              "text": "SCAN_LOG kapanış kaydı"
+            }
+          ],
+          "exitCriteria": "Onaylı RACI; parent-child tek kaynak EPIM; menü CMS’de kalır, CategoryId/t-{id} ile bağlı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Kategori + içerik ekibi onayı"
+            },
+            {
+              "done": false,
+              "text": "EPIM export → CMS Category Tree import demo"
+            },
+            {
+              "done": false,
+              "text": "Menu Matching salt okunur doğrulama notu / UI"
+            },
+            {
+              "done": false,
+              "text": "SCAN_LOG kapanış kaydı"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Sınır dokümanı + RACI taslağı"
+            }
+          ],
+          "progress": 20
+        }
+      ],
+      "openWork": [
+        {
+          "id": "MD-004",
+          "priority": "P1",
+          "title": "CMS Homepage domain hizalama + Global operasyon UX",
+          "status": "Açık",
+          "guide": "CMS_HOME_LAYOUT_UNIFICATION.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+            },
+            {
+              "done": true,
+              "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+            },
+            {
+              "done": true,
+              "text": "Template edit Home Pages → homePageId dropdown"
+            },
+            {
+              "done": true,
+              "text": "Component items JSON editörü (entity değil)"
+            },
+            {
+              "done": false,
+              "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+            },
+            {
+              "done": false,
+              "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+            }
+          ],
+          "exitCriteria": "Homepage → Template → Component(items JSON) simülasyonda doğru; Global toplu senaryo ST-004 kabul kriterleri; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+            },
+            {
+              "done": false,
+              "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+            },
+            {
+              "done": true,
+              "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+            },
+            {
+              "done": true,
+              "text": "Template edit Home Pages → homePageId dropdown"
+            },
+            {
+              "done": true,
+              "text": "Component items JSON editörü (entity değil)"
+            }
+          ],
+          "progress": 40
+        },
+        {
+          "id": "MD-007",
+          "priority": "P1",
+          "title": "Content Publish Contract (BannerPlanner → CMS)",
+          "status": "Açık",
+          "guide": "CONTENT_PUBLISH_CONTRACT.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CPC v1 şema + CMS güncel model doğrulaması"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner exportCpc() prototipi"
+            },
+            {
+              "done": false,
+              "text": "CMS import + itemKey zorunlu validasyon"
+            },
+            {
+              "done": false,
+              "text": "LCW render + content_impression / content_click (MD-003 ile)"
+            },
+            {
+              "done": false,
+              "text": "Opus content analytics raporu"
+            }
+          ],
+          "exitCriteria": "Onaylı BP plan → CPC JSON → CMS seed/import → LCW’de görünür + Opus event’te itemKey.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "BannerPlanner exportCpc() prototipi"
+            },
+            {
+              "done": false,
+              "text": "CMS import + itemKey zorunlu validasyon"
+            },
+            {
+              "done": false,
+              "text": "LCW render + content_impression / content_click (MD-003 ile)"
+            },
+            {
+              "done": false,
+              "text": "Opus content analytics raporu"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CPC v1 şema + CMS güncel model doğrulaması"
+            }
+          ],
+          "progress": 20
+        },
+        {
+          "id": "MD-010",
+          "priority": "P1",
+          "title": "Mobile lokalizasyon → CMS ortaklaştırma (Backoffice + Web)",
+          "status": "Açık",
+          "guide": "LOCALIZATION_CMS_UNIFICATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+            },
+            {
+              "done": false,
+              "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+            },
+            {
+              "done": false,
+              "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+            },
+            {
+              "done": false,
+              "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+            },
+            {
+              "done": false,
+              "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+            },
+            {
+              "done": false,
+              "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ekibi handoff + onay"
+            }
+          ],
+          "exitCriteria": "Envanter + model taslağı + simülasyonda örnek ortak parametre seti; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+            },
+            {
+              "done": false,
+              "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+            },
+            {
+              "done": false,
+              "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+            },
+            {
+              "done": false,
+              "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+            },
+            {
+              "done": false,
+              "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+            },
+            {
+              "done": false,
+              "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ekibi handoff + onay"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        },
+        {
+          "id": "MD-011",
+          "priority": "P1",
+          "title": "LCW Next.js headless vitrin + CMS API tüketimi",
+          "status": "Açık",
+          "guide": "LCW_NEXTJS_HEADLESS.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+            },
+            {
+              "done": false,
+              "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+            },
+            {
+              "done": true,
+              "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+            },
+            {
+              "done": true,
+              "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+            },
+            {
+              "done": true,
+              "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+            },
+            {
+              "done": true,
+              "text": "LCW page-content.js opsiyonel CMS tüketimi"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+            },
+            {
+              "done": false,
+              "text": "Statik mockup cutover / port envanteri kararı"
+            }
+          ],
+          "exitCriteria": "Next.js LCW menü+homepage CMS API’den render; BP→CMS→LCW uçtan uca en az 1 planlama senaryosu gözlemlendi; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus SDK Next.js layout entegrasyonu (MD-001 kuralları)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner → CMS publish → LCW vitrin gözlem senaryosu (MD-007 Faz 4)"
+            },
+            {
+              "done": false,
+              "text": "Statik mockup cutover / port envanteri kararı"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Next.js App Router iskelet + mevcut sayfa parity (header/footer/ana sayfa)"
+            },
+            {
+              "done": true,
+              "text": "CMS Read API — menü endpoint (BR-NAV-001, menu-trees/)"
+            },
+            {
+              "done": true,
+              "text": "LCW Next.js menü tüketimi (locale: country + lang) + yerel fallback"
+            },
+            {
+              "done": true,
+              "text": "Homepage + Template + Component + page bundle API (CPC/MD-007 uyumlu)"
+            },
+            {
+              "done": true,
+              "text": "LCW page-content.js opsiyonel CMS tüketimi"
+            }
+          ],
+          "progress": 63
+        },
+        {
+          "id": "MD-015",
+          "priority": "P1",
+          "title": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            },
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "exitCriteria": "CMS kapalıyken LCW fallback; CMS açıkken listing+modal canlı; EPIM sınır notu onaylı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            }
+          ],
+          "progress": 63
+        },
+        {
+          "id": "MD-016",
+          "priority": "P1",
+          "title": "EPIM ↔ CMS kategori / menü sınır netleştirme",
+          "status": "Açık",
+          "guide": "EPIM_CMS_BOUNDARY.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Sınır dokümanı + RACI taslağı"
+            },
+            {
+              "done": false,
+              "text": "Kategori + içerik ekibi onayı"
+            },
+            {
+              "done": false,
+              "text": "EPIM export → CMS Category Tree import demo"
+            },
+            {
+              "done": false,
+              "text": "Menu Matching salt okunur doğrulama notu / UI"
+            },
+            {
+              "done": false,
+              "text": "SCAN_LOG kapanış kaydı"
+            }
+          ],
+          "exitCriteria": "Onaylı RACI; parent-child tek kaynak EPIM; menü CMS’de kalır, CategoryId/t-{id} ile bağlı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Kategori + içerik ekibi onayı"
+            },
+            {
+              "done": false,
+              "text": "EPIM export → CMS Category Tree import demo"
+            },
+            {
+              "done": false,
+              "text": "Menu Matching salt okunur doğrulama notu / UI"
+            },
+            {
+              "done": false,
+              "text": "SCAN_LOG kapanış kaydı"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Sınır dokümanı + RACI taslağı"
+            }
+          ],
+          "progress": 20
+        }
+      ]
+    },
+    {
+      "id": "projector",
+      "name": "Projector",
+      "subtitle": "OKR & talep yönetimi",
+      "path": "Projector",
+      "icon": "bi-kanban-fill",
+      "iconSrc": "Projector/favicon.svg",
+      "accent": "#fd7e14",
+      "devUrls": [
+        {
+          "label": "App",
+          "url": "http://127.0.0.1:3001"
+        }
+      ],
+      "agentSync": null,
+      "workIds": [],
+      "card": "MasterDevelopment/projects/Projector.md",
+      "recent": [],
+      "relatedWork": [],
+      "openWork": []
+    },
+    {
+      "id": "epim",
+      "name": "EPIM",
+      "subtitle": "Ürün bilgisi admin simülasyonu",
+      "path": "EPIM",
+      "icon": "bi-box-seam-fill",
+      "iconSrc": "EPIM/favicon.svg",
+      "accent": "#20c997",
+      "devUrls": [
+        {
+          "label": "IIS (önerilen)",
+          "url": "http://localhost:3281/"
+        }
+      ],
+      "agentSync": "EPIM/AGENT_SYNC.md",
+      "workIds": [
+        "MD-008",
+        "MD-015",
+        "MD-016"
+      ],
+      "card": "MasterDevelopment/projects/EPIM.md",
+      "recent": [
+        {
+          "date": "2026-06-06",
+          "change": "Proje baÅŸlatÄ±ldÄ± â€” BannerPlanner admin kabuÄŸu referans alÄ±narak EPIM simÃ¼lasyonu iskeleti kuruldu",
+          "project": "EPIM, MasterDevelopment",
+          "note": "index.html, js/app.js, js/menu.js, js/product-pool.js, css/*, data/catalog/filter-options.json"
+        },
+        {
+          "date": "2026-06-06",
+          "change": "ÃœrÃ¼n Havuzu ekranÄ±: filtre grid, boÅŸ sonuÃ§ durumu, sidebar menÃ¼ (Ã‡eviriler vb.)",
+          "project": "EPIM",
+          "note": "js/product-pool.js â€” Ã¼retim ekran gÃ¶rÃ¼ntÃ¼sÃ¼ referans"
+        },
+        {
+          "date": "2026-06-06",
+          "change": "IIS port talebi: Ã¶nerilen 3281 (BannerPlanner 3280 yanÄ±nda) â€” Master Development onayÄ± bekleniyor",
+          "project": "EPIM, MasterDevelopment",
+          "note": "WORK_QUEUE.md MD-008, data/README.md"
+        },
+        {
+          "date": "2026-07-31",
+          "change": "MD-016: EPIM kategori vs CMS menÃ¼ sÄ±nÄ±r dokÃ¼manÄ± â€” CategoryId tek kaynak",
+          "project": "EPIM, CMS, MasterDevelopment",
+          "note": "EPIM_CMS_BOUNDARY.md; perso master hedef MD-015"
+        }
+      ],
+      "relatedWork": [
+        {
+          "id": "MD-008",
+          "priority": "P2",
+          "title": "EPIM admin simülasyonu bootstrap + IIS port",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Proje iskeleti (index.html, shell CSS, menü, routing)"
+            },
+            {
+              "done": true,
+              "text": "Ürün Havuzu referans ekranı (filtre grid + boş sonuç)"
+            },
+            {
+              "done": true,
+              "text": "AGENT_SYNC.md + proje kartı (projects/EPIM.md)"
+            },
+            {
+              "done": false,
+              "text": "IIS site portu onayı — önerilen: 3281 (BannerPlanner 3280, Pulse 3290)"
+            },
+            {
+              "done": false,
+              "text": "İlk entegrasyon hattı tanımı (CMS kategori / üretim EPIM API mock)"
+            }
+          ],
+          "exitCriteria": "IIS'te http://localhost:3281/ üzerinden simülasyon erişilebilir; port envanterde kesinleşmiş.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "IIS site portu onayı — önerilen: 3281 (BannerPlanner 3280, Pulse 3290)"
+            },
+            {
+              "done": false,
+              "text": "İlk entegrasyon hattı tanımı (CMS kategori / üretim EPIM API mock)"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Proje iskeleti (index.html, shell CSS, menü, routing)"
+            },
+            {
+              "done": true,
+              "text": "Ürün Havuzu referans ekranı (filtre grid + boş sonuç)"
+            },
+            {
+              "done": true,
+              "text": "AGENT_SYNC.md + proje kartı (projects/EPIM.md)"
+            }
+          ],
+          "progress": 60
+        },
+        {
+          "id": "MD-015",
+          "priority": "P1",
+          "title": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            },
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "exitCriteria": "CMS kapalıyken LCW fallback; CMS açıkken listing+modal canlı; EPIM sınır notu onaylı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            }
+          ],
+          "progress": 63
+        },
+        {
+          "id": "MD-016",
+          "priority": "P1",
+          "title": "EPIM ↔ CMS kategori / menü sınır netleştirme",
+          "status": "Açık",
+          "guide": "EPIM_CMS_BOUNDARY.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Sınır dokümanı + RACI taslağı"
+            },
+            {
+              "done": false,
+              "text": "Kategori + içerik ekibi onayı"
+            },
+            {
+              "done": false,
+              "text": "EPIM export → CMS Category Tree import demo"
+            },
+            {
+              "done": false,
+              "text": "Menu Matching salt okunur doğrulama notu / UI"
+            },
+            {
+              "done": false,
+              "text": "SCAN_LOG kapanış kaydı"
+            }
+          ],
+          "exitCriteria": "Onaylı RACI; parent-child tek kaynak EPIM; menü CMS’de kalır, CategoryId/t-{id} ile bağlı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Kategori + içerik ekibi onayı"
+            },
+            {
+              "done": false,
+              "text": "EPIM export → CMS Category Tree import demo"
+            },
+            {
+              "done": false,
+              "text": "Menu Matching salt okunur doğrulama notu / UI"
+            },
+            {
+              "done": false,
+              "text": "SCAN_LOG kapanış kaydı"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Sınır dokümanı + RACI taslağı"
+            }
+          ],
+          "progress": 20
+        }
+      ],
+      "openWork": [
+        {
+          "id": "MD-008",
+          "priority": "P2",
+          "title": "EPIM admin simülasyonu bootstrap + IIS port",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Proje iskeleti (index.html, shell CSS, menü, routing)"
+            },
+            {
+              "done": true,
+              "text": "Ürün Havuzu referans ekranı (filtre grid + boş sonuç)"
+            },
+            {
+              "done": true,
+              "text": "AGENT_SYNC.md + proje kartı (projects/EPIM.md)"
+            },
+            {
+              "done": false,
+              "text": "IIS site portu onayı — önerilen: 3281 (BannerPlanner 3280, Pulse 3290)"
+            },
+            {
+              "done": false,
+              "text": "İlk entegrasyon hattı tanımı (CMS kategori / üretim EPIM API mock)"
+            }
+          ],
+          "exitCriteria": "IIS'te http://localhost:3281/ üzerinden simülasyon erişilebilir; port envanterde kesinleşmiş.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "IIS site portu onayı — önerilen: 3281 (BannerPlanner 3280, Pulse 3290)"
+            },
+            {
+              "done": false,
+              "text": "İlk entegrasyon hattı tanımı (CMS kategori / üretim EPIM API mock)"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Proje iskeleti (index.html, shell CSS, menü, routing)"
+            },
+            {
+              "done": true,
+              "text": "Ürün Havuzu referans ekranı (filtre grid + boş sonuç)"
+            },
+            {
+              "done": true,
+              "text": "AGENT_SYNC.md + proje kartı (projects/EPIM.md)"
+            }
+          ],
+          "progress": 60
+        },
+        {
+          "id": "MD-015",
+          "priority": "P1",
+          "title": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            },
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "exitCriteria": "CMS kapalıyken LCW fallback; CMS açıkken listing+modal canlı; EPIM sınır notu onaylı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "EPIM master veri / sync sözleşmesi (MD-016 ile)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ↔ stüdyo/print pipeline hizası"
+            },
+            {
+              "done": false,
+              "text": "UAT: TR listing → modal → preview ölçü doğrulama"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "CMS Ürün Kişiselleştirme editörü (zone canvas, px↔mm, çoklu görsel)"
+            },
+            {
+              "done": true,
+              "text": "Kişiselleştirme Kataloğu (font/ikon/renk + printMetrics)"
+            },
+            {
+              "done": true,
+              "text": "Personalization Player (müşteri önizleme iskeleti)"
+            },
+            {
+              "done": true,
+              "text": "Content API GET /api/v1/content/personalization*"
+            },
+            {
+              "done": true,
+              "text": "LCW listing + PDP modal CMS tüketimi + local fallback"
+            }
+          ],
+          "progress": 63
+        },
+        {
+          "id": "MD-016",
+          "priority": "P1",
+          "title": "EPIM ↔ CMS kategori / menü sınır netleştirme",
+          "status": "Açık",
+          "guide": "EPIM_CMS_BOUNDARY.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Sınır dokümanı + RACI taslağı"
+            },
+            {
+              "done": false,
+              "text": "Kategori + içerik ekibi onayı"
+            },
+            {
+              "done": false,
+              "text": "EPIM export → CMS Category Tree import demo"
+            },
+            {
+              "done": false,
+              "text": "Menu Matching salt okunur doğrulama notu / UI"
+            },
+            {
+              "done": false,
+              "text": "SCAN_LOG kapanış kaydı"
+            }
+          ],
+          "exitCriteria": "Onaylı RACI; parent-child tek kaynak EPIM; menü CMS’de kalır, CategoryId/t-{id} ile bağlı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Kategori + içerik ekibi onayı"
+            },
+            {
+              "done": false,
+              "text": "EPIM export → CMS Category Tree import demo"
+            },
+            {
+              "done": false,
+              "text": "Menu Matching salt okunur doğrulama notu / UI"
+            },
+            {
+              "done": false,
+              "text": "SCAN_LOG kapanış kaydı"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Sınır dokümanı + RACI taslağı"
+            }
+          ],
+          "progress": 20
+        }
+      ]
+    },
+    {
+      "id": "pulse",
+      "name": "Pulse",
+      "subtitle": "Web site health crawler · LCW domainler",
+      "path": "Pulse",
+      "icon": "bi-heart-pulse",
+      "iconSrc": "Pulse/favicon.svg",
+      "accent": "#193db0",
+      "devUrls": [
+        {
+          "label": "IIS UI",
+          "url": "http://localhost:3290/"
+        },
+        {
+          "label": "Crawler API",
+          "url": "http://localhost:3291/api/health"
+        }
+      ],
+      "agentSync": "Pulse/AGENT_SYNC.md",
+      "workIds": [
+        "MD-009"
+      ],
+      "card": "MasterDevelopment/projects/Pulse.md",
+      "recent": [
+        {
+          "date": "2026-06-03",
+          "change": "Proje tanÄ±mlandÄ± â€” LCW Ã§oklu domain site saÄŸlÄ±k crawler'Ä±; BannerPlanner admin kabuÄŸu referans",
+          "project": "Pulse, MasterDevelopment",
+          "note": "index.html, js/*, server/*, css/shell.css"
+        },
+        {
+          "date": "2026-06-03",
+          "change": "Node crawler API (3291), site envanteri (21 MBA Ã¼lke), kontrol noktalarÄ±, tarama geÃ§miÅŸi, raporlar",
+          "project": "Pulse",
+          "note": "server/crawler.js, js/crawler-ui.js, js/reports.js"
+        },
+        {
+          "date": "2026-06-03",
+          "change": "CanlÄ± tarama progress â€” sidebar donut + ETA, Tarama GeÃ§miÅŸi paneli",
+          "project": "Pulse",
+          "note": "js/crawler-ui.js, index.html, css/shell.css"
+        },
+        {
+          "date": "2026-06-03",
+          "change": "Favicon eklendi (header pulse logosu â†’ favicon.svg)",
+          "project": "Pulse",
+          "note": "favicon.svg, index.html, web.config"
+        },
+        {
+          "date": "2026-06-10",
+          "change": "Ãœlke detay: dil bazlÄ± tarama, menÃ¼/banner link kontrolleri, CMS menÃ¼ tree",
+          "project": "Pulse, CMS",
+          "note": "site-detail.js, cms-menu-client.js, server/crawler.js, server/cms-menu.js"
+        }
+      ],
+      "relatedWork": [
+        {
+          "id": "MD-009",
+          "priority": "P2",
+          "title": "Pulse çoklu domain site sağlık izleme",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "BannerPlanner kabuğu + MBA site envanteri (21 ülke)"
+            },
+            {
+              "done": true,
+              "text": "Node crawler API + canlı progress / raporlar"
+            },
+            {
+              "done": true,
+              "text": "Ülke detay: dil bazlı tarama, menü/banner link, CMS menü tree client"
+            },
+            {
+              "done": false,
+              "text": "Opus alert hattı değerlendirmesi (MD-006)"
+            },
+            {
+              "done": false,
+              "text": "Periyodik tarama zamanlayıcı / üretim runbook"
+            }
+          ],
+          "exitCriteria": "Periyodik tarama + en az 1 kritik alert yolu; SCAN_LOG.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus alert hattı değerlendirmesi (MD-006)"
+            },
+            {
+              "done": false,
+              "text": "Periyodik tarama zamanlayıcı / üretim runbook"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "BannerPlanner kabuğu + MBA site envanteri (21 ülke)"
+            },
+            {
+              "done": true,
+              "text": "Node crawler API + canlı progress / raporlar"
+            },
+            {
+              "done": true,
+              "text": "Ülke detay: dil bazlı tarama, menü/banner link, CMS menü tree client"
+            }
+          ],
+          "progress": 60
+        }
+      ],
+      "openWork": [
+        {
+          "id": "MD-009",
+          "priority": "P2",
+          "title": "Pulse çoklu domain site sağlık izleme",
+          "status": "Açık",
+          "guide": null,
+          "subtasks": [
+            {
+              "done": true,
+              "text": "BannerPlanner kabuğu + MBA site envanteri (21 ülke)"
+            },
+            {
+              "done": true,
+              "text": "Node crawler API + canlı progress / raporlar"
+            },
+            {
+              "done": true,
+              "text": "Ülke detay: dil bazlı tarama, menü/banner link, CMS menü tree client"
+            },
+            {
+              "done": false,
+              "text": "Opus alert hattı değerlendirmesi (MD-006)"
+            },
+            {
+              "done": false,
+              "text": "Periyodik tarama zamanlayıcı / üretim runbook"
+            }
+          ],
+          "exitCriteria": "Periyodik tarama + en az 1 kritik alert yolu; SCAN_LOG.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Opus alert hattı değerlendirmesi (MD-006)"
+            },
+            {
+              "done": false,
+              "text": "Periyodik tarama zamanlayıcı / üretim runbook"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "BannerPlanner kabuğu + MBA site envanteri (21 ülke)"
+            },
+            {
+              "done": true,
+              "text": "Node crawler API + canlı progress / raporlar"
+            },
+            {
+              "done": true,
+              "text": "Ülke detay: dil bazlı tarama, menü/banner link, CMS menü tree client"
+            }
+          ],
+          "progress": 60
+        }
+      ]
+    },
+    {
+      "id": "backoffice",
+      "name": "Backoffice Sim",
+      "subtitle": "LCW admin kabuğu simülasyonu",
+      "path": "Backoffice",
+      "icon": "bi-shield-check",
+      "iconSrc": "Backoffice/favicon.svg",
+      "accent": "#5d3ebd",
+      "devUrls": [
+        {
+          "label": "Simülasyon",
+          "url": "http://127.0.0.1:3479/"
+        }
+      ],
+      "agentSync": "Backoffice/AGENT_SYNC.md",
+      "workIds": [
+        "MD-004",
+        "MD-010"
+      ],
+      "card": "MasterDevelopment/projects/Backoffice.md",
+      "recent": [
+        {
+          "date": "2026-06-08",
+          "change": "Backoffice admin simülasyonu oluşturuldu — CMS shell + üretim menü yapısı",
+          "project": "Backoffice, CMS, _MasterDevelopment",
+          "note": "index.html, css/, js/, AGENT_SYNC.md; IIS port 3459"
+        },
+        {
+          "date": "2026-06-08",
+          "change": "Menü: düz liste (ekran görüntüsü); Mobil Panel alt menüleri eklendi",
+          "project": "Backoffice",
+          "note": "js/menu.js — Konfigürasyon, Uygulamalar, Çeviriler"
+        },
+        {
+          "date": "2026-06-08",
+          "change": "Port 3479; header hamburger + sidebar greeting kaldırıldı; MBA ülke/dil dropdown",
+          "project": "Backoffice",
+          "note": "server.js, web.config, js/catalog.js, js/shell.js"
+        },
+        {
+          "date": "2026-06-09",
+          "change": "Mobil çeviriler: header ülke/dil filtresi, sayfalama, Excel toplu yükleme",
+          "project": "Backoffice",
+          "note": "js/locale-context.js, js/mobile-translations.js, js/mobile-bulk-import.js"
+        }
+      ],
+      "relatedWork": [
+        {
+          "id": "MD-004",
+          "priority": "P1",
+          "title": "CMS Homepage domain hizalama + Global operasyon UX",
+          "status": "Açık",
+          "guide": "CMS_HOME_LAYOUT_UNIFICATION.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+            },
+            {
+              "done": true,
+              "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+            },
+            {
+              "done": true,
+              "text": "Template edit Home Pages → homePageId dropdown"
+            },
+            {
+              "done": true,
+              "text": "Component items JSON editörü (entity değil)"
+            },
+            {
+              "done": false,
+              "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+            },
+            {
+              "done": false,
+              "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+            }
+          ],
+          "exitCriteria": "Homepage → Template → Component(items JSON) simülasyonda doğru; Global toplu senaryo ST-004 kabul kriterleri; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+            },
+            {
+              "done": false,
+              "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+            },
+            {
+              "done": true,
+              "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+            },
+            {
+              "done": true,
+              "text": "Template edit Home Pages → homePageId dropdown"
+            },
+            {
+              "done": true,
+              "text": "Component items JSON editörü (entity değil)"
+            }
+          ],
+          "progress": 40
+        },
+        {
+          "id": "MD-010",
+          "priority": "P1",
+          "title": "Mobile lokalizasyon → CMS ortaklaştırma (Backoffice + Web)",
+          "status": "Açık",
+          "guide": "LOCALIZATION_CMS_UNIFICATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+            },
+            {
+              "done": false,
+              "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+            },
+            {
+              "done": false,
+              "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+            },
+            {
+              "done": false,
+              "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+            },
+            {
+              "done": false,
+              "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+            },
+            {
+              "done": false,
+              "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ekibi handoff + onay"
+            }
+          ],
+          "exitCriteria": "Envanter + model taslağı + simülasyonda örnek ortak parametre seti; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+            },
+            {
+              "done": false,
+              "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+            },
+            {
+              "done": false,
+              "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+            },
+            {
+              "done": false,
+              "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+            },
+            {
+              "done": false,
+              "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+            },
+            {
+              "done": false,
+              "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ekibi handoff + onay"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        }
+      ],
+      "openWork": [
+        {
+          "id": "MD-004",
+          "priority": "P1",
+          "title": "CMS Homepage domain hizalama + Global operasyon UX",
+          "status": "Açık",
+          "guide": "CMS_HOME_LAYOUT_UNIFICATION.md",
+          "subtasks": [
+            {
+              "done": true,
+              "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+            },
+            {
+              "done": true,
+              "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+            },
+            {
+              "done": true,
+              "text": "Template edit Home Pages → homePageId dropdown"
+            },
+            {
+              "done": true,
+              "text": "Component items JSON editörü (entity değil)"
+            },
+            {
+              "done": false,
+              "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+            },
+            {
+              "done": false,
+              "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+            }
+          ],
+          "exitCriteria": "Homepage → Template → Component(items JSON) simülasyonda doğru; Global toplu senaryo ST-004 kabul kriterleri; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Global varsayılan + ülke override meta (BR-CONTENT-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — Global Menu Master + bağlam şeridi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "Menü — toplu ülke/dil yayını + etkilenen kayıt özeti (BR-NAV-001)"
+            },
+            {
+              "done": false,
+              "text": "Menü — platform profili: Web=Responsive varsayılan; App split gerekçeli (BR-NAV-002)"
+            },
+            {
+              "done": false,
+              "text": "Menü — override filtresi / global diff listesi (BR-NAV-003)"
+            },
+            {
+              "done": false,
+              "text": "BannerPlanner ViewAssignment ↔ Homepage alan eşlemesi"
+            }
+          ],
+          "doneSubtasks": [
+            {
+              "done": true,
+              "text": "Domain doküman + seed (homePageId, country/lang/category) — CMS ekibi geri bildirimi"
+            },
+            {
+              "done": true,
+              "text": "Homepage list filtreleri (ülke / dil — header bağlamı; kategori kolonu)"
+            },
+            {
+              "done": true,
+              "text": "Template edit Home Pages → homePageId dropdown"
+            },
+            {
+              "done": true,
+              "text": "Component items JSON editörü (entity değil)"
+            }
+          ],
+          "progress": 40
+        },
+        {
+          "id": "MD-010",
+          "priority": "P1",
+          "title": "Mobile lokalizasyon → CMS ortaklaştırma (Backoffice + Web)",
+          "status": "Açık",
+          "guide": "LOCALIZATION_CMS_UNIFICATION.md",
+          "subtasks": [
+            {
+              "done": false,
+              "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+            },
+            {
+              "done": false,
+              "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+            },
+            {
+              "done": false,
+              "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+            },
+            {
+              "done": false,
+              "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+            },
+            {
+              "done": false,
+              "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+            },
+            {
+              "done": false,
+              "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ekibi handoff + onay"
+            }
+          ],
+          "exitCriteria": "Envanter + model taslağı + simülasyonda örnek ortak parametre seti; SCAN_LOG kaydı.",
+          "openSubtasks": [
+            {
+              "done": false,
+              "text": "Backoffice mobile lokalizasyon envanteri (parametre listesi, ülke DB eşlemesi)"
+            },
+            {
+              "done": false,
+              "text": "Web bağımsız lokalizasyon / config kaynak envanteri"
+            },
+            {
+              "done": false,
+              "text": "Ortaklaştırılabilir vs platform-özel parametre sınıflandırması"
+            },
+            {
+              "done": false,
+              "text": "CMS hedef model taslağı (global default + ülke/dil override)"
+            },
+            {
+              "done": false,
+              "text": "CMS simülasyon modülü taslağı (cms-context.js locale filtreleri ile)"
+            },
+            {
+              "done": false,
+              "text": "Migrasyon / read path geçiş planı (Backoffice write kapanışı)"
+            },
+            {
+              "done": false,
+              "text": "Üretim CMS ekibi handoff + onay"
+            }
+          ],
+          "doneSubtasks": [],
+          "progress": 0
+        }
+      ]
+    }
+  ],
+  "activity": [
+    {
+      "date": "2026-07-31",
+      "change": "MD-016: EPIM kategori vs CMS menÃ¼ sÄ±nÄ±r dokÃ¼manÄ± â€” CategoryId tek kaynak",
+      "project": "EPIM, CMS, MasterDevelopment",
+      "note": "EPIM_CMS_BOUNDARY.md; perso master hedef MD-015",
+      "projectId": "epim",
+      "projectName": "EPIM"
+    },
+    {
+      "date": "2026-06-10",
+      "change": "Ãœlke detay: dil bazlÄ± tarama, menÃ¼/banner link kontrolleri, CMS menÃ¼ tree",
+      "project": "Pulse, CMS",
+      "note": "site-detail.js, cms-menu-client.js, server/crawler.js, server/cms-menu.js",
+      "projectId": "pulse",
+      "projectName": "Pulse"
+    },
+    {
+      "date": "2026-06-09",
+      "change": "Mobil çeviriler: header ülke/dil filtresi, sayfalama, Excel toplu yükleme",
+      "project": "Backoffice",
+      "note": "js/locale-context.js, js/mobile-translations.js, js/mobile-bulk-import.js",
+      "projectId": "backoffice",
+      "projectName": "Backoffice Sim"
+    },
+    {
+      "date": "2026-06-08",
+      "change": "Stale build / ChunkLoadError Ã¶nleme dokÃ¼mantasyonu",
+      "project": "LCW",
+      "note": "docs/DEV_SERVER.md, .cursor/rules/nextjs-dev-server.mdc",
+      "projectId": "lcw",
+      "projectName": "LCW Mockup"
+    },
+    {
+      "date": "2026-06-08",
+      "change": "Backoffice admin simülasyonu oluşturuldu — CMS shell + üretim menü yapısı",
+      "project": "Backoffice, CMS, _MasterDevelopment",
+      "note": "index.html, css/, js/, AGENT_SYNC.md; IIS port 3459",
+      "projectId": "backoffice",
+      "projectName": "Backoffice Sim"
+    },
+    {
+      "date": "2026-06-08",
+      "change": "Menü: düz liste (ekran görüntüsü); Mobil Panel alt menüleri eklendi",
+      "project": "Backoffice",
+      "note": "js/menu.js — Konfigürasyon, Uygulamalar, Çeviriler",
+      "projectId": "backoffice",
+      "projectName": "Backoffice Sim"
+    },
+    {
+      "date": "2026-06-08",
+      "change": "Port 3479; header hamburger + sidebar greeting kaldırıldı; MBA ülke/dil dropdown",
+      "project": "Backoffice",
+      "note": "server.js, web.config, js/catalog.js, js/shell.js",
+      "projectId": "backoffice",
+      "projectName": "Backoffice Sim"
+    },
+    {
+      "date": "2026-06-06",
+      "change": "Proje baÅŸlatÄ±ldÄ± â€” BannerPlanner admin kabuÄŸu referans alÄ±narak EPIM simÃ¼lasyonu iskeleti kuruldu",
+      "project": "EPIM, MasterDevelopment",
+      "note": "index.html, js/app.js, js/menu.js, js/product-pool.js, css/*, data/catalog/filter-options.json",
+      "projectId": "epim",
+      "projectName": "EPIM"
+    },
+    {
+      "date": "2026-06-06",
+      "change": "ÃœrÃ¼n Havuzu ekranÄ±: filtre grid, boÅŸ sonuÃ§ durumu, sidebar menÃ¼ (Ã‡eviriler vb.)",
+      "project": "EPIM",
+      "note": "js/product-pool.js â€” Ã¼retim ekran gÃ¶rÃ¼ntÃ¼sÃ¼ referans",
+      "projectId": "epim",
+      "projectName": "EPIM"
+    },
+    {
+      "date": "2026-06-06",
+      "change": "IIS port talebi: Ã¶nerilen 3281 (BannerPlanner 3280 yanÄ±nda) â€” Master Development onayÄ± bekleniyor",
+      "project": "EPIM, MasterDevelopment",
+      "note": "WORK_QUEUE.md MD-008, data/README.md",
+      "projectId": "epim",
+      "projectName": "EPIM"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "Admin Data: site key seÃ§ici (LCW / CMS Editor)",
+      "project": "Opus Admin",
+      "note": "data-admin.js, page-data",
+      "projectId": "opus",
+      "projectName": "Opus"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "CMS site key API doÄŸrulama (sites.json lookup)",
+      "project": "Opus",
+      "note": "middleware/siteAuth.js, optionalSite.js",
+      "projectId": "opus",
+      "projectName": "Opus"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "CMS Editor iÃ§in yeni site key (cms_editor_dev_key)",
+      "project": "Opus, CMS",
+      "note": "data/tables/sites.json, consent-config.json",
+      "projectId": "opus",
+      "projectName": "Opus"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "Talep (MD-005): Site bazlÄ± kullanÄ±cÄ± gezinti raporu â€” CMS editÃ¶r oturumlarÄ±",
+      "project": "Opus Admin, API",
+      "note": "AÅŸaÄŸÄ±daki MD-005 spesifikasyonu",
+      "projectId": "opus",
+      "projectName": "Opus"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "Homepage List/Edit UI simÃ¼lasyonu eklendi",
+      "project": "CMS",
+      "note": "js/homepage.js, data/config/homepage-records.json, css/pages.css",
+      "projectId": "cms",
+      "projectName": "CMS Editor"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "Strateji sinyali: HomePage kavramÄ± Layout'a dÃ¶nÃ¼ÅŸtÃ¼rÃ¼lebilir",
+      "project": "CMS, BannerPlanner, MasterDevelopment",
+      "note": "CMS_HOME_LAYOUT_UNIFICATION.md, MD-004; BannerPlanner gÃ¼ncellemeleri Ã¶nden gidebilir",
+      "projectId": "cms",
+      "projectName": "CMS Editor"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "Opus preview: shared/opus-client + Layout editÃ¶r",
+      "project": "CMS, Opus",
+      "note": "../shared/opus-client/, js/opus-config.js, js/opus-preview.js, site key cms_editor_dev_key",
+      "projectId": "cms",
+      "projectName": "CMS Editor"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "CMS ekibi doÄŸrulamasÄ±: Homepage = Ã¼lkeÃ—kategoriÃ—dil (1 adet); Templateâ†’homePageId; Component items=JSON",
+      "project": "CMS, MasterDevelopment",
+      "note": "docs/domain-model.md, MD-004 revize; Layout birleÅŸtirme geri Ã§ekildi",
+      "projectId": "cms",
+      "projectName": "CMS Editor"
+    },
+    {
+      "date": "2026-06-04",
+      "change": "Faz 1 birincil simÃ¼lasyon: locale filtre, homePageId dropdown, items JSON editÃ¶r",
+      "project": "CMS",
+      "note": "js/cms-context.js, homepage/template/component-v5 gÃ¼ncellemeleri",
+      "projectId": "cms",
+      "projectName": "CMS Editor"
+    },
+    {
+      "date": "2026-06-03",
+      "change": "Proje tanÄ±mlandÄ± â€” LCW Ã§oklu domain site saÄŸlÄ±k crawler'Ä±; BannerPlanner admin kabuÄŸu referans",
+      "project": "Pulse, MasterDevelopment",
+      "note": "index.html, js/*, server/*, css/shell.css",
+      "projectId": "pulse",
+      "projectName": "Pulse"
+    }
+  ],
+  "scanLog": [
+    {
+      "date": "2026-08-12 — Klasör yeniden adlandırma: MasterDevelopment",
+      "title": "",
+      "bullets": [
+        "Değişiklik: C:\\web\\_MasterDevelopment → C:\\web\\MasterDevelopment",
+        "Kod: Dashboard server.js / build-snapshot.js MD_ROOT; registry card yolları; CMS import scriptleri; Opus Documents path",
+        "Doküman: MASTER_COORDINATION.md, AGENT_SYNC merkez linkleri, IIS web.config yorumu",
+        "Not: IIS site fiziksel yolu C:\\web\\MasterDevelopment\\Dashboard olmalı",
+        "Aksiyon: node scripts/build-snapshot.js (Dashboard)"
+      ]
+    },
+    {
+      "date": "2026-07-31 — Tam agent tarama & Dashboard senkron",
+      "title": "",
+      "bullets": [
+        "Kapsam: Opus, LCW, CMS, BannerPlanner, Pulse, EPIM, Backoffice + Dashboard UI",
+        "AGENT_SYNC özeti (son dönem):",
+        "CMS / LCW (26–28 Tem): Ürün kişiselleştirme editörü, katalog, player, Content API + LCW listing/modal → MD-015",
+        "CMS / LCW (MD-011): Menü + Homepage/Template/Component Read API + LCW tüketim (Faz 1–2) — WORK_QUEUE işaretlendi",
+        "Opus: MD-014 plan + KVKK/OTP kapsam + Proje takip (Excel/Jira)",
+        "Pulse: CMS menü tree client (10 Haz)",
+        "Dashboard: Backoffice kartı, ikon senkronu, repo/ link düzeltmesi, shell.js INTEGRATIONS sözdizimi",
+        "Yeni iş / doküman:",
+        "EPIM_CMS_BOUNDARY.md + MD-016 (kategori EPIM / menü CMS)",
+        "WORK_QUEUE: MD-009, MD-015, MD-016 eklendi; MD-011 alt görevler güncellendi",
+        "Dashboard: projects-registry.js workIds/agenda/docs + build-snapshot.js yeniden üretim",
+        "Sonraki adım: MD-015 UAT · MD-016 ekip onayı · MD-011 BP→CMS→LCW gözlem"
+      ]
+    },
+    {
+      "date": "2026-06-06 — EPIM admin simülasyonu bootstrap",
+      "title": "",
+      "bullets": [
+        "Kapsam: C:\\web\\EPIM — yeni proje",
+        "Yapılan:",
+        "BannerPlanner admin kabuğu referans alınarak EPIM simülasyon iskeleti",
+        "Ürün Havuzu ekranı (filtre grid, sidebar menü, boş sonuç)",
+        "AGENT_SYNC.md, projects/EPIM.md, PROJECT_INVENTORY güncellendi",
+        "WORK_QUEUE MD-008 — IIS port önerisi 3281",
+        "Port envanteri: BannerPlanner 3280, EPIM 3281, Master Dev Dashboard 3282, Pulse 3290, CMS dev 3010",
+        "Sonraki adım: Master Development port onayı; IIS site tanımı"
+      ]
+    },
+    {
+      "date": "2026-06-06 — Master Development Dashboard",
+      "title": "",
+      "bullets": [
+        "Kapsam: _MasterDevelopment/Dashboard — koordinasyon web arayüzü",
+        "Yapılan:",
+        "BannerPlanner admin shell (header/sidebar/grid) master layout olarak kullanıldı",
+        "/api/dashboard/snapshot — her yenilemede WORK_QUEUE, AGENT_SYNC, SCAN_LOG parse",
+        "Proje kartları, öncelikli işler, gündem, fırsat hatırlatmaları, entegrasyon hatları",
+        "Dev server port 3282 *(3020 çakışması — IIS admin bandına alındı)*",
+        "Sonraki adım: Periyodik tarama sonuçlarını SCAN_LOG'a yazdıkça dashboard otomatik yansır"
+      ]
+    },
+    {
+      "date": "2026-06-04 — CMS HomePage → Layout strateji sinyali",
+      "title": "",
+      "bullets": [
+        "Kapsam: CMS Editor simülasyonu (C:\\web\\CMS)",
+        "Gözlem:",
+        "Homepage List/Edit UI simüle edildi (js/homepage.js, homepage-records.json)",
+        "Domain modelde Layout zaten pageKey / viewKey / members[] ile tanımlı; layouts.json içinde lyt_home_default mevcut",
+        "Ayrı Homepage entity'si Layout ile örtüşüyor — birleşim mümkün",
+        "BannerPlanner ViewAssignment (pageType: homepage) aynı hedefe işaret ediyor",
+        "Etki:",
+        "CMS: MD-004 (P2) — Homepage modülünün Layout'a taşınması",
+        "BannerPlanner: blokaj yok — MD-003 ve planlama güncellemeleri öncelikli ilerleyebilir",
+        "Aksiyon:",
+        "CMS_HOME_LAYOUT_UNIFICATION.md oluşturuldu",
+        "CMS/AGENT_SYNC.md günlük satırı eklendi",
+        "WORK_QUEUE MD-004 açıldı",
+        "PROJECT_INVENTORY + projects/CMS.md güncellendi",
+        "Sonraki adım: CMS seed migrasyon taslağı; BannerPlanner MD-003 bağımsız devam"
+      ]
+    },
+    {
+      "date": "2026-06-03 — Pulse proje kaydı & favicon",
+      "title": "",
+      "bullets": [
+        "Kapsam: C:\\web\\Pulse — site sağlık crawler",
+        "Yapılan:",
+        "AGENT_SYNC.md açıldı; proje kartı projects/Pulse.md",
+        "PROJECT_INVENTORY, Dashboard registry, CHANGE_RADAR güncellendi",
+        "İş kodu MD-009 — çoklu domain sağlık izleme",
+        "Favicon: header pulse logosu → favicon.svg (console 404 giderildi)",
+        "Port envanteri: UI 3290, Crawler API 3291",
+        "Sonraki adım: Opus alert entegrasyonu değerlendirmesi (MD-006)"
+      ]
+    },
+    {
+      "date": "2026-06-01 — BannerPlanner ↔ LCW koordinasyon iskeleti",
+      "title": "",
+      "bullets": [
+        "Kapsam: BannerPlanner vitrin çıktılarının LCW'de gösterilmesi (MD-003)",
+        "Yapılan:",
+        "BANNER_LCW_INTEGRATION.md (master)",
+        "BannerPlanner/AGENT_SYNC.md, lcw/AGENT_SYNC.md — agent bildirim günlükleri",
+        "BannerPlanner/docs/LCW_EXPORT.md, lcw/docs/BANNER_FEED.md",
+        "WORK_QUEUE MD-003, CHANGE_RADAR, proje kartları güncellendi",
+        "Kural: Entegrasyon geliştirmesinde proje AGENT_SYNC.md tablosuna satır eklenir",
+        "Sonraki adım: LCW hero için banner-feed.js + örnek banner-export.json"
+      ]
+    },
+    {
+      "date": "2026-05-27 12:01",
+      "title": "Baslangic Tarama",
+      "bullets": [
+        "Kapsam:",
+        "C:\\web\\Opus",
+        "C:\\web\\lcw",
+        "C:\\web\\Projector",
+        "C:\\web\\Projector - Copy",
+        "C:\\web\\BannerPlanner",
+        "Gozlem:",
+        "Opus, coklu paketli bir yapi ve SDK odakli entegrasyon noktasi sunuyor.",
+        "LCW mockup, Opus ozelliklerinin sahaya cikmadan once hizli validasyonu icin uygun.",
+        "Projector tarafinda veri/patch scriptleri aktif gelistirme akisini isaret ediyor.",
+        "Projector - Copy klasoru ayri bir deneme/guvenli degisim alani olarak ele alinmali.",
+        "Etki:",
+        "En yuksek bagimlilik Opus -> LCW test akisi.",
+        "Ikincil bagimlilik Projector <-> Projector - Copy senkronu.",
+        "Aksiyon:",
+        "MD-001, MD-002, MD-003 backlog maddeleri acildi.",
+        "Bir sonraki taramada Opus-LCW entegrasyon checklist'inin somut adimlara bolunmesi planlandi.",
+        "Sonraki kontrol: 2-4 saat icinde standart tarama"
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "workId": "MD-001",
+      "workTitle": "Opus → LCW mockup entegrasyon ve test matrisi",
+      "priority": "P0",
+      "status": "Açık",
+      "progress": 40,
+      "title": "Gerçek kampanya doğrulaması",
+      "detail": "T4 (Admin kampanya → LCW popup) tamamlanınca segment + anket senaryoları uçtan uca test edilebilir.",
+      "unlocks": [
+        "MD-005"
+      ]
+    },
+    {
+      "workId": "MD-001",
+      "workTitle": "Opus → LCW mockup entegrasyon ve test matrisi",
+      "priority": "P0",
+      "status": "Açık",
+      "progress": 40,
+      "title": "Opus veri kalitesi",
+      "detail": "LCW event akışı aktif olunca Admin Data site seçici ile LCW/CMS ayrımı anlamlı hale gelir.",
+      "unlocks": [
+        "MD-005"
+      ]
+    },
+    {
+      "workId": "MD-003",
+      "workTitle": "BannerPlanner → LCW vitrin entegrasyonu",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 0,
+      "title": "CPC beslemesi",
+      "detail": "LCW hero banner-feed çalışınca aynı JSON şekli MD-007 CPC import için referans olur.",
+      "unlocks": [
+        "MD-007"
+      ]
+    },
+    {
+      "workId": "MD-003",
+      "workTitle": "BannerPlanner → LCW vitrin entegrasyonu",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 0,
+      "title": "Görsel doğrulama hızı",
+      "detail": "Planlama ekibi BannerPlanner → LCW döngüsünü CMS beklemeden kapatabilir.",
+      "unlocks": []
+    },
+    {
+      "workId": "MD-004",
+      "workTitle": "CMS Homepage domain hizalama + Global operasyon UX",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 40,
+      "title": "Global operasyon UX",
+      "detail": "Faz 1 tamam — BR-CONTENT-002 toplu override ile çok ülkeli yayın senaryosu simüle edilebilir.",
+      "unlocks": [
+        "MD-007"
+      ]
+    },
+    {
+      "workId": "MD-004",
+      "workTitle": "CMS Homepage domain hizalama + Global operasyon UX",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 40,
+      "title": "Menü modülü",
+      "detail": "menu-trees seed hazır; BR-NAV-001 ile vitrin navigasyonu tek kaynaktan yönetilebilir.",
+      "unlocks": [
+        "MD-003"
+      ]
+    },
+    {
+      "workId": "MD-007",
+      "workTitle": "Content Publish Contract (BannerPlanner → CMS)",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 20,
+      "title": "İş birimi ölçümü",
+      "detail": "itemKey + content_impression ile slide/banner performansı kampanya planına geri beslenebilir.",
+      "unlocks": [
+        "MD-002"
+      ]
+    },
+    {
+      "workId": "MD-007",
+      "workTitle": "Content Publish Contract (BannerPlanner → CMS)",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 20,
+      "title": "BannerPlanner exportCpc",
+      "detail": "Onaylı plan tek tıkla CMS üretim omurgasına aktarılır — manuel JSON kopyalama biter.",
+      "unlocks": []
+    },
+    {
+      "workId": "MD-005",
+      "workTitle": "Opus site bazlı gezinti raporu (CMS + iç uygulamalar)",
+      "priority": "P2",
+      "status": "Açık",
+      "progress": 0,
+      "title": "İç uygulama analitiği",
+      "detail": "CMS editör gezintisi raporlanınca aynı API EPIM ve diğer admin simülasyonlarına genişletilebilir.",
+      "unlocks": []
+    },
+    {
+      "workId": "MD-006",
+      "workTitle": "shared/opus-client + CMS preview Opus",
+      "priority": "P2",
+      "status": "Tamamlandı",
+      "progress": 100,
+      "title": "Ortak Opus istemcisi",
+      "detail": "shared/opus-client yeni projelere (EPIM, Pulse) minimal entegrasyon maliyeti sunar.",
+      "unlocks": [
+        "MD-005"
+      ]
+    },
+    {
+      "workId": "MD-008",
+      "workTitle": "EPIM admin simülasyonu bootstrap + IIS port",
+      "priority": "P2",
+      "status": "Açık",
+      "progress": 60,
+      "title": "CMS kategori hattı",
+      "detail": "EPIM Ürün Havuzu mock hazır — CMS component type ↔ ürün attribute eşlemesi tanımlanabilir.",
+      "unlocks": [
+        "MD-004"
+      ]
+    },
+    {
+      "workId": "MD-010",
+      "workTitle": "Mobile lokalizasyon → CMS ortaklaştırma (Backoffice + Web)",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 0,
+      "title": "Tek locale omurgası",
+      "detail": "MD-004 locale filtreleri + BR-CONTENT-002 override modeli lokalizasyon parametreleri için de temel olabilir.",
+      "unlocks": [
+        "MD-004",
+        "MD-007"
+      ]
+    },
+    {
+      "workId": "MD-010",
+      "workTitle": "Mobile lokalizasyon → CMS ortaklaştırma (Backoffice + Web)",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 0,
+      "title": "Mobile + Web tek kaynak",
+      "detail": "Ortak parametre havuzu CPC cultureKey ile içerik lokalizasyonu aynı culture sözlüğünde toplanabilir.",
+      "unlocks": [
+        "MD-007"
+      ]
+    },
+    {
+      "workId": "MD-011",
+      "workTitle": "LCW Next.js headless vitrin + CMS API tüketimi",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 63,
+      "title": "Üretim mimarisine yakın vitrin",
+      "detail": "Menü + page bundle API hazır; BP→CMS publish etkisini LCW’de gözlemlemek mümkün.",
+      "unlocks": [
+        "MD-007",
+        "MD-003"
+      ]
+    },
+    {
+      "workId": "MD-011",
+      "workTitle": "LCW Next.js headless vitrin + CMS API tüketimi",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 63,
+      "title": "Menü tek kaynak",
+      "detail": "CMS menu-trees API ile LCW nav, MD-010 lokalizasyon ve MD-004 locale filtreleri aynı omurgada birleşir.",
+      "unlocks": [
+        "MD-004",
+        "MD-010"
+      ]
+    },
+    {
+      "workId": "MD-014",
+      "workTitle": "Opus Omni Postcheckout",
+      "priority": "P1",
+      "status": "Planlama",
+      "progress": 0,
+      "title": "Sipariş sonrası engagement kanalı",
+      "detail": "Postcheckout OTP + anket Opus omurgasında; Fulfilment omni order servisi açılınca LCW dışı üretim yolu netleşir.",
+      "unlocks": [
+        "MD-001",
+        "MD-005"
+      ]
+    },
+    {
+      "workId": "MD-009",
+      "workTitle": "Pulse çoklu domain site sağlık izleme",
+      "priority": "P2",
+      "status": "Açık",
+      "progress": 60,
+      "title": "Site sağlık izleme",
+      "detail": "Pulse crawler 21 MBA domainini tarar; Opus alert hattına genişletilebilir.",
+      "unlocks": [
+        "MD-006"
+      ]
+    },
+    {
+      "workId": "MD-015",
+      "workTitle": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 63,
+      "title": "EPIM enrichment hattı",
+      "detail": "CMS perso editör hazır; master veri EPIM’e taşınınca zone/mm çift kaynak kapanır.",
+      "unlocks": [
+        "MD-016",
+        "MD-008"
+      ]
+    },
+    {
+      "workId": "MD-015",
+      "workTitle": "Ürün kişiselleştirme (CMS editör → LCW vitrin)",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 63,
+      "title": "Vitrin UAT",
+      "detail": "LCW listing + modal CMS API’den; printMetrics ölçü doğrulaması stüdyo ile kapatılabilir.",
+      "unlocks": []
+    },
+    {
+      "workId": "MD-016",
+      "workTitle": "EPIM ↔ CMS kategori / menü sınır netleştirme",
+      "priority": "P1",
+      "status": "Açık",
+      "progress": 20,
+      "title": "Tek kategori kaynağı",
+      "detail": "EPIM CategoryId → CMS Category Tree import → Menu Matching salt okunur; parent-child drift biter.",
+      "unlocks": [
+        "MD-008",
+        "MD-004"
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "label": "Work Queue",
+      "path": "WORK_QUEUE.md"
+    },
+    {
+      "label": "Scan Log",
+      "path": "SCAN_LOG.md"
+    },
+    {
+      "label": "Integration Map",
+      "path": "INTEGRATION_MAP.md"
+    },
+    {
+      "label": "Content Publish Contract",
+      "path": "CONTENT_PUBLISH_CONTRACT.md"
+    },
+    {
+      "label": "Opus ↔ LCW",
+      "path": "OPUS_LCW_INTEGRATION.md"
+    },
+    {
+      "label": "Banner ↔ LCW",
+      "path": "BANNER_LCW_INTEGRATION.md"
+    },
+    {
+      "label": "CMS Homepage domain",
+      "path": "CMS_HOME_LAYOUT_UNIFICATION.md"
+    },
+    {
+      "label": "Lokalizasyon → CMS",
+      "path": "LOCALIZATION_CMS_UNIFICATION.md"
+    },
+    {
+      "label": "LCW Next.js headless",
+      "path": "LCW_NEXTJS_HEADLESS.md"
+    },
+    {
+      "label": "CMS Read API",
+      "path": "CMS_READ_API.md"
+    },
+    {
+      "label": "Opus Omni Postcheckout",
+      "path": "OPUS_OMNI_POSTCHECKOUT.md"
+    },
+    {
+      "label": "EPIM ↔ CMS sınır",
+      "path": "EPIM_CMS_BOUNDARY.md"
+    }
+  ]
+}

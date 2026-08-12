@@ -1,0 +1,483 @@
+{
+  "PROJECTS": [
+    {
+      "id": "opus",
+      "name": "Opus",
+      "subtitle": "Engagement platform · SDK + API",
+      "path": "Opus",
+      "icon": "bi-lightning-charge-fill",
+      "iconSrc": "Opus/apps/admin/public/favicon.svg",
+      "accent": "#6f42c1",
+      "devUrls": [
+        {
+          "label": "Admin",
+          "url": "http://localhost:3180"
+        },
+        {
+          "label": "API",
+          "url": "http://localhost:3102"
+        }
+      ],
+      "agentSync": "Opus/AGENT_SYNC.md",
+      "workIds": [
+        "MD-001",
+        "MD-002",
+        "MD-005",
+        "MD-006",
+        "MD-014"
+      ],
+      "card": "MasterDevelopment/projects/Opus.md"
+    },
+    {
+      "id": "lcw",
+      "name": "LCW Mockup",
+      "subtitle": "E-ticaret vitrin simülasyonu",
+      "path": "lcw",
+      "icon": "bi-shop-window",
+      "iconSrc": "lcw/favicon.svg",
+      "accent": "#193db0",
+      "devUrls": [
+        {
+          "label": "Vitrin",
+          "url": "http://localhost:3000"
+        }
+      ],
+      "agentSync": "lcw/AGENT_SYNC.md",
+      "workIds": [
+        "MD-001",
+        "MD-003",
+        "MD-011",
+        "MD-015"
+      ],
+      "card": "MasterDevelopment/projects/LCW.md"
+    },
+    {
+      "id": "bannerplanner",
+      "name": "BannerPlanner",
+      "subtitle": "Banner planlama & LCW önizleme",
+      "path": "BannerPlanner",
+      "icon": "bi-card-image",
+      "iconSrc": "BannerPlanner/favicon.svg",
+      "accent": "#2550d4",
+      "devUrls": [
+        {
+          "label": "IIS",
+          "url": "http://localhost:3280/"
+        }
+      ],
+      "agentSync": "BannerPlanner/AGENT_SYNC.md",
+      "workIds": [
+        "MD-002",
+        "MD-003",
+        "MD-007"
+      ],
+      "card": "MasterDevelopment/projects/BannerPlanner.md"
+    },
+    {
+      "id": "cms",
+      "name": "CMS Editor",
+      "subtitle": "Homepage → Template → Component",
+      "path": "CMS",
+      "icon": "bi-layout-text-window-reverse",
+      "iconSrc": "CMS/favicon.svg",
+      "accent": "#0d9488",
+      "devUrls": [
+        {
+          "label": "Dev server",
+          "url": "http://localhost:3458/"
+        }
+      ],
+      "agentSync": "CMS/AGENT_SYNC.md",
+      "workIds": [
+        "MD-004",
+        "MD-006",
+        "MD-007",
+        "MD-010",
+        "MD-011",
+        "MD-015",
+        "MD-016"
+      ],
+      "card": "MasterDevelopment/projects/CMS.md"
+    },
+    {
+      "id": "projector",
+      "name": "Projector",
+      "subtitle": "OKR & talep yönetimi",
+      "path": "Projector",
+      "icon": "bi-kanban-fill",
+      "iconSrc": "Projector/favicon.svg",
+      "accent": "#fd7e14",
+      "devUrls": [
+        {
+          "label": "App",
+          "url": "http://localhost:3001"
+        }
+      ],
+      "agentSync": null,
+      "workIds": [],
+      "card": "MasterDevelopment/projects/Projector.md"
+    },
+    {
+      "id": "epim",
+      "name": "EPIM",
+      "subtitle": "Ürün bilgisi admin simülasyonu",
+      "path": "EPIM",
+      "icon": "bi-box-seam-fill",
+      "iconSrc": "EPIM/favicon.svg",
+      "accent": "#20c997",
+      "devUrls": [
+        {
+          "label": "IIS (önerilen)",
+          "url": "http://localhost:3281/"
+        }
+      ],
+      "agentSync": "EPIM/AGENT_SYNC.md",
+      "workIds": [
+        "MD-008",
+        "MD-015",
+        "MD-016"
+      ],
+      "card": "MasterDevelopment/projects/EPIM.md"
+    },
+    {
+      "id": "pulse",
+      "name": "Pulse",
+      "subtitle": "Web site health crawler · LCW domainler",
+      "path": "Pulse",
+      "icon": "bi-heart-pulse",
+      "iconSrc": "Pulse/favicon.svg",
+      "accent": "#193db0",
+      "devUrls": [
+        {
+          "label": "IIS UI",
+          "url": "http://localhost:3290/"
+        },
+        {
+          "label": "Crawler API",
+          "url": "http://localhost:3291/api/health"
+        }
+      ],
+      "agentSync": "Pulse/AGENT_SYNC.md",
+      "workIds": [
+        "MD-009"
+      ],
+      "card": "MasterDevelopment/projects/Pulse.md"
+    },
+    {
+      "id": "backoffice",
+      "name": "Backoffice Sim",
+      "subtitle": "LCW admin kabuğu simülasyonu",
+      "path": "Backoffice",
+      "icon": "bi-shield-check",
+      "iconSrc": "Backoffice/favicon.svg",
+      "accent": "#5d3ebd",
+      "devUrls": [
+        {
+          "label": "Simülasyon",
+          "url": "http://localhost:3479/"
+        }
+      ],
+      "agentSync": "Backoffice/AGENT_SYNC.md",
+      "workIds": [
+        "MD-004",
+        "MD-010"
+      ],
+      "card": "MasterDevelopment/projects/Backoffice.md"
+    }
+  ],
+  "WORK_OPPORTUNITIES": {
+    "MD-001": [
+      {
+        "title": "Gerçek kampanya doğrulaması",
+        "detail": "T4 (Admin kampanya → LCW popup) tamamlanınca segment + anket senaryoları uçtan uca test edilebilir.",
+        "unlocks": [
+          "MD-005"
+        ]
+      },
+      {
+        "title": "Opus veri kalitesi",
+        "detail": "LCW event akışı aktif olunca Admin Data site seçici ile LCW/CMS ayrımı anlamlı hale gelir.",
+        "unlocks": [
+          "MD-005"
+        ]
+      }
+    ],
+    "MD-003": [
+      {
+        "title": "CPC beslemesi",
+        "detail": "LCW hero banner-feed çalışınca aynı JSON şekli MD-007 CPC import için referans olur.",
+        "unlocks": [
+          "MD-007"
+        ]
+      },
+      {
+        "title": "Görsel doğrulama hızı",
+        "detail": "Planlama ekibi BannerPlanner → LCW döngüsünü CMS beklemeden kapatabilir.",
+        "unlocks": []
+      }
+    ],
+    "MD-004": [
+      {
+        "title": "Global operasyon UX",
+        "detail": "Faz 1 tamam — BR-CONTENT-002 toplu override ile çok ülkeli yayın senaryosu simüle edilebilir.",
+        "unlocks": [
+          "MD-007"
+        ]
+      },
+      {
+        "title": "Menü modülü",
+        "detail": "menu-trees seed hazır; BR-NAV-001 ile vitrin navigasyonu tek kaynaktan yönetilebilir.",
+        "unlocks": [
+          "MD-003"
+        ]
+      }
+    ],
+    "MD-007": [
+      {
+        "title": "İş birimi ölçümü",
+        "detail": "itemKey + content_impression ile slide/banner performansı kampanya planına geri beslenebilir.",
+        "unlocks": [
+          "MD-002"
+        ]
+      },
+      {
+        "title": "BannerPlanner exportCpc",
+        "detail": "Onaylı plan tek tıkla CMS üretim omurgasına aktarılır — manuel JSON kopyalama biter.",
+        "unlocks": []
+      }
+    ],
+    "MD-005": [
+      {
+        "title": "İç uygulama analitiği",
+        "detail": "CMS editör gezintisi raporlanınca aynı API EPIM ve diğer admin simülasyonlarına genişletilebilir.",
+        "unlocks": []
+      }
+    ],
+    "MD-006": [
+      {
+        "title": "Ortak Opus istemcisi",
+        "detail": "shared/opus-client yeni projelere (EPIM, Pulse) minimal entegrasyon maliyeti sunar.",
+        "unlocks": [
+          "MD-005"
+        ]
+      }
+    ],
+    "MD-008": [
+      {
+        "title": "CMS kategori hattı",
+        "detail": "EPIM Ürün Havuzu mock hazır — CMS component type ↔ ürün attribute eşlemesi tanımlanabilir.",
+        "unlocks": [
+          "MD-004"
+        ]
+      }
+    ],
+    "MD-011": [
+      {
+        "title": "Üretim mimarisine yakın vitrin",
+        "detail": "Menü + page bundle API hazır; BP→CMS publish etkisini LCW’de gözlemlemek mümkün.",
+        "unlocks": [
+          "MD-007",
+          "MD-003"
+        ]
+      },
+      {
+        "title": "Menü tek kaynak",
+        "detail": "CMS menu-trees API ile LCW nav, MD-010 lokalizasyon ve MD-004 locale filtreleri aynı omurgada birleşir.",
+        "unlocks": [
+          "MD-004",
+          "MD-010"
+        ]
+      }
+    ],
+    "MD-015": [
+      {
+        "title": "EPIM enrichment hattı",
+        "detail": "CMS perso editör hazır; master veri EPIM’e taşınınca zone/mm çift kaynak kapanır.",
+        "unlocks": [
+          "MD-016",
+          "MD-008"
+        ]
+      },
+      {
+        "title": "Vitrin UAT",
+        "detail": "LCW listing + modal CMS API’den; printMetrics ölçü doğrulaması stüdyo ile kapatılabilir.",
+        "unlocks": []
+      }
+    ],
+    "MD-016": [
+      {
+        "title": "Tek kategori kaynağı",
+        "detail": "EPIM CategoryId → CMS Category Tree import → Menu Matching salt okunur; parent-child drift biter.",
+        "unlocks": [
+          "MD-008",
+          "MD-004"
+        ]
+      }
+    ],
+    "MD-009": [
+      {
+        "title": "Site sağlık izleme",
+        "detail": "Pulse crawler 21 MBA domainini tarar; Opus alert hattına genişletilebilir.",
+        "unlocks": [
+          "MD-006"
+        ]
+      }
+    ],
+    "MD-014": [
+      {
+        "title": "Sipariş sonrası engagement kanalı",
+        "detail": "Postcheckout OTP + anket Opus omurgasında; Fulfilment omni order servisi açılınca LCW dışı üretim yolu netleşir.",
+        "unlocks": [
+          "MD-001",
+          "MD-005"
+        ]
+      }
+    ],
+    "MD-010": [
+      {
+        "title": "Tek locale omurgası",
+        "detail": "MD-004 locale filtreleri + BR-CONTENT-002 override modeli lokalizasyon parametreleri için de temel olabilir.",
+        "unlocks": [
+          "MD-004",
+          "MD-007"
+        ]
+      },
+      {
+        "title": "Mobile + Web tek kaynak",
+        "detail": "Ortak parametre havuzu CPC cultureKey ile içerik lokalizasyonu aynı culture sözlüğünde toplanabilir.",
+        "unlocks": [
+          "MD-007"
+        ]
+      }
+    ]
+  },
+  "AGENDA_TOPICS": [
+    {
+      "id": "p0-opus-lcw",
+      "priority": "P0",
+      "title": "Opus → LCW entegrasyon test matrisi",
+      "detail": "T1–T6 tarayıcı testleri; Admin kampanya popup (T4) henüz doğrulanmadı.",
+      "workId": "MD-001"
+    },
+    {
+      "id": "p1-opus-postcheckout",
+      "priority": "P1",
+      "title": "Opus Omni Postcheckout Faz 0",
+      "detail": "Workshop: omni order API, OTP spec, anket kararı (Opus survey). Sprint 1 backlog hazır.",
+      "workId": "MD-014"
+    },
+    {
+      "id": "p1-banner-lcw",
+      "priority": "P1",
+      "title": "BannerPlanner → LCW vitrin export",
+      "detail": "banner-feed.js + örnek export; hero en az 1 slide ile render.",
+      "workId": "MD-003"
+    },
+    {
+      "id": "p1-cpc",
+      "priority": "P1",
+      "title": "Content Publish Contract uygulaması",
+      "detail": "Şema hazır — exportCpc, CMS import ve itemKey validasyonu bekliyor.",
+      "workId": "MD-007"
+    },
+    {
+      "id": "p1-cms-global",
+      "priority": "P1",
+      "title": "CMS global operasyon UX",
+      "detail": "Faz 1 bitti; toplu uygulama + menü yayın taslağı (ST-004) sırada.",
+      "workId": "MD-004"
+    },
+    {
+      "id": "p1-opus-postcheckout",
+      "priority": "P1",
+      "title": "Opus Omni Postcheckout",
+      "detail": "SMS/Push → OTP → sipariş + anket MVP (TR e-ticaret). Fulfilment omni order kritik yol.",
+      "workId": "MD-014"
+    },
+    {
+      "id": "p1-lcw-next",
+      "priority": "P1",
+      "title": "LCW Next.js + CMS API vitrin",
+      "detail": "Menü + Homepage/Template/Component Read API hazır; BP→CMS→LCW gözlem ve cutover bekliyor.",
+      "workId": "MD-011"
+    },
+    {
+      "id": "p1-perso",
+      "priority": "P1",
+      "title": "Ürün kişiselleştirme CMS → LCW",
+      "detail": "Editör+katalog+player+API hazır; UAT ve EPIM master veri sınırı (MD-016).",
+      "workId": "MD-015"
+    },
+    {
+      "id": "p1-epim-cms-boundary",
+      "priority": "P1",
+      "title": "EPIM kategori vs CMS menü sınırı",
+      "detail": "Taksonomi EPIM; menü CMS; CategoryId tek kimlik — ekip onayı bekleniyor.",
+      "workId": "MD-016"
+    },
+    {
+      "id": "p1-l10n-cms",
+      "priority": "P1",
+      "title": "Mobile lokalizasyon → CMS ortaklaştırma",
+      "detail": "Backoffice mobile lokalizasyon CMS ortak DB'ye; Web bağımsız süreç birleştirilecek — toplantı kararı.",
+      "workId": "MD-010"
+    },
+    {
+      "id": "p2-epim-port",
+      "priority": "P2",
+      "title": "EPIM IIS port onayı",
+      "detail": "Önerilen port 3281 — envanter kesinleşince IIS site tanımı.",
+      "workId": "MD-008"
+    }
+  ],
+  "DOC_LINKS": [
+    {
+      "label": "Work Queue",
+      "path": "WORK_QUEUE.md"
+    },
+    {
+      "label": "Scan Log",
+      "path": "SCAN_LOG.md"
+    },
+    {
+      "label": "Integration Map",
+      "path": "INTEGRATION_MAP.md"
+    },
+    {
+      "label": "Content Publish Contract",
+      "path": "CONTENT_PUBLISH_CONTRACT.md"
+    },
+    {
+      "label": "Opus ↔ LCW",
+      "path": "OPUS_LCW_INTEGRATION.md"
+    },
+    {
+      "label": "Banner ↔ LCW",
+      "path": "BANNER_LCW_INTEGRATION.md"
+    },
+    {
+      "label": "CMS Homepage domain",
+      "path": "CMS_HOME_LAYOUT_UNIFICATION.md"
+    },
+    {
+      "label": "Lokalizasyon → CMS",
+      "path": "LOCALIZATION_CMS_UNIFICATION.md"
+    },
+    {
+      "label": "LCW Next.js headless",
+      "path": "LCW_NEXTJS_HEADLESS.md"
+    },
+    {
+      "label": "CMS Read API",
+      "path": "CMS_READ_API.md"
+    },
+    {
+      "label": "Opus Omni Postcheckout",
+      "path": "OPUS_OMNI_POSTCHECKOUT.md"
+    },
+    {
+      "label": "EPIM ↔ CMS sınır",
+      "path": "EPIM_CMS_BOUNDARY.md"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Local editor metadata
+.cursor/
+
+# Nested repositories and mirrored workspace snapshots
+Dashboard/repo/
+
+# Node dependencies
+node_modules/
+
+# Logs
+*.log

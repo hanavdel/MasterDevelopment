@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenerativeAI API - Interactive Docs</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --success-color: #27ae60;
+            --error-color: #e74c3c;
+            --bg-color: #f8f9fa;
+            --sidebar-width: 260px;
+            --code-bg: #282c34;
+            --code-text: #abb2bf;
+            --curl-bg: #1e1e1e;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: var(--bg-color);
+            color: #333;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar Navigation */
+        nav {
+            width: var(--sidebar-width);
+            height: 100%;
+            background-color: #fff;
+            border-right: 1px solid #e1e4e8;
+            overflow-y: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+        }
+
+        nav h3 {
+            font-size: 1.2rem;
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555;
+            font-size: 0.9rem;
+            display: block;
+            padding: 5px 0;
+            transition: color 0.2s;
+        }
+
+        nav a:hover { color: var(--accent-color); }
+        nav .sub-group { margin-left: 15px; margin-bottom: 15px; border-left: 2px solid #eee; padding-left: 10px; }
+        nav .nav-header { font-weight: bold; color: #333; margin-top: 15px; margin-bottom: 5px; display: block; }
+
+        /* Main Content Area */
+        .content-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* Configuration Header */
+        .config-header {
+            background: #fff;
+            border-bottom: 1px solid #e1e4e8;
+            padding: 15px 40px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-shrink: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            z-index: 10;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .input-group label {
+            font-size: 0.75rem;
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+        }
+
+        .input-group input {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        .input-group input:focus { outline: none; border-color: var(--accent-color); }
+
+        /* Main Scrollable */
+        main {
+            padding: 40px;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        h1 { margin-top: 0; border-bottom: 2px solid #e1e4e8; padding-bottom: 10px; }
+        h2 { margin-top: 40px; border-bottom: 1px solid #e1e4e8; padding-bottom: 5px; color: var(--primary-color); }
+
+        .endpoint-block {
+            background: #fff;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .endpoint-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .method {
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 0.85rem;
+            margin-right: 10px;
+            text-transform: uppercase;
+        }
+
+        .method.get { background-color: #61affe; }
+        .method.post { background-color: #49cc90; }
+
+        .url {
+            font-family: monospace;
+            font-size: 1rem;
+            color: #333;
+            background: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 4px;
+            word-break: break-all;
+        }
+
+        .description { margin-bottom: 15px; color: #666; }
+        .section-title { font-weight: bold; font-size: 0.85rem; margin: 20px 0 5px 0; color: #444; text-transform: uppercase; }
+
+        /* Editors Container */
+        .editor-wrapper {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .editor-header {
+            background: #f1f1f1;
+            padding: 5px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .reset-btn {
+            background: transparent;
+            border: 1px solid #999;
+            color: #555;
+            padding: 2px 8px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.7rem;
+        }
+        .reset-btn:hover { background: #ddd; }
+
+        /* JSON Editor */
+        textarea.body-editor {
+            width: 100%;
+            height: 180px;
+            background-color: var(--code-bg);
+            color: #dcdfe4;
+            border: none;
+            padding: 15px;
+            font-family: monospace;
+            font-size: 0.85rem;
+            resize: vertical;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        /* Query Param Editor */
+        .params-editor {
+            padding: 15px;
+            background: #fff;
+        }
+        .param-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .param-row:last-child { margin-bottom: 0; }
+        .param-label {
+            width: 120px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #555;
+            flex-shrink: 0;
+        }
+        .param-input {
+            flex: 1;
+            padding: 6px 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+        .param-input:focus { outline: none; border-color: var(--accent-color); }
+
+        /* cURL Container */
+        .curl-container {
+            background-color: var(--curl-bg);
+            border-radius: 6px;
+            position: relative;
+            margin-top: 10px;
+            border: 1px solid #333;
+        }
+
+        .curl-container pre {
+            background-color: transparent;
+            margin: 0;
+            white-space: pre-wrap;
+            color: #a5d6ff;
+            padding: 15px;
+            padding-right: 170px;
+        }
+
+        .action-bar {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: bold;
+            transition: opacity 0.2s;
+            color: #fff;
+        }
+        .btn:hover { opacity: 0.9; }
+        .copy-btn { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); }
+        .send-btn { background-color: var(--accent-color); }
+
+        /* Live Response */
+        .live-response {
+            margin-top: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            display: none;
+            overflow: hidden;
+        }
+        .live-response.active { display: block; animation: fadeIn 0.3s ease-in; }
+        .response-meta {
+            background: #f1f1f1;
+            padding: 8px 15px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+        }
+        .status-badge { padding: 2px 6px; border-radius: 4px; font-weight: bold; color: #fff; }
+        .status-2xx { background-color: var(--success-color); }
+        .status-4xx, .status-5xx { background-color: var(--error-color); }
+        .response-body { max-height: 400px; overflow-y: auto; margin: 0; padding: 15px; background: #fff; color: #333; }
+
+        /* Code Blocks */
+        pre {
+            background-color: var(--code-bg);
+            color: var(--code-text);
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-family: monospace;
+            font-size: 0.85rem;
+            margin-top: 0;
+        }
+
+        /* Loader */
+        .loader {
+            display: none;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid var(--accent-color);
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+
+    </style>
+</head>
+<body>
+
+<nav>
+    <h3>GenerativeAI API</h3>
+    <a href="#overview">Overview</a>
+    
+    <span class="nav-header">Campaign</span>
+    <div class="sub-group">
+        <a href="#campaign-status">Get Status List</a>
+        <a href="#campaign-init">Initialize</a>
+        <a href="#campaign-update">Update Status</a>
+        <a href="#campaign-single">Get Single Request</a>
+        <a href="#campaign-list">List Campaigns</a>
+    </div>
+
+    <span class="nav-header">Translation</span>
+    <div class="sub-group">
+        <a href="#trans-translate">Translate Text</a>
+        <a href="#trans-batch-translate">Batch Translate</a>
+        <a href="#trans-pending-batches">Pending Batches</a>
+        <a href="#trans-batch-status-list">Batch Status List</a>
+        <a href="#trans-batch-status">Batch Status</a>
+        <a href="#trans-batch-output">Batch Output</a>
+        <a href="#trans-config">Country Config</a>
+    </div>
+
+    <span class="nav-header">Models</span>
+    <div class="sub-group">
+        <a href="#model-get">Get Models</a>
+    </div>
+
+    <span class="nav-header">Did You Mean</span>
+    <div class="sub-group">
+        <a href="#dym-check">Check Search</a>
+    </div>
+</nav>
+
+<div class="content-wrapper">
+    <div class="config-header">
+        <div class="input-group">
+            <label for="baseUrl">Base URL</label>
+            <input type="text" id="baseUrl" value="https://localhost:5001" placeholder="e.g. https://api.example.com">
+        </div>
+        <div class="input-group">
+            <label for="apiKey">API Key (X-Api-Key)</label>
+            <input type="text" id="apiKey" value="new-unique-api-key-value" placeholder="Enter your API Key">
+        </div>
+    </div>
+
+    <main>
+        <section id="overview">
+            <h1>GenerativeAI API Documentation</h1>
+            <p><strong>Version:</strong> 14</p>
+            <p>Interactive documentation. You can edit <strong>Query Parameters</strong> and <strong>JSON Bodies</strong> below.</p>
+        </section>
+
+        <!-- CAMPAIGN FOLDER -->
+        <section>
+            <h2>Campaign Translation</h2>
+
+            <!-- GET STATUS LIST -->
+            <div id="campaign-status" class="endpoint-block" 
+                 data-method="GET" 
+                 data-endpoint="/api/v1/CampaignTranslation/GetStatusList">
+                
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="url">/api/v1/CampaignTranslation/GetStatusList</span>
+                </div>
+                <div class="description">Retrieves a list of possible statuses.</div>
+
+                <div class="section-title">Request</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- INITIALIZE -->
+            <div id="campaign-init" class="endpoint-block" 
+                 data-method="POST" 
+                 data-endpoint="/api/v1/CampaignTranslation/Initialize"
+                 data-body='{
+  "isTurkish": true,
+  "TranslationRequests": [
+    {
+      "field": "Fırsat indirimi :) Her üründe %50 indirim",
+      "value": "Bu kampanyayı oluşturan tosun"
+    }
+  ],
+  "Tags": ["Kasım Kampanyası", "%50 ve altı indirim"],
+  "Description": "Optional description",
+  "TargetLanguageCodes": ["ro-RU", "sr-RS", "en-US"]
+}'>
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="url">/api/v1/CampaignTranslation/Initialize</span>
+                </div>
+                <div class="description">Creates a new translation request.</div>
+                
+                <div class="section-title">Request Body (JSON)</div>
+                <div class="editor-wrapper">
+                    <div class="editor-header">
+                        <span>Body</span>
+                        <button class="reset-btn" onclick="resetBody(this)">Reset</button>
+                    </div>
+                    <textarea class="body-editor" spellcheck="false"></textarea>
+                </div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- UPDATE STATUS -->
+            <div id="campaign-update" class="endpoint-block"
+                 data-method="POST"
+                 data-endpoint="/api/v1/CampaignTranslation/UpdateStatus"
+                 data-body='{
+  "requestId": "32ae6c66-3361-4dc3-a245-114bbbb3e01e",
+  "NewStatus": 2
+}'>
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="url">/api/v1/CampaignTranslation/UpdateStatus</span>
+                </div>
+                <div class="description">Updates status.</div>
+
+                <div class="section-title">Request Body (JSON)</div>
+                <div class="editor-wrapper">
+                    <div class="editor-header">
+                        <span>Body</span>
+                        <button class="reset-btn" onclick="resetBody(this)">Reset</button>
+                    </div>
+                    <textarea class="body-editor" spellcheck="false"></textarea>
+                </div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- GET SINGLE REQUEST (WITH PARAMS) -->
+            <div id="campaign-single" class="endpoint-block"
+                 data-method="GET"
+                 data-endpoint="/api/v1/CampaignTranslation/GetSingleRequest?RequestId=a8345316-f04e-4bb3-8095-b6a860e54dd4">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="url">/api/v1/CampaignTranslation/GetSingleRequest</span>
+                </div>
+                <div class="description">Retrieves details for a specific request ID.</div>
+
+                <!-- Param Editor injected here by JS -->
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- LIST -->
+            <div id="campaign-list" class="endpoint-block"
+                 data-method="POST"
+                 data-endpoint="/api/v1/CampaignTranslation/list"
+                 data-body='{
+  "Status": 1,
+  "Page": 1,
+  "PageSize": 10,
+  "Tags": ["Kasım Kampanyası"],
+  "SortOrder": {
+    "SortField": 1,
+    "IsDescending": false
+  }
+}'>
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="url">/api/v1/CampaignTranslation/list</span>
+                </div>
+                <div class="description">Retrieves a paginated list of campaigns.</div>
+
+                <div class="section-title">Request Body (JSON)</div>
+                <div class="editor-wrapper">
+                    <div class="editor-header">
+                        <span>Body</span>
+                        <button class="reset-btn" onclick="resetBody(this)">Reset</button>
+                    </div>
+                    <textarea class="body-editor" spellcheck="false"></textarea>
+                </div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+        </section>
+
+        <!-- TRANSLATION FOLDER -->
+        <section>
+            <h2>Translation Services</h2>
+
+            <!-- TRANSLATE -->
+            <div id="trans-translate" class="endpoint-block"
+                 data-method="POST"
+                 data-endpoint="/api/v1/Translation/Translate"
+                 data-body='{
+  "userprompt": "İstedik vermediler sen şöförsün dediler.",
+  "targetCultures": ["ro-RU", "en-US", "sr-RS", "ar-SA"],
+    "modelName": "gemini-2.5-flash",
+  "temperature": 0.1
+}'>
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="url">/api/v1/Translation/Translate</span>
+                </div>
+                <div class="description">Translates a user prompt.</div>
+
+                <div class="section-title">Request Body (JSON)</div>
+                <div class="editor-wrapper">
+                    <div class="editor-header">
+                        <span>Body</span>
+                        <button class="reset-btn" onclick="resetBody(this)">Reset</button>
+                    </div>
+                    <textarea class="body-editor" spellcheck="false"></textarea>
+                </div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- BATCH TRANSLATE -->
+            <div id="trans-batch-translate" class="endpoint-block"
+                 data-method="POST"
+                 data-endpoint="/api/v1/Translation/BatchTranslate"
+                 data-body='{
+  "requests": [
+    {
+      "requestKey": "homepage-hero",
+      "userPrompt": "Bugune ozel secili urunlerde ekstra indirim seni bekliyor.",
+      "targetCultures": ["en-US", "ar-SA", "ro-RO"]
+    },
+    {
+      "requestKey": "cart-banner",
+      "userPrompt": "Sepetindeki urunleri kacirma, fiyatlar sinirli sure gecerli.",
+      "targetCultures": ["en-US", "sr-RS"]
+    }
+  ],
+  "keywords": ["homepage", "campaign", "may-2026"],
+    "modelName": "gemini-2.5-flash",
+  "temperature": 0.1
+}'>
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="url">/api/v1/Translation/BatchTranslate</span>
+                </div>
+                <div class="description">Creates a Google Gemini batch translation job for multiple prompts and target cultures. Keywords are stored with the batch for easier filtering. Request count and total translation count are limited by backend configuration.</div>
+
+                <div class="section-title">Request Body (JSON)</div>
+                <div class="editor-wrapper">
+                    <div class="editor-header">
+                        <span>Body</span>
+                        <button class="reset-btn" onclick="resetBody(this)">Reset</button>
+                    </div>
+                    <textarea class="body-editor" spellcheck="false"></textarea>
+                </div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- PENDING BATCHES -->
+            <div id="trans-pending-batches" class="endpoint-block"
+                 data-method="POST"
+                 data-endpoint="/api/v1/Translation/PendingBatches"
+                 data-body='{
+  "keywords": ["homepage", "campaign"],
+    "statuses": [0, 1, 2],
+  "page": 1,
+  "pageSize": 20
+}'>
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="url">/api/v1/Translation/PendingBatches</span>
+                </div>
+                                <div class="description">Lists translation batches across all statuses when no status filter is provided. Use keywords and optional status codes to narrow the results. Status values: 0 = InProgress, 1 = Completed, 2 = Failed. Requested page size is capped by backend configuration.</div>
+
+                <div class="section-title">Request Body (JSON)</div>
+                <div class="editor-wrapper">
+                    <div class="editor-header">
+                        <span>Body</span>
+                        <button class="reset-btn" onclick="resetBody(this)">Reset</button>
+                    </div>
+                    <textarea class="body-editor" spellcheck="false"></textarea>
+                </div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- BATCH STATUS LIST -->
+            <div id="trans-batch-status-list" class="endpoint-block"
+                 data-method="GET"
+                 data-endpoint="/api/v1/Translation/BatchStatusList">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="url">/api/v1/Translation/BatchStatusList</span>
+                </div>
+                <div class="description">Returns the list of translation batch statuses so clients can populate status filters without hard-coding enum values. Current values are InProgress, Completed, and Failed.</div>
+
+                <div class="section-title">Request</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- BATCH STATUS -->
+            <div id="trans-batch-status" class="endpoint-block"
+                 data-method="GET"
+                 data-endpoint="/api/v1/Translation/BatchStatus?BatchId=replace-with-batch-id&RefreshFromProvider=true">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="url">/api/v1/Translation/BatchStatus</span>
+                </div>
+                <div class="description">Returns the current status for a batch. By default it refreshes the status from Google before returning; set <strong>RefreshFromProvider</strong> to false if you only want the persisted value.</div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- BATCH OUTPUT -->
+            <div id="trans-batch-output" class="endpoint-block"
+                 data-method="GET"
+                 data-endpoint="/api/v1/Translation/BatchOutput?BatchId=replace-with-batch-id&RefreshFromProvider=true">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="url">/api/v1/Translation/BatchOutput</span>
+                </div>
+                <div class="description">Downloads and groups the completed output of a translation batch by request key and target culture. If the batch is not completed yet, the response returns the current batch state with an empty output list.</div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+
+            <!-- CONFIG -->
+            <div id="trans-config" class="endpoint-block"
+                 data-method="GET"
+                 data-endpoint="/api/v1/Translation/CountryConfigurations">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="url">/api/v1/Translation/CountryConfigurations</span>
+                </div>
+                <div class="description">Retrieves country and culture configurations.</div>
+
+                <div class="section-title">Request</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+        </section>
+
+        <!-- MODELS FOLDER -->
+        <section>
+            <h2>Models</h2>
+            <div id="model-get" class="endpoint-block"
+                 data-method="GET"
+                 data-endpoint="/api/v1/Model/GetModels">
+                <div class="endpoint-header">
+                    <span class="method get">GET</span>
+                    <span class="url">/api/v1/Model/GetModels</span>
+                </div>
+                <div class="description">Lists available AI vendors and models.</div>
+
+                <div class="section-title">Request</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+        </section>
+
+        <!-- DID YOU MEAN -->
+        <section>
+            <h2>Did You Mean</h2>
+            <div id="dym-check" class="endpoint-block"
+                 data-method="POST"
+                 data-endpoint="/api/v1/GenAI/DidYouMean/did-you-mean"
+                 data-body='{
+  "context": {
+    "applicationId": 1,
+    "culture": "en-US",
+    "countryId": 1
+  },
+  "wrongSearch": "whit hat"
+}'>
+                <div class="endpoint-header">
+                    <span class="method post">POST</span>
+                    <span class="url">/api/v1/GenAI/DidYouMean/did-you-mean</span>
+                </div>
+                <div class="description">Analyzes search query for corrections.</div>
+
+                <div class="section-title">Request Body (JSON)</div>
+                <div class="editor-wrapper">
+                    <div class="editor-header">
+                        <span>Body</span>
+                        <button class="reset-btn" onclick="resetBody(this)">Reset</button>
+                    </div>
+                    <textarea class="body-editor" spellcheck="false"></textarea>
+                </div>
+
+                <div class="section-title">cURL & Execution</div>
+                <div class="curl-container">
+                    <div class="action-bar">
+                        <div class="loader"></div>
+                        <button class="btn send-btn" onclick="sendRequest(this)">Send Request</button>
+                        <button class="btn copy-btn" onclick="copyCurl(this)">Copy cURL</button>
+                    </div>
+                    <pre class="curl-code"></pre>
+                </div>
+                <div class="live-response"></div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script>
+    const baseUrlInput = document.getElementById('baseUrl');
+    const apiKeyInput = document.getElementById('apiKey');
+    const endpointBlocks = document.querySelectorAll('.endpoint-block');
+
+    function init() {
+        endpointBlocks.forEach(block => {
+            // 1. Setup JSON Body Editors
+            const bodyData = block.dataset.body;
+            const editor = block.querySelector('.body-editor');
+            if (bodyData && editor) {
+                try {
+                    const obj = JSON.parse(bodyData);
+                    editor.value = JSON.stringify(obj, null, 2);
+                } catch(e) {
+                    editor.value = bodyData;
+                }
+                editor.addEventListener('input', () => updateCurlForBlock(block));
+            }
+
+            // 2. Setup Query Param Editors
+            const endpoint = block.dataset.endpoint;
+            if (endpoint.includes('?')) {
+                const [base, queryString] = endpoint.split('?');
+                block.dataset.basePath = base; // Store base path
+                
+                const params = new URLSearchParams(queryString);
+                
+                // Create Container
+                const paramWrapper = document.createElement('div');
+                paramWrapper.className = 'editor-wrapper';
+                paramWrapper.innerHTML = `<div class="editor-header"><span>Query Parameters</span></div><div class="params-editor"></div>`;
+                
+                const paramsEditor = paramWrapper.querySelector('.params-editor');
+                
+                // Insert before cURL container
+                const curlContainer = block.querySelector('.curl-container');
+                const curlTitle = curlContainer.previousElementSibling;
+                block.insertBefore(paramWrapper, curlTitle);
+                
+                // Create Inputs
+                params.forEach((value, key) => {
+                    const row = document.createElement('div');
+                    row.className = 'param-row';
+                    row.innerHTML = `
+                        <label class="param-label">${key}</label>
+                        <input type="text" class="param-input" data-key="${key}" value="${value}">
+                    `;
+                    paramsEditor.appendChild(row);
+                    
+                    // Add listener
+                    row.querySelector('input').addEventListener('input', () => updateCurlForBlock(block));
+                });
+            } else {
+                block.dataset.basePath = endpoint;
+            }
+        });
+        updateCurls();
+    }
+
+    function resetBody(btn) {
+        const block = btn.closest('.endpoint-block');
+        const bodyData = block.dataset.body;
+        const editor = block.querySelector('.body-editor');
+        if (bodyData && editor) {
+            try {
+                const obj = JSON.parse(bodyData);
+                editor.value = JSON.stringify(obj, null, 2);
+            } catch(e) {
+                editor.value = bodyData;
+            }
+            updateCurlForBlock(block);
+        }
+    }
+
+    function updateCurls() {
+        endpointBlocks.forEach(block => updateCurlForBlock(block));
+    }
+
+    function getConstructedUrl(block) {
+        const baseUrl = baseUrlInput.value.replace(/\/$/, '');
+        const basePath = block.dataset.basePath || block.dataset.endpoint;
+        
+        let fullUrl = `${baseUrl}${basePath}`;
+        
+        // Append Query Params from Inputs
+        const paramInputs = block.querySelectorAll('.param-input');
+        if (paramInputs.length > 0) {
+            const params = new URLSearchParams();
+            paramInputs.forEach(input => {
+                params.append(input.dataset.key, input.value);
+            });
+            fullUrl += `?${params.toString()}`;
+        }
+
+        return fullUrl;
+    }
+
+    function updateCurlForBlock(block) {
+        const method = block.dataset.method;
+        const editor = block.querySelector('.body-editor');
+        const curlOutput = block.querySelector('.curl-code');
+        const apiKey = apiKeyInput.value;
+        const fullUrl = getConstructedUrl(block);
+
+        let curl = `curl -X ${method} "${fullUrl}" \\\n`;
+        curl += `  -H "accept: */*" \\\n`;
+        
+        if (apiKey) {
+            curl += `  -H "X-Api-Key: ${apiKey}" \\\n`;
+        }
+
+        if (method === 'POST' || method === 'PUT') {
+            curl += `  -H "Content-Type: application/json"`;
+            if (editor) {
+                curl += ` \\\n  -d '${minifyJson(editor.value)}'`;
+            }
+        } else {
+            curl = curl.slice(0, -3); 
+        }
+
+        curlOutput.innerText = curl;
+    }
+
+    function minifyJson(jsonString) {
+        try {
+            const obj = JSON.parse(jsonString);
+            return JSON.stringify(obj);
+        } catch (e) {
+            return jsonString.replace(/\n/g, "");
+        }
+    }
+
+    function copyCurl(btn) {
+        const pre = btn.parentElement.nextElementSibling;
+        const text = pre.innerText;
+        navigator.clipboard.writeText(text).then(() => {
+            const originalText = btn.innerText;
+            btn.innerText = "Copied!";
+            btn.style.background = "#27ae60";
+            setTimeout(() => {
+                btn.innerText = originalText;
+                btn.style.background = "";
+            }, 2000);
+        });
+    }
+
+    async function sendRequest(btn) {
+        const block = btn.closest('.endpoint-block');
+        const method = block.dataset.method;
+        const editor = block.querySelector('.body-editor');
+        const responseContainer = block.querySelector('.live-response');
+        const loader = block.querySelector('.loader');
+        
+        const apiKey = apiKeyInput.value;
+        const url = getConstructedUrl(block);
+
+        btn.disabled = true;
+        loader.style.display = 'block';
+        responseContainer.classList.remove('active');
+        
+        const startTime = performance.now();
+
+        try {
+            const headers = {
+                'Accept': '*/*',
+                'X-Api-Key': apiKey
+            };
+
+            if (method === 'POST' || method === 'PUT') {
+                headers['Content-Type'] = 'application/json';
+            }
+
+            const options = {
+                method: method,
+                headers: headers
+            };
+
+            if (editor && (method === 'POST' || method === 'PUT')) {
+                options.body = minifyJson(editor.value);
+            }
+
+            const response = await fetch(url, options);
+            const endTime = performance.now();
+            const duration = (endTime - startTime).toFixed(2);
+            
+            let responseBody;
+            const contentType = response.headers.get("content-type");
+            if (contentType && contentType.indexOf("application/json") !== -1) {
+                responseBody = await response.json();
+                responseBody = JSON.stringify(responseBody, null, 2);
+            } else {
+                responseBody = await response.text();
+            }
+
+            const isSuccess = response.status >= 200 && response.status < 300;
+            const badgeClass = isSuccess ? 'status-2xx' : 'status-4xx';
+
+            responseContainer.innerHTML = `
+                <div class="response-meta">
+                    <div>
+                        <span class="status-badge ${badgeClass}">${response.status} ${response.statusText}</span>
+                        <span style="margin-left:10px; color:#666;">${duration}ms</span>
+                    </div>
+                </div>
+                <pre class="response-body">${escapeHtml(responseBody)}</pre>
+            `;
+
+        } catch (error) {
+            responseContainer.innerHTML = `
+                <div class="response-meta">
+                    <span class="status-badge status-5xx">Network Error</span>
+                </div>
+                <pre class="response-body" style="color: #e74c3c;">Error: ${error.message}\n\nCheck your Console (F12) for CORS details.</pre>
+            `;
+        } finally {
+            loader.style.display = 'none';
+            btn.disabled = false;
+            responseContainer.classList.add('active');
+        }
+    }
+
+    function escapeHtml(text) {
+        if (!text) return '';
+        return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
+    baseUrlInput.addEventListener('input', updateCurls);
+    apiKeyInput.addEventListener('input', updateCurls);
+    
+    // Initialize editors
+    init();
+</script>
+
+</body>
+</html>

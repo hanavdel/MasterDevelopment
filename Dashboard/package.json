@@ -1,0 +1,9 @@
+{
+  "name": "master-development-dashboard",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "snapshot": "node scripts/build-snapshot.js",
+    "link-data": "powershell -ExecutionPolicy Bypass -File scripts/link-coord-data.ps1"
+  }
+}

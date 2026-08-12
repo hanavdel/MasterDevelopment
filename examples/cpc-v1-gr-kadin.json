@@ -1,0 +1,81 @@
+{
+  "cpcVersion": "1.0",
+  "publishedAt": "2026-06-05T12:00:00.000Z",
+  "source": {
+    "system": "banner_planner",
+    "planningPeriodId": "pp_2026_w21",
+    "templatePlanId": "tp_gr_kadin_w21"
+  },
+  "locale": {
+    "countryCode": "GR",
+    "langCode": "grgr",
+    "cultureKey": "el-GR-GR"
+  },
+  "homepage": {
+    "productionHomePageId": 107,
+    "categoryKey": "kadin",
+    "name": "ΓΥΝΑΙΚΕΣ"
+  },
+  "template": {
+    "key": "WEB-GR-KADIN-HERO-060426",
+    "homePageId": 107,
+    "view": "HomePageV2",
+    "platform": "Web",
+    "publishStatus": "Live",
+    "validFrom": "2026-06-01T00:00:00.000Z",
+    "validTo": "2030-01-01T00:00:00.000Z",
+    "members": [{ "refId": "8240", "displayOrder": 1, "isActive": true }]
+  },
+  "components": [
+    {
+      "id": "8240",
+      "key": "WEB-GR-KADIN-HERO-060426",
+      "typeCode": "FULL_WIDTH_SLIDER",
+      "platform": "Web",
+      "componentPayload": {
+        "commonData": {
+          "isStackView": false,
+          "isHorizontal": false,
+          "styles": { "margins": null, "paddings": null, "backgroundColor": null }
+        },
+        "localizedData": {
+          "el-GR-GR": {
+            "items": [
+              {
+                "itemKey": "hero_slide_1",
+                "displayOrder": 1,
+                "desktopImageUrl": "https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/gr-kadin.jpg",
+                "mobileImageUrl": "https://img-lcwaikiki.mncdn.com/Resource/Images/Banner/gr-kadin.jpg",
+                "url": "/kadin",
+                "alt": "ΓΥΝΑΙΚΕΣ",
+                "startDate": "2026-06-01T00:00:00.000Z",
+                "endDate": "2030-01-01T00:00:00.000Z",
+                "isHideItem": false
+              }
+            ],
+            "isStackView": false,
+            "isHorizontal": false
+          }
+        },
+        "countryConfigData": {}
+      },
+      "planningRef": {
+        "componentPlanId": "cp_gr_kadin_hero",
+        "campaignId": "camp_yaz_2026",
+        "slotKey": "hero_main"
+      }
+    }
+  ],
+  "measurement": {
+    "enabled": true,
+    "dimensions": [
+      "homepageId",
+      "templateKey",
+      "componentId",
+      "itemKey",
+      "countryCode",
+      "langCode",
+      "cultureKey"
+    ]
+  }
+}
