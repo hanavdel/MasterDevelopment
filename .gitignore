@@ -3,6 +3,7 @@
 
 # Nested repositories and mirrored workspace snapshots
 Dashboard/repo/
+Documents/
 
 # Node dependencies
 node_modules/
